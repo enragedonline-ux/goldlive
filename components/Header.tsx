@@ -1,0 +1,34 @@
+import ThemeToggle from "./ThemeToggle";
+import MarketBar from "./MarketBar";
+import SearchBox from "./SearchBox";
+
+const NAV = [
+  { href: "/gold-price-today", label: "Gold", key: "gold" },
+  { href: "/silver-price-today", label: "Silver", key: "silver" },
+  { href: "/bitcoin-price", label: "Bitcoin", key: "bitcoin" },
+  { href: "/ethereum-price", label: "Ethereum", key: "ethereum" },
+];
+
+export default function Header({ active = "gold" }: { active?: string }) {
+  return (
+    <>
+      <MarketBar />
+      <header className="head">
+        <a className="logo" href="/">
+          GOLDLIVE<i>.</i>
+        </a>
+        <nav className="nav">
+          {NAV.map((n) => (
+            <a key={n.href} href={n.href} className={active === n.key ? "on" : ""}>
+              {n.label}
+            </a>
+          ))}
+        </nav>
+        <div className="tools">
+          <SearchBox />
+          <ThemeToggle />
+        </div>
+      </header>
+    </>
+  );
+}
