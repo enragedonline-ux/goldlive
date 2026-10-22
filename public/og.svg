@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FAF8F2"/>
+  <text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="68" letter-spacing="10" fill="#211d14">GOLDLIVE</text>
+  <path d="M90,470 C220,440 280,360 390,390 S540,260 650,290 S790,190 900,210 S1040,130 1110,140" stroke="#B8860B" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <circle cx="1110" cy="140" r="10" fill="#B8860B"/>
+  <text x="600" y="575" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="14" fill="#211d14" text-anchor="middle">LIVE GOLD PRICE TODAY</text>
+</svg>

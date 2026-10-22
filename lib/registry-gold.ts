@@ -37,7 +37,7 @@ export const GOLD_PAGES: RegistryPage[] = [
     unitDivisor: 1,
     conversions: goldConversions,
     figure: {
-      src: "/images/gold-units-infographic.webp",
+      src: "/images/gold-units-infographic.svg",
       alt: "Gold price today — 1 troy ounce equals 31.10 grams and 2.67 tolas",
       caption: "Gold weight units: 1 troy ounce = 31.10 grams = 2.67 tolas",
     },

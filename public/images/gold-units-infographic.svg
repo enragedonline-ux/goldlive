@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+  <rect width="960" height="640" fill="#FAF8F2"/>
+  <text x="480" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="26" letter-spacing="8" fill="#B8860B">GOLD WEIGHT UNIT CONVERSIONS</text>
+  <text x="480" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="68" font-weight="bold" fill="#B8860B">1 TROY OUNCE = 31.10</text>
+  <text x="480" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="68" font-weight="bold" fill="#B8860B">GRAMS = 2.67 TOLAS</text>
+  <g stroke="#B8860B" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120,400 L180,370 L240,400 L240,440 L120,440 Z"/>
+    <path d="M450,380 h60 l18,60 h-96 Z"/>
+    <path d="M480,360 v-14"/>
+    <path d="M720,380 v80 M690,380 h60 M690,400 l-22,34 a24,24 0 0,0 44,0 Z M750,400 l-22,34 a24,24 0 0,0 44,0 Z"/>
+  </g>
+  <text x="180" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" letter-spacing="4" fill="#B8860B">OUNCE</text>
+  <text x="480" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" letter-spacing="4" fill="#B8860B">GRAM</text>
+  <text x="750" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" letter-spacing="4" fill="#B8860B">TOLA</text>
+  <text x="480" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#B8860B">1 Tola &#8776; 11.664 grams &#183; Common in South Asia</text>
+</svg>

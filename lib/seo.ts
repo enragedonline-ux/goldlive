@@ -12,7 +12,7 @@ export interface PageSeo {
 
 export function pageMetadata({ title, description, path, keywords }: PageSeo): Metadata {
   const url = `${SITE_URL}${path}`;
-  const ogImage = `${SITE_URL}/og.jpg`;
+  const ogImage = `${SITE_URL}/og.svg`;
   return {
     title,
     description,
@@ -25,7 +25,7 @@ export function pageMetadata({ title, description, path, keywords }: PageSeo): M
       siteName: SITE_NAME,
       type: "website",
       locale: "en_US",
-      images: [{ url: ogImage, width: 2240, height: 1120, alt: `${SITE_NAME} — Live Gold Price Today` }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: `${SITE_NAME} — Live Gold Price Today` }],
     },
     twitter: {
       card: "summary_large_image",
