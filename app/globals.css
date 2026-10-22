@@ -342,3 +342,38 @@ footer { margin-top: 44px; background: var(--surface); border-top: 1px solid var
 .pfigure { margin: 26px 0 0; max-width: 780px; }
 .pfigure img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); display: block; }
 .pfigure figcaption { margin-top: 10px; font-size: 12.5px; color: var(--faint); text-align: center; }
+
+/* gold calculator */
+.calc-panel { margin-top: 22px; }
+.calc-panel h2 { font-size: 22px; margin-bottom: 6px; }
+.calc-sub { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+.calc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 18px; }
+.calc-grid label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.calc-grid input, .calc-grid select { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 15px; background: var(--bg); color: var(--text); }
+.calc-grid input:focus, .calc-grid select:focus { outline: none; border-color: var(--gold); }
+.calc-result { background: var(--bg); border: 1px solid var(--gold); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px; }
+.calc-result span { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+.calc-result strong { font-size: 34px; color: var(--gold); font-variant-numeric: tabular-nums; }
+.calc-result small { font-size: 13px; color: var(--faint); }
+.calc-note { font-size: 13px; color: var(--faint); }
+@media (max-width: 760px) {
+  .calc-grid { grid-template-columns: 1fr; }
+  .calc-result strong { font-size: 28px; }
+}
+
+/* urdu paragraph on Pakistan page */
+.urdu { font-size: 17px; line-height: 2; color: var(--text); background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-top: 14px; }
+
+/* blog */
+.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 24px; }
+.blog-card { border: 1px solid var(--border); border-radius: 12px; padding: 20px; background: var(--bg); text-decoration: none; color: var(--text); transition: border-color .15s, transform .15s; display: flex; flex-direction: column; gap: 8px; }
+.blog-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+.blog-card h2 { font-size: 18px; line-height: 1.4; }
+.blog-card p { font-size: 14px; color: var(--muted); line-height: 1.6; }
+.blog-tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); }
+.blog-date { font-size: 12.5px; color: var(--faint); margin-top: auto; }
+.blog-article section { margin-bottom: 28px; }
+.blog-article h2 { font-size: 22px; margin-bottom: 10px; }
+.blog-related { margin-top: 40px; }
+.blog-related h3 { font-size: 18px; margin-bottom: 4px; }
+@media (max-width: 760px) { .blog-grid { grid-template-columns: 1fr; } }

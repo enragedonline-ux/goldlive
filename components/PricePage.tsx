@@ -50,6 +50,8 @@ export interface PricePageConfig {
   sections?: ContentSection[];
   /** infographic figure rendered after the conversions panel */
   figure?: PageFigure;
+  /** optional interactive widget rendered right after the chart section */
+  afterChart?: React.ReactNode;
 }
 
 const NAMES: Record<string, string> = {
@@ -113,6 +115,8 @@ export default async function PricePage({ config }: { config: PricePageConfig })
         <div className="chart-card">
           <PriceChart asset={config.asset} />
         </div>
+
+        {config.afterChart}
 
         <RelatedMarkets asset={config.asset} related={config.related} />
 
