@@ -15,7 +15,7 @@ async function _usdToCached(currency: string): Promise<number> {
   try {
     const ctrl = new AbortController();
     const t = setTimeout(() => ctrl.abort(), 8000);
-    const res = await fetch(`https://api.frankfurter.app/latest?from=USD&to=${currency}`, {
+    const res = await fetch(`https://api.frankfurter.dev/v1/latest?from=USD&to=${currency}`, {
       signal: ctrl.signal,
     });
     clearTimeout(t);
