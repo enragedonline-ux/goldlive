@@ -32,6 +32,7 @@ export default function Footer() {
           <a href="/privacy/">Privacy policy</a>
           <a href="/disclaimer/">Disclaimer</a>
           <a href="/blog/">Blog</a>
+          <a href="/sitemap.xml">Sitemap</a>
         </div>
       </div>
       <div className="disc">
