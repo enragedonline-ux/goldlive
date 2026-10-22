@@ -377,3 +377,11 @@ footer { margin-top: 44px; background: var(--surface); border-top: 1px solid var
 .blog-related { margin-top: 40px; }
 .blog-related h3 { font-size: 18px; margin-bottom: 4px; }
 @media (max-width: 760px) { .blog-grid { grid-template-columns: 1fr; } }
+
+/* google translate widget */
+.gtranslate { display: inline-flex; align-items: center; }
+.gtranslate .goog-te-gadget-simple { border: 1px solid var(--border) !important; border-radius: 8px !important; padding: 6px 10px !important; background: var(--bg) !important; font-size: 13px !important; }
+.gtranslate .goog-te-gadget-simple span { color: var(--text) !important; }
+.gtranslate img { display: none !important; }
+.goog-te-banner-frame { display: none !important; }
+body { top: 0 !important; }

@@ -1,6 +1,7 @@
 import ThemeToggle from "./ThemeToggle";
 import MarketBar from "./MarketBar";
 import SearchBox from "./SearchBox";
+import TranslateWidget from "./TranslateWidget";
 
 const NAV = [
   { href: "/gold-price-today", label: "Gold", key: "gold" },
@@ -26,6 +27,7 @@ export default function Header({ active = "gold" }: { active?: string }) {
         </nav>
         <div className="tools">
           <SearchBox />
+          <TranslateWidget />
           <ThemeToggle />
         </div>
       </header>
