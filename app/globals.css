@@ -264,8 +264,9 @@ footer { margin-top: 44px; background: var(--surface); border-top: 1px solid var
   .sbox-btn { padding: 7px 10px; font-size: 12px; min-width: 0; }
   .sbox-open input { width: 150px; }
 
-  /* utility bar */
-  .util { padding: 8px 14px; font-size: 10.5px; flex-wrap: wrap; row-gap: 4px; }
+  /* utility bar — single slim row on mobile */
+  .util { padding: 6px 12px; font-size: 10px; flex-wrap: nowrap; gap: 8px; }
+  .util > span:first-child, .util > span:last-child { display: none; }
 
   /* content */
   .hero { padding: 24px 16px 0; }
