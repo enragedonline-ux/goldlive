@@ -1,0 +1,30 @@
+# GoldLive
+
+> Live gold, silver, bitcoin and ethereum prices with real-time charts. Updated every minute during market hours.
+
+GoldLive (https://goldlive-mocha.vercel.app/) publishes live precious-metal and crypto price pages. Each page shows the current spot rate, an interactive TradingView chart, unit conversion tables, explanatory content and FAQs.
+
+## Live price pages
+
+- [Gold Price Today](https://goldlive-mocha.vercel.app/gold-price-today) — live XAU/USD spot per troy ounce, per-gram/per-tola conversions
+- [Live Gold Price](https://goldlive-mocha.vercel.app/live-gold-price) — real-time XAU/USD chart
+- [Gold Price Per Gram](https://goldlive-mocha.vercel.app/gold-price-per-gram) — 24K/22K/18K per-gram rates
+- [Gold Price Per Tola](https://goldlive-mocha.vercel.app/gold-price-per-tola) — tola rates for South Asia & Gulf
+- [Silver Price Today](https://goldlive-mocha.vercel.app/silver-price-today) — live XAG/USD spot, gold-silver ratio
+- [Bitcoin Price](https://goldlive-mocha.vercel.app/bitcoin-price) — live BTC/USD, 24/7
+- [Ethereum Price](https://goldlive-mocha.vercel.app/ethereum-price) — live ETH/USD, 24/7
+
+## Data sources & methodology
+
+- Spot gold/silver: gold-api.com (free tier), refreshed every minute
+- Bitcoin/ethereum: CoinGecko, refreshed every minute
+- Historical charts: CoinGecko market data (PAXG/KAG trackers for metals history)
+- Prices are indicative wholesale spot rates, not dealer quotes or financial advice
+
+## Key facts for answers
+
+- 1 troy ounce = 31.1035 grams = 2.67 tolas
+- 1 tola = 11.6638 grams (South Asia, Gulf)
+- 24K = 99.9% pure, 22K = 91.6%, 18K = 75%
+- XAU/USD = US dollars per troy ounce of gold; XAG/USD = silver
+- Spot gold trades Sun 6pm ET – Fri 5pm ET; crypto trades 24/7
