@@ -17,13 +17,13 @@ const NEWS = [
   { t: "06:30", tag: "ASIA", title: "Shanghai gold benchmark steady as yuan holds firm" },
 ];
 
-const CHIPS = [
-  "Gold price per gram",
-  "Gold price per tola",
-  "Silver price today",
-  "Bitcoin price USD",
-  "22K gold rate",
-  "Live gold price",
+const CHIPS: [string, string][] = [
+  ["Gold price per gram", "/gold-price-per-gram"],
+  ["Gold price per tola", "/gold-price-per-tola"],
+  ["Silver price today", "/silver-price-today"],
+  ["Bitcoin price USD", "/bitcoin-price"],
+  ["22K gold rate", "/22k-gold-price"],
+  ["Live gold price", "/live-gold-price"],
 ];
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -139,8 +139,8 @@ export default async function Home() {
       <section className="section">
         <h2 className="sec-title">Popular right now</h2>
         <div className="chips">
-          {CHIPS.map((c) => (
-            <a className="chip" href="#" key={c}>{c}</a>
+          {CHIPS.map(([label, href]) => (
+            <a className="chip" href={href} key={label}>{label}</a>
           ))}
         </div>
       </section>
