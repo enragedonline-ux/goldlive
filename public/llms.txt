@@ -6,13 +6,13 @@ GoldLive (https://goldlive-mocha.vercel.app/) publishes live precious-metal and 
 
 ## Live price pages
 
-- [Gold Price Today](https://goldlive-mocha.vercel.app/gold-price-today) — live XAU/USD spot per troy ounce, per-gram/per-tola conversions
-- [Live Gold Price](https://goldlive-mocha.vercel.app/live-gold-price) — real-time XAU/USD chart
-- [Gold Price Per Gram](https://goldlive-mocha.vercel.app/gold-price-per-gram) — 24K/22K/18K per-gram rates
-- [Gold Price Per Tola](https://goldlive-mocha.vercel.app/gold-price-per-tola) — tola rates for South Asia & Gulf
-- [Silver Price Today](https://goldlive-mocha.vercel.app/silver-price-today) — live XAG/USD spot, gold-silver ratio
-- [Bitcoin Price](https://goldlive-mocha.vercel.app/bitcoin-price) — live BTC/USD, 24/7
-- [Ethereum Price](https://goldlive-mocha.vercel.app/ethereum-price) — live ETH/USD, 24/7
+Gold (16): gold-price-today, live-gold-price, spot-gold-price, gold-price-per-gram, gold-price-per-ounce, gold-price-per-tola, gold-price-per-kilo, 24k-gold-price, 22k-gold-price, 18k-gold-price, gold-rate-today, gold-price-chart, gold-price-history, gold-silver-ratio, gold-price-calculator (interactive), shanghai-gold-price
+Silver (13): silver-price-today, live-silver-price, spot-silver-price, silver-price-per-ounce, silver-price-per-gram, silver-price-per-kilo, silver-price-per-tola, silver-rate-today, silver-price-chart, silver-price-history, silver-price-calculator, silver-price-per-pound, comex-silver-price
+Bitcoin (8): bitcoin-price, live-bitcoin-price, bitcoin-price-today, bitcoin-price-chart, bitcoin-price-history, bitcoin-price-prediction, bitcoin-to-usd-converter, satoshi-price
+Ethereum (7): ethereum-price, live-ethereum-price, ethereum-price-today, ethereum-price-chart, ethereum-price-history, ethereum-price-prediction, eth-to-usd-converter
+Country pages (61): /gold-price-in-{country}/ for 46 countries and /silver-price-in-{country}/ for 15 countries — live prices converted to local currency (ECB FX rates); Pakistan page is tola-first with Urdu summary
+Blog (8 guides): /blog/ — how-gold-price-determined, gold-vs-silver-investment, tola-to-gram-guide, gold-karat-purity-guide, what-affects-gold-price, gold-price-prediction-2027, gold-etf-vs-physical, how-to-buy-gold-beginners
+Static: /about/, /contact/, /privacy/, /disclaimer/
 
 ## Data sources & methodology
 
