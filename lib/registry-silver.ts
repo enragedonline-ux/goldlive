@@ -19,7 +19,7 @@ const silverCrumbs = [{ href: "/", label: "Home" }, { href: "/silver-price-today
 export const SILVER_PAGES: RegistryPage[] = [
   {
     slug: "silver-price-today",
-    title: "Silver Price Today | Live XAG/USD Spot per Ounce & Gram | GoldRateToday",
+    title: "Silver Price Today | GoldRateToday",
     description:
       "Live XAG/USD rate per troy ounce with real-time chart, per-gram and per-kilo conversions, gold-silver ratio and 24h change — updated every minute.",
     keywords: ["silver price today", "live silver price", "xag usd", "silver rate today", "silver price per gram"],
@@ -61,7 +61,7 @@ export const SILVER_PAGES: RegistryPage[] = [
   },
 {
     slug: "live-silver-price",
-    title: "Live Silver Price | Real-Time XAG/USD per Ounce | GoldRateToday",
+    title: "Live Silver Price | GoldRateToday",
     description:
       "Stream the live silver price in real time — XAG/USD spot per troy ounce with the 24h change, an interactive chart and per-gram, kilo & tola conversions.",
     keywords: ["live silver price", "silver price live", "xag usd live", "silver spot live", "silver price now"],
@@ -347,7 +347,7 @@ export const SILVER_PAGES: RegistryPage[] = [
   },
   {
     slug: "silver-rate-today",
-    title: "Silver Rate Today | Live Price per Gram & Tola | GoldRateToday",
+    title: "Silver Rate Today | GoldRateToday",
     description:
       "Today's silver rate per gram, tola, ounce and kilo — converted live from the XAG/USD spot. The figures Indian and Pakistani buyers check before buying.",
     keywords: ["silver rate today", "today silver rate", "chandi ka rate", "silver rate per gram", "aaj chandi ka bhav"],
@@ -394,7 +394,7 @@ export const SILVER_PAGES: RegistryPage[] = [
   },
   {
     slug: "silver-price-chart",
-    title: "Silver Price Chart | Live XAG/USD Interactive Chart | GoldRateToday",
+    title: "Silver Price Chart | GoldRateToday",
     description:
       "Interactive silver price chart with live XAG/USD candlesticks, drawing tools and full timeframes — from minutes to years — plus 24h change and key stats.",
     keywords: ["silver price chart", "xag usd chart", "silver chart live", "silver price graph", "silver candlestick chart"],
@@ -441,7 +441,7 @@ export const SILVER_PAGES: RegistryPage[] = [
   },
   {
     slug: "silver-price-history",
-    title: "Silver Price History | Historical XAG/USD Data & Trends | GoldRateToday",
+    title: "Silver Price History | GoldRateToday",
     description:
       "Silver's full price history — from the 1980 Hunt-brothers spike to the 2011 and 2020 highs — with live spot context, charts and long-term trend analysis.",
     keywords: ["silver price history", "historical silver prices", "silver all time high", "silver price 1980", "silver price 2011"],
@@ -488,7 +488,7 @@ export const SILVER_PAGES: RegistryPage[] = [
   },
   {
     slug: "silver-price-calculator",
-    title: "Silver Price Calculator | Live Silver Value Converter | GoldRateToday",
+    title: "Silver Price Calculator | GoldRateToday",
     description:
       "Calculate any silver weight's live value — ounces, grams, kilos, tolas or pounds — from the real-time XAG/USD spot. Free converter, updated every minute.",
     keywords: ["silver price calculator", "silver value calculator", "silver converter", "calculate silver worth", "silver melt value calculator"],
