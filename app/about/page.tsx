@@ -3,7 +3,7 @@ import StaticPage from "@/components/StaticPage";
 export const metadata = {
   title: "About GoldLive | Live Precious Metal & Crypto Prices",
   description: "GoldLive brings live gold, silver, bitcoin and ethereum prices together in one clean, fast page — no clutter, no paywall.",
-  alternates: { canonical: "https://goldlive-mocha.vercel.app/about/" },
+  alternates: { canonical: "https://goldratetoday.online/about/" },
 };
 
 export default function Page() {

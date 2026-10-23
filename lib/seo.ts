@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-export const SITE_URL = "https://goldlive-mocha.vercel.app";
+export const SITE_URL = "https://goldratetoday.online";
 export const SITE_NAME = "GoldLive";
 
 export interface PageSeo {

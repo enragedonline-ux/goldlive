@@ -12,7 +12,7 @@ import { fmtPct } from "@/lib/format";
 import { goldCountryContent, silverCountryContent } from "@/lib/country-content";
 import type { Country } from "@/lib/countries";
 
-const SITE_URL = "https://goldlive-mocha.vercel.app";
+const SITE_URL = "https://goldratetoday.online";
 
 function fmtLocal(v: number, symbol: string) {
   if (!v) return "—";

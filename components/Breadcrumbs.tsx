@@ -11,7 +11,7 @@ export default function Breadcrumbs({ items }: { items: Crumb[] }) {
       "@type": "ListItem",
       position: i + 1,
       name: c.label,
-      item: `https://goldlive-mocha.vercel.app${c.href}`,
+      item: `https://goldratetoday.online${c.href}`,
     })),
   };
   return (

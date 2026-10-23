@@ -7,7 +7,7 @@ export const metadata = {
   title: "GoldLive Blog | Gold Price Guides, Explainers & Market Insights",
   description:
     "Plain-English guides on gold pricing, silver investing, tola conversions, karats and crypto — from the team behind GoldLive's live price charts.",
-  alternates: { canonical: "https://goldlive-mocha.vercel.app/blog/" },
+  alternates: { canonical: "https://goldratetoday.online/blog/" },
 };
 
 export default function BlogIndex() {

@@ -3,7 +3,7 @@ import StaticPage from "@/components/StaticPage";
 export const metadata = {
   title: "Disclaimer | GoldLive",
   description: "GoldLive prices are indicative benchmarks, not financial advice.",
-  alternates: { canonical: "https://goldlive-mocha.vercel.app/disclaimer/" },
+  alternates: { canonical: "https://goldratetoday.online/disclaimer/" },
 };
 
 export default function Page() {

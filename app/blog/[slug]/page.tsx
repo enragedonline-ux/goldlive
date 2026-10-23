@@ -7,7 +7,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Faq, { FaqJsonLd } from "@/components/Faq";
 import { BLOG_POSTS, getBlogPost } from "@/lib/blog-posts";
 
-const SITE_URL = "https://goldlive-mocha.vercel.app";
+const SITE_URL = "https://goldratetoday.online";
 
 export async function generateStaticParams() {
   return BLOG_POSTS.map((p) => ({ slug: p.slug }));

@@ -84,12 +84,12 @@ export default async function PricePage({ config }: { config: PricePageConfig })
             "@type": "WebPage",
             name: config.h1,
             description: config.intro[0] ?? "",
-            url: `https://goldlive-mocha.vercel.app${config.crumbs[config.crumbs.length - 1]?.href ?? "/"}`,
+            url: `https://goldratetoday.online${config.crumbs[config.crumbs.length - 1]?.href ?? "/"}`,
             dateModified: new Date().toISOString(),
             publisher: {
               "@type": "Organization",
               name: "GoldLive",
-              url: "https://goldlive-mocha.vercel.app/",
+              url: "https://goldratetoday.online/",
             },
           }),
         }}

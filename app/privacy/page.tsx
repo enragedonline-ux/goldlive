@@ -3,7 +3,7 @@ import StaticPage from "@/components/StaticPage";
 export const metadata = {
   title: "Privacy Policy | GoldLive",
   description: "How GoldLive handles your data: briefly, we collect almost nothing.",
-  alternates: { canonical: "https://goldlive-mocha.vercel.app/privacy/" },
+  alternates: { canonical: "https://goldratetoday.online/privacy/" },
 };
 
 export default function Page() {

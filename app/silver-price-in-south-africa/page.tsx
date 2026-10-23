@@ -6,7 +6,7 @@ import { silverCountryContent } from "@/lib/country-content";
 import { getPrices } from "@/lib/prices";
 import { usdTo } from "@/lib/fx";
 
-const SITE_URL = "https://goldlive-mocha.vercel.app";
+const SITE_URL = "https://goldratetoday.online";
 const SLUG = "south-africa";
 
 export async function generateMetadata() {

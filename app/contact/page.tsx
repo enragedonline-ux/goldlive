@@ -3,7 +3,7 @@ import StaticPage from "@/components/StaticPage";
 export const metadata = {
   title: "Contact GoldLive",
   description: "Questions, corrections or feedback about GoldLive's live price pages.",
-  alternates: { canonical: "https://goldlive-mocha.vercel.app/contact/" },
+  alternates: { canonical: "https://goldratetoday.online/contact/" },
 };
 
 export default function Page() {
