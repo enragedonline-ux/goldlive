@@ -113,6 +113,8 @@ export default async function CountryPricePage({
           <PriceChart asset={asset} />
         </div>
 
+        {asset === "silver" && <WorldSilverPrices />}
+
         {rows.length > 0 && (
           <div className="panel" style={{ marginTop: 22 }}>
             <h4>
@@ -148,7 +150,6 @@ export default async function CountryPricePage({
       </main>
 
       {asset === "gold" && <WorldGoldPrices />}
-      {asset === "silver" && <WorldSilverPrices />}
       <Footer />
     </>
   );
