@@ -64,10 +64,20 @@ export default async function Home() {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "GoldLive",
-    url: "https://goldlive.vercel.app",
-    description: "Live gold, silver, Bitcoin and Ethereum prices with real-time charts.",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        name: "GoldLive",
+        url: "https://goldratetoday.online",
+        description: "Live gold, silver, Bitcoin and Ethereum prices with real-time charts.",
+      },
+      {
+        "@type": "Organization",
+        name: "GoldLive",
+        url: "https://goldratetoday.online",
+        logo: "https://goldratetoday.online/favicon.svg",
+      },
+    ],
   };
 
   return (

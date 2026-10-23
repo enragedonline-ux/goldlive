@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "Real-time charts for gold, silver, Bitcoin and Ethereum. Live XAU/USD price per ounce, gram and tola, updated every minute.",
   keywords: ["gold price today", "live gold price", "silver price", "bitcoin price", "gold price per gram"],
+  icons: { icon: "/favicon.svg" },
   openGraph: {
     title: "GoldLive — Live Gold, Silver & Crypto Prices",
     description: "Real-time charts for gold, silver, Bitcoin and Ethereum, updated every minute.",
