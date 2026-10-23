@@ -102,7 +102,7 @@ export default async function Home() {
         </div>
         <div className="hero-btns">
           <a className="btn-solid" href="/gold-price-today/">Gold Price Today</a>
-          <a className="btn-text" href="/gold-price-chart/">View All Charts →</a>
+          <a className="btn-text" href="/silver-price-today/">Silver Price Today →</a>
         </div>
       </section>
 
