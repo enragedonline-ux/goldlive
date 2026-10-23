@@ -46,8 +46,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             description: p.excerpt,
             url: `${SITE_URL}/blog/${slug}/`,
             datePublished: p.dateISO,
-            author: { "@type": "Organization", name: "GoldLive" },
-            publisher: { "@type": "Organization", name: "GoldLive", url: `${SITE_URL}/` },
+            author: { "@type": "Organization", name: "GoldRateToday" },
+            publisher: { "@type": "Organization", name: "GoldRateToday", url: `${SITE_URL}/` },
           }),
         }}
       />

@@ -4,9 +4,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { BLOG_POSTS } from "@/lib/blog-posts";
 
 export const metadata = {
-  title: "GoldLive Blog | Gold Price Guides, Explainers & Market Insights",
+  title: "GoldRateToday Blog | Gold Price Guides, Explainers & Market Insights",
   description:
-    "Plain-English guides on gold pricing, silver investing, tola conversions, karats and crypto — from the team behind GoldLive's live price charts.",
+    "Plain-English guides on gold pricing, silver investing, tola conversions, karats and crypto — from the team behind GoldRateToday's live price charts.",
   alternates: { canonical: "https://goldratetoday.online/blog/" },
 };
 
@@ -21,7 +21,7 @@ export default function BlogIndex() {
             { href: "/blog/", label: "Blog" },
           ]}
         />
-        <h1 className="ppage-h1">GoldLive Blog</h1>
+        <h1 className="ppage-h1">GoldRateToday Blog</h1>
         <p className="pintro" style={{ maxWidth: 780 }}>
           Plain-English guides on how gold is priced, how to read the charts, and how South Asia
           buys gold — tolas, karats and all.

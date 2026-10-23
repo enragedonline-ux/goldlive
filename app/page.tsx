@@ -34,7 +34,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const chg = gold?.change24h;
   const dir = chg !== null && chg !== undefined ? (chg >= 0 ? "up" : "down") + ` ${fmtPct(chg)}` : "";
   return pageMetadata({
-    title: "Gold Price Today | Live Gold, Silver & Crypto Prices | GoldLive",
+    title: "Gold Price Today | Live Gold, Silver & Crypto Prices | GoldRateToday",
     description: `Gold price today: ${price} per ounce${dir ? ` (${dir})` : ""}. Live XAU/USD chart, silver, bitcoin & ethereum prices, per-gram and per-tola rates — updated every minute.`,
     path: "/",
     keywords: ["gold price today", "live gold price", "gold rate today", "silver price", "bitcoin price"],
@@ -67,13 +67,13 @@ export default async function Home() {
     "@graph": [
       {
         "@type": "WebSite",
-        name: "GoldLive",
+        name: "GoldRateToday",
         url: "https://goldratetoday.online",
         description: "Live gold, silver, Bitcoin and Ethereum prices with real-time charts.",
       },
       {
         "@type": "Organization",
-        name: "GoldLive",
+        name: "GoldRateToday",
         url: "https://goldratetoday.online",
         logo: "https://goldratetoday.online/favicon.svg",
       },
@@ -168,7 +168,7 @@ export default async function Home() {
       <section className="section seo">
         <h2 className="sec-title">Real-time precious metal prices, made simple</h2>
         <p>
-          GoldLive tracks live spot prices for gold, silver, Bitcoin and Ethereum in one clean dashboard.
+          GoldRateToday tracks live spot prices for gold, silver, Bitcoin and Ethereum in one clean dashboard.
           Follow the XAU/USD chart through the trading day, convert between troy ounces, grams, tolas and
           kilograms, and compare 24K, 22K and 18K rates at a glance. Every price page pairs its live chart
           with plain-English context — day highs and lows, bid/ask spreads and the market news moving the

@@ -80,7 +80,7 @@ export default async function CountryPricePage({
             description: content.description,
             url: `${SITE_URL}/${slug}`,
             dateModified: new Date().toISOString(),
-            publisher: { "@type": "Organization", name: "GoldLive", url: `${SITE_URL}/` },
+            publisher: { "@type": "Organization", name: "GoldRateToday", url: `${SITE_URL}/` },
           }),
         }}
       />
