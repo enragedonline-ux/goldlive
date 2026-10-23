@@ -4,11 +4,10 @@ import PricePage from "@/components/PricePage";
 import { SILVER_PAGES } from "@/lib/registry-silver";
 import { pricePageMetadata } from "@/lib/page-meta";
 
-const base = SILVER_PAGES.find((p) => p.slug === "silver-price-today")!;
-const page = { ...base, showWorldSilver: true };
+const page = SILVER_PAGES.find((p) => p.slug === "silver-price-today")!;
 
 export async function generateMetadata() {
-  return pricePageMetadata(base);
+  return pricePageMetadata(page);
 }
 
 export default async function SilverPriceTodayPage() {
