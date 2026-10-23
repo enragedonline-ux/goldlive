@@ -6,6 +6,7 @@ import RelatedMarkets from "@/components/RelatedMarkets";
 import Breadcrumbs, { type Crumb } from "@/components/Breadcrumbs";
 import Faq, { FaqJsonLd, type FaqItem } from "@/components/Faq";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
+import WorldSilverPrices from "@/components/WorldSilverPrices";
 import { getPrices, type AssetPrice } from "@/lib/prices";
 import { fmtPriceExact, fmtPct } from "@/lib/format";
 
@@ -46,6 +47,8 @@ export interface PricePageConfig {
   crumbs: Crumb[];
   /** show world gold prices section (default true for gold pages) */
   showWorldGold?: boolean;
+  /** show world silver prices section (default false; set true for silver-price-today) */
+  showWorldSilver?: boolean;
   /** extra H2 content sections rendered between intro and FAQ */
   sections?: ContentSection[];
   /** infographic figure rendered after the conversions panel */
@@ -187,6 +190,7 @@ export default async function PricePage({ config }: { config: PricePageConfig })
       </div>
 
       {config.showWorldGold !== false && <WorldGoldPrices />}
+      {config.showWorldSilver === true && <WorldSilverPrices />}
       <Footer />
     </>
   );
