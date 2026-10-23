@@ -30,7 +30,7 @@ const ethConversions = (usd: number) => [
 export const CRYPTO_PAGES: RegistryPage[] = [
   {
     slug: "bitcoin-price",
-    title: "Bitcoin Price Today | Live BTC/USD Chart & Converter | GoldRateToday",
+    title: "Bitcoin Price Today | GoldRateToday",
     description:
       "Live BTC/USD rate with real-time chart, 24h change and USD↔BTC conversions — updated every minute, 24/7.",
     keywords: ["bitcoin price today", "live bitcoin price", "btc usd", "bitcoin rate"],
@@ -71,7 +71,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
   },
   {
     slug: "ethereum-price",
-    title: "Ethereum Price Today | Live ETH/USD Chart & Converter | GoldRateToday",
+    title: "Ethereum Price Today | GoldRateToday",
     description:
       "Live ETH/USD rate with real-time chart, 24h change and fractional ETH conversions — updated every minute, 24/7.",
     keywords: ["ethereum price today", "live ethereum price", "eth usd", "ethereum rate"],
@@ -316,7 +316,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
   },
   {
     slug: "bitcoin-price-prediction",
-    title: "Bitcoin Price Prediction | BTC Forecast 2026–2030 | GoldRateToday",
+    title: "Bitcoin Price Prediction | GoldRateToday",
     description:
       "Bitcoin price predictions for 2026–2030: analyst targets, cycle models, ETF demand outlook and the factors that could drive or derail BTC's run. Updated weekly.",
     keywords: ["bitcoin price prediction", "btc price prediction", "bitcoin forecast", "bitcoin prediction 2030"],
@@ -367,7 +367,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
   },
   {
     slug: "bitcoin-to-usd-converter",
-    title: "Bitcoin to USD Converter | Live BTC/USD Calculator | GoldRateToday",
+    title: "Bitcoin to USD Converter | GoldRateToday",
     description:
       "Convert bitcoin to USD instantly at the live BTC rate — plus USD to BTC, satoshis and mBTC conversions. Updated every minute with the market price. Free to use.",
     keywords: ["bitcoin to usd", "btc to usd converter", "bitcoin converter", "convert btc to usd"],
@@ -418,7 +418,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
   },
   {
     slug: "satoshi-price",
-    title: "Satoshi Price | Live BTC Satoshi (SATS) to USD | GoldRateToday",
+    title: "Satoshi Price | GoldRateToday",
     description:
       "Live satoshi price in USD — 1 sat = 0.00000001 BTC. Convert sats to dollars and see what 1,000 or 1 million sats are worth right now. Stack sats wisely 24/7.",
     keywords: ["satoshi price", "sats price", "satoshi to usd", "1 satoshi price"],
@@ -673,7 +673,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
   },
   {
     slug: "ethereum-price-prediction",
-    title: "Ethereum Price Prediction | ETH Forecast 2026–2030 | GoldRateToday",
+    title: "Ethereum Price Prediction | GoldRateToday",
     description:
       "Ethereum price predictions for 2026–2030: analyst targets, ETF and staking flows, upgrade catalysts and the risks that could derail ETH's run. Updated weekly.",
     keywords: ["ethereum price prediction", "eth price prediction", "ethereum forecast", "ethereum prediction 2030"],
@@ -724,7 +724,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
   },
   {
     slug: "eth-to-usd-converter",
-    title: "ETH to USD Converter | Live Ethereum Calculator | GoldRateToday",
+    title: "ETH to USD Converter | GoldRateToday",
     description:
       "Convert ETH to USD instantly at the live ethereum rate — plus USD to ETH and a wei/gwei explainer. Updated every minute with real market data. Free live tool.",
     keywords: ["eth to usd", "ethereum to usd converter", "eth converter", "convert eth to usd"],
