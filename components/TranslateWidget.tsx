@@ -186,12 +186,22 @@ export default function TranslateWidget() {
       }
     };
 
-    const s = document.createElement("script");
-    s.id = "google-translate-script";
-    s.src =
-      "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-    s.async = true;
-    document.body.appendChild(s);
+    // Defer loading until browser is idle (don't block LCP/FCP)
+    const load = () => {
+      if (document.getElementById("google-translate-script")) return;
+      const s = document.createElement("script");
+      s.id = "google-translate-script";
+      s.src =
+        "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      s.async = true;
+      s.defer = true;
+      document.body.appendChild(s);
+    };
+    if ("requestIdleCallback" in window) {
+      (window as any).requestIdleCallback(load, { timeout: 5000 });
+    } else {
+      setTimeout(load, 3000);
+    }
   }, []);
 
   useEffect(() => {

@@ -10,13 +10,13 @@ const SYMBOLS: Record<string, string> = {
 };
 
 /**
- * TradingView Advanced Chart embed — the same charting library goldprice.org uses.
- * Gives candlesticks, drawing tools and the full timeframe menu
- * (1m/3m/5m/15m/30m/45m, hours, days, weeks, months, 1D–1Y ranges).
+ * TradingView Advanced Chart embed — lazy-loaded via IntersectionObserver
+ * so it doesn't block initial page render (LCP/FCP).
  */
 export default function PriceChart({ asset = "gold" }: { asset?: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const read = () => {
@@ -29,16 +29,36 @@ export default function PriceChart({ asset = "gold" }: { asset?: string }) {
     return () => mo.disconnect();
   }, []);
 
+  // Lazy-load: only init TradingView when chart scrolls into view
   useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisible(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "400px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!visible) return;
     const container = containerRef.current;
     if (!container) return;
-    container.innerHTML = "";
+    const widgetHost = container.querySelector(".tv-widget-host") as HTMLDivElement;
+    if (!widgetHost) return;
+    widgetHost.innerHTML = "";
 
     const widgetDiv = document.createElement("div");
     widgetDiv.className = "tradingview-widget-container__widget";
     widgetDiv.style.height = "100%";
     widgetDiv.style.width = "100%";
-    container.appendChild(widgetDiv);
+    widgetHost.appendChild(widgetDiv);
 
     const script = document.createElement("script");
     script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
@@ -56,12 +76,12 @@ export default function PriceChart({ asset = "gold" }: { asset?: string }) {
       hide_side_toolbar: false,
       support_host: "https://www.tradingview.com",
     });
-    container.appendChild(script);
+    widgetHost.appendChild(script);
 
     return () => {
-      container.innerHTML = "";
+      widgetHost.innerHTML = "";
     };
-  }, [theme, asset]);
+  }, [theme, asset, visible]);
 
   return (
     <>
@@ -69,7 +89,16 @@ export default function PriceChart({ asset = "gold" }: { asset?: string }) {
         ref={containerRef}
         className="tradingview-widget-container"
         style={{ height: "640px", width: "100%" }}
-      />
+      >
+        <div className="tv-widget-host" style={{ height: "100%", width: "100%" }}>
+          {!visible && (
+            <div className="chart-skeleton">
+              <div className="pulse-bar" />
+              <p>Loading chart…</p>
+            </div>
+          )}
+        </div>
+      </div>
       <p className="chart-credit">
         Interactive chart by <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView</a>
         {` · `}
