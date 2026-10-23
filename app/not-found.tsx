@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { getPrices } from "@/lib/prices";
-import { fmtPrice } from "@/lib/format";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,15 +7,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 };
 
-export default async function NotFound() {
-  let goldPrice: number | null = null;
-  try {
-    const { assets } = await getPrices();
-    goldPrice = assets.find((a) => a.id === "gold")?.price ?? null;
-  } catch {
-    /* show page even if price fetch fails */
-  }
-
+export default function NotFound() {
   return (
     <main className="nf">
       <div className="nf-card">
@@ -27,14 +17,14 @@ export default async function NotFound() {
           The page you're looking for doesn't exist — but the markets never stop.
         </p>
 
-        {goldPrice !== null && (
-          <div className="nf-ticker">
-            <span className="nf-dot" aria-hidden="true" />
-            <span>
-              Gold is trading at <strong>{fmtPrice(goldPrice)}</strong> right now
-            </span>
-          </div>
-        )}
+        <div className="nf-ticker">
+          <span className="nf-dot" aria-hidden="true" />
+          <span>
+            <Link href="/gold-price-today/" style={{ color: "inherit", fontWeight: 700 }}>
+              Check the live gold price →
+            </Link>
+          </span>
+        </div>
 
         <div className="nf-links">
           <Link href="/" className="nf-btn">
