@@ -101,8 +101,8 @@ export default async function Home() {
           <span>Spread <b>$1.20</b></span>
         </div>
         <div className="hero-btns">
-          <a className="btn-solid" href="#chart">Gold Price Today</a>
-          <a className="btn-line" href="#assets">View All Charts</a>
+          <a className="btn-solid" href="/gold-price-today/">Gold Price Today</a>
+          <a className="btn-line" href="/gold-price-chart/">View All Charts</a>
         </div>
       </section>
 
