@@ -20,7 +20,7 @@ export interface BlogPost {
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "how-gold-price-determined",
-    title: "How Is the Gold Price Determined? Spot Price, LBMA Fix & Futures Explained | GoldLive",
+    title: "How Is the Gold Price Determined? Spot Price, LBMA Fix & Futures Explained | GoldRateToday",
     h1: "How Is the Gold Price Determined? Spot Price, LBMA Fix & Futures Explained",
     excerpt:
       "The gold price comes from a global over-the-counter market, benchmarked twice daily by the LBMA auction. Learn exactly how spot works and why you never pay it.",
@@ -99,7 +99,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "gold-vs-silver-investment",
-    title: "Gold vs Silver: Which Is the Better Investment in 2027? | GoldLive",
+    title: "Gold vs Silver: Which Is the Better Investment in 2027? | GoldRateToday",
     h1: "Gold vs Silver: Which Is the Better Investment in 2027?",
     excerpt:
       "Gold is the steadier store of value; silver is the higher-octane trade. Compare volatility, demand, liquidity and the gold-silver ratio to choose wisely.",
@@ -173,7 +173,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "tola-to-gram-guide",
-    title: "Tola to Gram Converter & Guide: How South Asia Weighs Gold | GoldLive",
+    title: "Tola to Gram Converter & Guide: How South Asia Weighs Gold | GoldRateToday",
     h1: "Tola to Gram Converter & Guide: How South Asia Weighs Gold",
     excerpt:
       "One tola equals 11.6638 grams. Learn the tola's history, full conversion tables for gram and troy ounce, and how to price a tola from the live spot price.",
@@ -252,7 +252,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "gold-karat-purity-guide",
-    title: "24K vs 22K vs 18K vs 14K Gold: Which Should You Buy? | GoldLive",
+    title: "24K vs 22K vs 18K vs 14K Gold: Which Should You Buy? | GoldRateToday",
     h1: "24K vs 22K vs 18K vs 14K Gold: Which Should You Buy?",
     excerpt:
       "24K is pure but soft; 22K, 18K and 14K trade purity for strength. Compare purity percentages, price math, hallmarks and the best use for each karat today.",
@@ -331,7 +331,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "what-affects-gold-price",
-    title: "What Affects the Gold Price? 7 Factors That Move It Daily | GoldLive",
+    title: "What Affects the Gold Price? 7 Factors That Move It Daily | GoldRateToday",
     h1: "What Affects the Gold Price? 7 Factors That Move It Daily",
     excerpt:
       "Interest rates, the US dollar, inflation, central-bank buying and geopolitics all move gold. Here are the 7 factors that matter — plus the myths that don't.",
@@ -414,7 +414,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "gold-price-prediction-2027",
-    title: "Gold Price Prediction 2027–2030: What Analysts Forecast | GoldLive",
+    title: "Gold Price Prediction 2027–2030: What Analysts Forecast | GoldRateToday",
     h1: "Gold Price Prediction 2027–2030: What Analysts Forecast",
     excerpt:
       "Major banks publish gold targets through 2030. See the bull, base and bear scenarios, what would trigger each — and why analyst forecasts are so often wrong.",
@@ -481,13 +481,13 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         q: "Where can I check the live gold price?",
-        a: "Right here on GoldLive — our live gold price page updates every minute with the current spot price, 24-hour change, and an interactive chart, so you can always compare any forecast against reality.",
+        a: "Right here on GoldRateToday — our live gold price page updates every minute with the current spot price, 24-hour change, and an interactive chart, so you can always compare any forecast against reality.",
       },
     ],
   },
   {
     slug: "gold-etf-vs-physical",
-    title: "Gold ETF vs Physical Gold: Which Is Better for You? | GoldLive",
+    title: "Gold ETF vs Physical Gold: Which Is Better for You? | GoldRateToday",
     h1: "Gold ETF vs Physical Gold: Which Is Better for You?",
     excerpt:
       "ETFs are cheap and liquid; physical gold carries no counterparty risk. Compare costs, storage, taxes and crisis behavior to choose the right fit for your goals.",
@@ -563,7 +563,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "how-to-buy-gold-beginners",
-    title: "How to Buy Gold for Beginners: 5 Ways That Actually Work | GoldLive",
+    title: "How to Buy Gold for Beginners: 5 Ways That Actually Work | GoldRateToday",
     h1: "How to Buy Gold for Beginners: 5 Ways That Actually Work",
     excerpt:
       "Bars, coins, ETFs, digital gold or mining stocks? A beginner's guide to the five ways to buy gold, with a first-purchase checklist and costly mistakes.",
