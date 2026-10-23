@@ -70,12 +70,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             <section key={i}>
               <h2>{s.heading}</h2>
               {s.paragraphs.map((para, j) => (
-                <p key={j}>{para}</p>
+                <p key={j} dangerouslySetInnerHTML={{ __html: para }} />
               ))}
               {s.bullets && (
                 <ul className="pbullets">
                   {s.bullets.map((b, k) => (
-                    <li key={k}>{b}</li>
+                    <li key={k} dangerouslySetInnerHTML={{ __html: b }} />
                   ))}
                 </ul>
               )}

@@ -10,6 +10,7 @@ import { getPrices } from "@/lib/prices";
 import { fmtPrice, fmtPriceExact, fmtPct } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 const NEWS = [
   { t: "09:41", tag: "GOLD", title: "Gold slips 1% as oil rally fuels higher-for-longer rate bets" },
@@ -163,9 +164,8 @@ export default async function Home() {
       <section className="section seo">
         <h2 className="sec-title">Real-time precious metal prices, made simple</h2>
         <p>
-          GoldRateToday tracks live spot prices for gold, silver, Bitcoin and Ethereum in one clean dashboard.
-          Follow the XAU/USD chart through the trading day, convert between troy ounces, grams, tolas and
-          kilograms, and compare 24K, 22K and 18K rates at a glance. Every price page pairs its live chart
+          GoldRateToday tracks <Link href="/gold-price-today/">live gold prices</Link> and <Link href="/silver-price-today/">silver rates</Link> alongside <Link href="/bitcoin-price/">Bitcoin</Link> and <Link href="/ethereum-price/">Ethereum</Link> in one clean dashboard.
+          Follow the <Link href="/gold-price-chart/">XAU/USD chart</Link> through the trading day, convert between <Link href="/gold-price-per-gram/">grams</Link>, <Link href="/gold-price-per-tola/">tolas</Link> and kilograms, and compare <Link href="/24k-gold-price/">24K</Link>, <Link href="/22k-gold-price/">22K</Link> and <Link href="/18k-gold-price/">18K rates</Link> at a glance. Every price page pairs its live chart
           with plain-English context — day highs and lows, bid/ask spreads and the market news moving the
           metals — so you always know not just the price, but the story behind it.
         </p>
