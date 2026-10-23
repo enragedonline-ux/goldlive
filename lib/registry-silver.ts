@@ -56,7 +56,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/ethereum-price", label: "Ethereum price" },
     ],
     crumbs: crumbsHome,
-    showWorldGold: false,
+    showWorldGold: true,
   },
 {
     slug: "live-silver-price",
@@ -106,7 +106,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-today", label: "Silver price today" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "spot-silver-price",
@@ -152,7 +152,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-today", label: "Silver price today" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "silver-price-per-ounce",
@@ -198,7 +198,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-today", label: "Silver price today" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "silver-price-per-gram",
@@ -244,7 +244,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-rate-today", label: "Silver rate today" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "silver-price-per-kilo",
@@ -290,7 +290,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-today", label: "Silver price today" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "silver-price-per-tola",
@@ -336,7 +336,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-today", label: "Silver price today" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "silver-rate-today",
@@ -382,7 +382,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-today", label: "Silver price today" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "silver-price-chart",
@@ -428,7 +428,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/comex-silver-price", label: "COMEX silver price" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "silver-price-history",
@@ -474,7 +474,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-today", label: "Silver price today" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "silver-price-calculator",
@@ -520,7 +520,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-per-pound", label: "Silver price per pound" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "silver-price-per-pound",
@@ -566,7 +566,7 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-today", label: "Silver price today" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "comex-silver-price",
@@ -612,6 +612,6 @@ export const SILVER_PAGES: RegistryPage[] = [
       { href: "/silver-price-history", label: "Silver price history" },
     ],
     crumbs: silverCrumbs,
-    showWorldGold: false,
+    showWorldGold: true,
   },
 ];

@@ -67,7 +67,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/gold-price-per-gram", label: "Gold price per gram" },
     ],
     crumbs: crumbsHome,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "ethereum-price",
@@ -108,7 +108,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/silver-price-today", label: "Silver price today" },
     ],
     crumbs: crumbsHome,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "live-bitcoin-price",
@@ -159,7 +159,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/ethereum-price", label: "Ethereum price" },
     ],
     crumbs: crumbsBtc,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "bitcoin-price-today",
@@ -210,7 +210,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/ethereum-price", label: "Ethereum price" },
     ],
     crumbs: crumbsBtc,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "bitcoin-price-chart",
@@ -261,7 +261,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/ethereum-price", label: "Ethereum price" },
     ],
     crumbs: crumbsBtc,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "bitcoin-price-history",
@@ -312,7 +312,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/bitcoin-price", label: "Bitcoin price" },
     ],
     crumbs: crumbsBtc,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "bitcoin-price-prediction",
@@ -363,7 +363,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/bitcoin-price", label: "Bitcoin price" },
     ],
     crumbs: crumbsBtc,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "bitcoin-to-usd-converter",
@@ -414,7 +414,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/bitcoin-price", label: "Bitcoin price" },
     ],
     crumbs: crumbsBtc,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "satoshi-price",
@@ -465,7 +465,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/ethereum-price", label: "Ethereum price" },
     ],
     crumbs: crumbsBtc,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "live-ethereum-price",
@@ -516,7 +516,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/bitcoin-price", label: "Bitcoin price" },
     ],
     crumbs: crumbsEth,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "ethereum-price-today",
@@ -567,7 +567,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/bitcoin-price", label: "Bitcoin price" },
     ],
     crumbs: crumbsEth,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "ethereum-price-chart",
@@ -618,7 +618,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/bitcoin-price", label: "Bitcoin price" },
     ],
     crumbs: crumbsEth,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "ethereum-price-history",
@@ -669,7 +669,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/ethereum-price", label: "Ethereum price" },
     ],
     crumbs: crumbsEth,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "ethereum-price-prediction",
@@ -720,7 +720,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/ethereum-price", label: "Ethereum price" },
     ],
     crumbs: crumbsEth,
-    showWorldGold: false,
+    showWorldGold: true,
   },
   {
     slug: "eth-to-usd-converter",
@@ -771,6 +771,6 @@ export const CRYPTO_PAGES: RegistryPage[] = [
       { href: "/bitcoin-price", label: "Bitcoin price" },
     ],
     crumbs: crumbsEth,
-    showWorldGold: false,
+    showWorldGold: true,
   },
 ];
