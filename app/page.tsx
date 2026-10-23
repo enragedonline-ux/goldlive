@@ -5,7 +5,11 @@ import Footer from "@/components/Footer";
 import Ticker from "@/components/Ticker";
 import PriceChart from "@/components/PriceChart";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
-import AssetOrbit, { type OrbitAsset } from "@/components/AssetOrbit";
+import dynamic from "next/dynamic";
+const AssetOrbit = dynamic(() => import("@/components/AssetOrbit"), {
+  loading: () => <div style={{ height: 300, textAlign: "center", padding: 40, color: "var(--faint)" }}>Loading…</div>,
+});
+import type { OrbitAsset } from "@/components/AssetOrbit";
 import { getPrices } from "@/lib/prices";
 import { fmtPrice, fmtPriceExact, fmtPct } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo";
