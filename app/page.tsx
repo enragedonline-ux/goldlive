@@ -28,14 +28,9 @@ const CHIPS: [string, string][] = [
 ];
 
 export async function generateMetadata(): Promise<Metadata> {
-  const { assets } = await getPrices();
-  const gold = assets.find((a) => a.id === "gold");
-  const price = gold?.price ? fmtPriceExact(gold.price) : "live";
-  const chg = gold?.change24h;
-  const dir = chg !== null && chg !== undefined ? (chg >= 0 ? "up" : "down") + ` ${fmtPct(chg)}` : "";
   return pageMetadata({
-    title: "Gold Price Today | Live Gold, Silver & Crypto Prices | GoldRateToday",
-    description: `Gold price today: ${price} per ounce${dir ? ` (${dir})` : ""}. Live XAU/USD chart, silver, bitcoin & ethereum prices, per-gram and per-tola rates — updated every minute.`,
+    title: "Gold Price Today | Live XAU/USD Rate | GoldRateToday",
+    description: "Best live gold price today with real-time XAU/USD charts. Check silver, Bitcoin & Ethereum rates now — accurate prices updated every 60 seconds.",
     path: "/",
     keywords: ["gold price today", "live gold price", "gold rate today", "silver price", "bitcoin price"],
   });
