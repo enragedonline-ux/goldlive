@@ -52,33 +52,38 @@ export default function PriceChart({ asset = "gold" }: { asset?: string }) {
     if (!container) return;
     const widgetHost = container.querySelector(".tv-widget-host") as HTMLDivElement;
     if (!widgetHost) return;
-    widgetHost.innerHTML = "";
 
-    const widgetDiv = document.createElement("div");
-    widgetDiv.className = "tradingview-widget-container__widget";
-    widgetDiv.style.height = "100%";
-    widgetDiv.style.width = "100%";
-    widgetHost.appendChild(widgetDiv);
+    // Small delay to ensure layout is complete before TradingView measures the container
+    const timer = setTimeout(() => {
+      widgetHost.innerHTML = "";
 
-    const script = document.createElement("script");
-    script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
-    script.async = true;
-    script.textContent = JSON.stringify({
-      autosize: true,
-      symbol: SYMBOLS[asset] ?? "TVC:GOLD",
-      interval: "D",
-      timezone: "America/New_York",
-      theme,
-      style: "1",
-      locale: "en",
-      allow_symbol_change: true,
-      withdateranges: true,
-      hide_side_toolbar: false,
-      support_host: "https://www.tradingview.com",
-    });
-    widgetHost.appendChild(script);
+      const widgetDiv = document.createElement("div");
+      widgetDiv.className = "tradingview-widget-container__widget";
+      widgetDiv.style.height = "100%";
+      widgetDiv.style.width = "100%";
+      widgetHost.appendChild(widgetDiv);
+
+      const script = document.createElement("script");
+      script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+      script.async = true;
+      script.textContent = JSON.stringify({
+        autosize: true,
+        symbol: SYMBOLS[asset] ?? "TVC:GOLD",
+        interval: "D",
+        timezone: "America/New_York",
+        theme,
+        style: "1",
+        locale: "en",
+        allow_symbol_change: true,
+        withdateranges: true,
+        hide_side_toolbar: false,
+        support_host: "https://www.tradingview.com",
+      });
+      widgetHost.appendChild(script);
+    }, 100);
 
     return () => {
+      clearTimeout(timer);
       widgetHost.innerHTML = "";
     };
   }, [theme, asset, visible]);
