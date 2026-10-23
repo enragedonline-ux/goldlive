@@ -16,7 +16,7 @@ export default function Header({ active = "gold" }: { active?: string }) {
       <MarketBar />
       <header className="head">
         <a className="logo" href="/">
-          GOLDLIVE<i>.</i>
+          GOLDRATETODAY<i>.</i>
         </a>
         <nav className="nav">
           {NAV.map((n) => (

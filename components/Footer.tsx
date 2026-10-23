@@ -3,7 +3,7 @@ export default function Footer() {
     <footer>
       <div className="foot-grid">
         <div>
-          <h5>GOLDLIVE.</h5>
+          <h5>GOLDRATETODAY.</h5>
           <a>Live precious metal prices, charts and guides. Updated every minute during market hours.</a>
         </div>
         <div>
