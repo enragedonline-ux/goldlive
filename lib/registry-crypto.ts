@@ -73,7 +73,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "ethereum-price",
     title: "Ethereum Price Today | GoldRateToday",
     description:
-      "Live ETH/USD rate with real-time chart, 24h change and fractional ETH conversions — updated every minute, 24/7.",
+      "Live ETH/USD rate with real-time chart, 24h change and fractional ETH conversions — updated every minute,...",
     keywords: ["ethereum price today", "live ethereum price", "eth usd", "ethereum rate"],
     h1: "Ethereum Price Today",
     asset: "ethereum",
@@ -114,7 +114,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "live-bitcoin-price",
     title: "Live Bitcoin Price | Live BTC/USD Rate | GoldRateToday",
     description:
-      "Streaming live bitcoin price in USD with real-time chart, 24-hour change, today's full trading range and spot BTC fraction conversions — updated every minute.",
+      "Streaming live bitcoin price in USD with real-time chart, 24-hour change, today's full trading range and...",
     keywords: ["live bitcoin price", "bitcoin live price", "btc usd live", "live btc price"],
     h1: "Live Bitcoin Price",
     asset: "bitcoin",
@@ -165,7 +165,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "bitcoin-price-today",
     title: "Bitcoin Price Today | Live BTC to USD | GoldRateToday",
     description:
-      "Bitcoin price today in USD — live BTC rate with today's trading range, 24-hour change and fraction conversions to dollars, updated every minute. Live 24/7.",
+      "Bitcoin price today in USD — live BTC rate with today's trading range, 24-hour change and fraction...",
     keywords: ["bitcoin price today", "btc price today", "bitcoin rate today", "bitcoin price usd"],
     h1: "Bitcoin Price Today",
     asset: "bitcoin",
@@ -216,7 +216,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "bitcoin-price-chart",
     title: "Bitcoin Price Chart | Live BTC/USD Candles | GoldRateToday",
     description:
-      "Interactive bitcoin price chart with live BTC/USD candles, technical drawing tools and full timeframe menu — from 1 hour to all-time history. Trade smart 24/7.",
+      "Interactive bitcoin price chart with live BTC/USD candles, technical drawing tools and full timeframe menu...",
     keywords: ["bitcoin price chart", "btc chart", "bitcoin chart usd", "btc usd chart"],
     h1: "Bitcoin Price Chart",
     asset: "bitcoin",
@@ -267,7 +267,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "bitcoin-price-history",
     title: "Bitcoin Price History | BTC Historical Data | GoldRateToday",
     description:
-      "Explore bitcoin's price history — from pennies in 2010 to six figures today, with live chart, all-time data and key cycle milestones explained. Updated daily.",
+      "Explore bitcoin's price history — from pennies in 2010 to six figures today, with live chart, all-time...",
     keywords: ["bitcoin price history", "btc historical price", "bitcoin all time high", "bitcoin historical data"],
     h1: "Bitcoin Price History",
     asset: "bitcoin",
@@ -318,7 +318,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "bitcoin-price-prediction",
     title: "Bitcoin Price Prediction | GoldRateToday",
     description:
-      "Bitcoin price predictions for 2026–2030: analyst targets, cycle models, ETF demand outlook and the factors that could drive or derail BTC's run. Updated weekly.",
+      "Bitcoin price predictions for 2026–2030: analyst targets, cycle models, ETF demand outlook and the factors...",
     keywords: ["bitcoin price prediction", "btc price prediction", "bitcoin forecast", "bitcoin prediction 2030"],
     h1: "Bitcoin Price Prediction",
     asset: "bitcoin",
@@ -369,7 +369,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "bitcoin-to-usd-converter",
     title: "Bitcoin to USD Converter | GoldRateToday",
     description:
-      "Convert bitcoin to USD instantly at the live BTC rate — plus USD to BTC, satoshis and mBTC conversions. Updated every minute with the market price. Free to use.",
+      "Convert bitcoin to USD instantly at the live BTC rate — plus USD to BTC, satoshis and mBTC conversions....",
     keywords: ["bitcoin to usd", "btc to usd converter", "bitcoin converter", "convert btc to usd"],
     h1: "Bitcoin to USD Converter",
     asset: "bitcoin",
@@ -420,7 +420,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "satoshi-price",
     title: "Satoshi Price | GoldRateToday",
     description:
-      "Live satoshi price in USD — 1 sat = 0.00000001 BTC. Convert sats to dollars and see what 1,000 or 1 million sats are worth right now. Stack sats wisely 24/7.",
+      "Live satoshi price in USD — 1 sat = 0.00000001 BTC. Convert sats to dollars and see what 1,000 or 1...",
     keywords: ["satoshi price", "sats price", "satoshi to usd", "1 satoshi price"],
     h1: "Satoshi Price",
     asset: "bitcoin",
@@ -471,7 +471,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "live-ethereum-price",
     title: "Live Ethereum Price | Live ETH/USD Rate | GoldRateToday",
     description:
-      "Streaming live ethereum price in USD with real-time chart, 24-hour change, today's full trading range and spot ETH fraction conversions — updated every minute.",
+      "Streaming live ethereum price in USD with real-time chart, 24-hour change, today's full trading range and...",
     keywords: ["live ethereum price", "ethereum live price", "eth usd live", "live eth price"],
     h1: "Live Ethereum Price",
     asset: "ethereum",
@@ -522,7 +522,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "ethereum-price-today",
     title: "Ethereum Price Today | Live ETH to USD | GoldRateToday",
     description:
-      "Ethereum price today in USD — live ETH rate with today's trading range, 24-hour change and fraction conversions to dollars, updated every minute. Live 24/7.",
+      "Ethereum price today in USD — live ETH rate with today's trading range, 24-hour change and fraction...",
     keywords: ["ethereum price today", "eth price today", "ethereum rate today", "ethereum price usd"],
     h1: "Ethereum Price Today",
     asset: "ethereum",
@@ -573,7 +573,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "ethereum-price-chart",
     title: "Ethereum Price Chart | Live ETH/USD Candles | GoldRateToday",
     description:
-      "Interactive ethereum price chart with live ETH/USD candles, technical drawing tools and full timeframe menu — from 1 hour to all-time history. Live charts 24/7.",
+      "Interactive ethereum price chart with live ETH/USD candles, technical drawing tools and full timeframe...",
     keywords: ["ethereum price chart", "eth chart", "ethereum chart usd", "eth usd chart"],
     h1: "Ethereum Price Chart",
     asset: "ethereum",
@@ -624,7 +624,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "ethereum-price-history",
     title: "Ethereum Price History | ETH Historical Data | GoldRateToday",
     description:
-      "Explore ethereum's price history — from under $1 at launch to all-time highs, with live chart, full historical data and milestone events. See every cycle.",
+      "Explore ethereum's price history — from under $1 at launch to all-time highs, with live chart, full...",
     keywords: ["ethereum price history", "eth historical price", "ethereum all time high", "ethereum historical data"],
     h1: "Ethereum Price History",
     asset: "ethereum",
@@ -675,7 +675,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "ethereum-price-prediction",
     title: "Ethereum Price Prediction | GoldRateToday",
     description:
-      "Ethereum price predictions for 2026–2030: analyst targets, ETF and staking flows, upgrade catalysts and the risks that could derail ETH's run. Updated weekly.",
+      "Ethereum price predictions for 2026–2030: analyst targets, ETF and staking flows, upgrade catalysts and...",
     keywords: ["ethereum price prediction", "eth price prediction", "ethereum forecast", "ethereum prediction 2030"],
     h1: "Ethereum Price Prediction",
     asset: "ethereum",
@@ -726,7 +726,7 @@ export const CRYPTO_PAGES: RegistryPage[] = [
     slug: "eth-to-usd-converter",
     title: "ETH to USD Converter | GoldRateToday",
     description:
-      "Convert ETH to USD instantly at the live ethereum rate — plus USD to ETH and a wei/gwei explainer. Updated every minute with real market data. Free live tool.",
+      "Convert ETH to USD instantly at the live ethereum rate — plus USD to ETH and a wei/gwei explainer. Updated...",
     keywords: ["eth to usd", "ethereum to usd converter", "eth converter", "convert eth to usd"],
     h1: "ETH to USD Converter",
     asset: "ethereum",
