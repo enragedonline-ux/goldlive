@@ -88,7 +88,7 @@ export default async function PricePage({ config }: { config: PricePageConfig })
             dateModified: new Date().toISOString(),
             publisher: {
               "@type": "Organization",
-              name: "GoldLive",
+              name: "GoldRateToday",
               url: "https://goldratetoday.online/",
             },
           }),

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const SITE_URL = "https://goldratetoday.online";
-export const SITE_NAME = "GoldLive";
+export const SITE_NAME = "GoldRateToday";
 
 export interface PageSeo {
   title: string;

@@ -23,8 +23,8 @@ export function goldCountryContent(c: Country, rate: number, usdPerOz: number): 
 
   return {
     title: isPK
-      ? `Gold Rate in Pakistan Today — Live per Tola & Gram in PKR | GoldLive`
-      : `Gold Price in ${c.name} Today | Live per Gram & Ounce in ${c.currency} | GoldLive`,
+      ? `Gold Rate in Pakistan Today — Live per Tola & Gram in PKR | GoldRateToday`
+      : `Gold Price in ${c.name} Today | Live per Gram & Ounce in ${c.currency} | GoldRateToday`,
     description: isPK
       ? `Live gold rate in Pakistan: ${fmtLocal(perTola, "Rs")} per tola, ${fmtLocal(perGram, "Rs")} per gram. Updated every minute from international spot.`
       : `Live ${keyword}: ${fmtLocal(perGram, c.currencySymbol)} per gram in ${c.currency}. Real-time chart, conversions and 24h change — updated every minute.`,
@@ -75,7 +75,7 @@ export function silverCountryContent(c: Country, rate: number, usdPerOz: number)
   const keyword = `silver price in ${c.name}`;
 
   return {
-    title: `Silver Price in ${c.name} Today | Live per Gram & Kilo in ${c.currency} | GoldLive`,
+    title: `Silver Price in ${c.name} Today | Live per Gram & Kilo in ${c.currency} | GoldRateToday`,
     description: `Live ${keyword}: ${fmtLocal(perGram, c.currencySymbol)} per gram in ${c.currency}. Real-time XAG chart, conversions and 24h change — updated every minute.`,
     h1: `Silver Price in ${c.name}`,
     intro: [

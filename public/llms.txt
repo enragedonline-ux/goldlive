@@ -1,8 +1,8 @@
-# GoldLive
+# GoldRateToday
 
 > Live gold, silver, bitcoin and ethereum prices with real-time charts. Updated every minute during market hours.
 
-GoldLive (https://goldratetoday.online/) publishes live precious-metal and crypto price pages. Each page shows the current spot rate, an interactive TradingView chart, unit conversion tables, explanatory content and FAQs.
+GoldRateToday (https://goldratetoday.online/) publishes live precious-metal and crypto price pages. Each page shows the current spot rate, an interactive TradingView chart, unit conversion tables, explanatory content and FAQs.
 
 ## Live price pages
 
