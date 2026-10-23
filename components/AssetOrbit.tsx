@@ -52,18 +52,18 @@ export default function AssetOrbit({ assets }: { assets: OrbitAsset[] }) {
   const prev = () => setFocus((f) => (f - 1 + n) % n);
   const next = () => setFocus((f) => (f + 1) % n);
 
-  // Half-circle arc: spread items over 180°, focused item at top (90°)
-  const R = 46; // radius in % of container
+  // Flatter, tighter arc for a clean minimal look
+  const R = 38; // radius in % of container
   const pos = (i: number) => {
     // offset from focused index, wrapped to [-n/2, n/2]
     let d = i - focus;
     if (d > n / 2) d -= n;
     if (d < -n / 2) d += n;
-    const angle = 90 - (d * 180) / (n - 1 || 1); // degrees
+    const angle = 90 - (d * 150) / (n - 1 || 1); // 150° spread, flatter arc
     const rad = (angle * Math.PI) / 180;
     return {
       left: 50 + R * Math.cos(rad),
-      top: 52 - R * Math.sin(rad),
+      top: 58 - R * 0.62 * Math.sin(rad), // flattened vertically
       isFocus: d === 0,
     };
   };
