@@ -5,6 +5,7 @@ import PriceChart from "@/components/PriceChart";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Faq, { FaqJsonLd } from "@/components/Faq";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
+import WorldSilverPrices from "@/components/WorldSilverPrices";
 import { getPrices } from "@/lib/prices";
 import { usdTo } from "@/lib/fx";
 import { fmtPct } from "@/lib/format";
@@ -147,6 +148,7 @@ export default async function CountryPricePage({
       </main>
 
       {asset === "gold" && <WorldGoldPrices />}
+      {asset === "silver" && <WorldSilverPrices />}
       <Footer />
     </>
   );
