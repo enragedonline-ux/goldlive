@@ -27,7 +27,7 @@ const crumbsHome = [{ href: "/", label: "Home" }];
 export const GOLD_PAGES: RegistryPage[] = [
   {
     slug: "gold-price-today",
-    title: "Gold Price Today | Live Spot Price per Ounce, Gram & Kilo | GoldLive",
+    title: "Gold Price Today | Live Spot Price per Ounce, Gram & Kilo | GoldRateToday",
     description:
       "Live XAU/USD rate per troy ounce with real-time chart, 24K/22K/18K conversions per gram and tola — updated every minute.",
     keywords: ["gold price today", "live gold price", "gold rate today", "xau usd"],
@@ -42,7 +42,7 @@ export const GOLD_PAGES: RegistryPage[] = [
       caption: "Gold weight units: 1 troy ounce = 31.10 grams = 2.67 tolas",
     },
     intro: [
-      "The live gold price today is quoted in US dollars per troy ounce (XAU/USD) and moves continuously while global markets are open. GoldLive streams the spot price every minute, so the number you see above is the market's most recent consensus between wholesale buyers and sellers.",
+      "The live gold price today is quoted in US dollars per troy ounce (XAU/USD) and moves continuously while global markets are open. GoldRateToday streams the spot price every minute, so the number you see above is the market's most recent consensus between wholesale buyers and sellers.",
       "Gold is priced around the clock, but the benchmark most traders watch is set during London and New York trading hours. Prices react within seconds to US inflation data, Federal Reserve decisions, dollar strength and geopolitical headlines — which is why a live chart matters more than a once-a-day fixing.",
       "Use the chart above to follow today's session, switch timeframes from 1 hour to 1 year, and compare the live spot rate with the conversion table for grams, tolas and kilos.",
     ],
@@ -52,7 +52,7 @@ export const GOLD_PAGES: RegistryPage[] = [
       { q: "What is XAU/USD?", a: "XAU is the ISO currency code for one troy ounce of gold, and XAU/USD is the spot exchange rate: how many US dollars one ounce of gold costs right now." },
       { q: "Is the price here the same as my local jeweller's price?", a: "Close, but not identical. Jewellers add making charges, local taxes and a buy/sell spread on top of the international spot price shown here." },
       { q: "When is the gold market open?", a: "Spot gold trades from Sunday 6pm ET to Friday 5pm ET with a daily one-hour break. The most liquid hours are the London–New York overlap, roughly 8am–12pm ET." },
-      { q: "Why do gold prices differ between websites?", a: "Different sites use different data feeds with different refresh speeds. A site updating once a day can lag the live market by hours — GoldLive refreshes every minute, so small differences versus slower sites are normal." },
+      { q: "Why do gold prices differ between websites?", a: "Different sites use different data feeds with different refresh speeds. A site updating once a day can lag the live market by hours — GoldRateToday refreshes every minute, so small differences versus slower sites are normal." },
       { q: "Is the spot price what I pay for gold coins or bars?", a: "No. The spot price is the wholesale rate for large bars. Coins and small bars carry a dealer premium — typically 3–8% for common bullion coins — on top of spot." },
       { q: "Does the gold price change on weekends?", a: "Spot trading pauses from Friday 5pm ET to Sunday 6pm ET, so the quoted price holds still over the weekend. It can gap up or down at the Sunday reopen if news broke while markets were closed." },
     ],
@@ -83,7 +83,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "live-gold-price",
-    title: "Live Gold Price — Real-Time XAU/USD Chart | GoldLive",
+    title: "Live Gold Price — Real-Time XAU/USD Chart | GoldRateToday",
     description:
       "Watch the live gold price with a real-time TradingView chart. Streaming XAU/USD quotes, intraday timeframes from 1 minute to 1 year.",
     keywords: ["live gold price", "gold price live", "xauusd live chart", "real time gold price"],
@@ -106,7 +106,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "spot-gold-price",
-    title: "Spot Gold Price (XAU/USD) — Live Spot Rate | GoldLive",
+    title: "Spot Gold Price (XAU/USD) — Live Spot Rate | GoldRateToday",
     description:
       "Live spot gold price (XAU/USD) per troy ounce. Understand what the spot price means, how it differs from futures, and track it on a live chart.",
     keywords: ["spot gold price", "gold spot price", "xau usd spot", "spot price of gold"],
@@ -129,7 +129,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "gold-price-per-gram",
-    title: "Gold Price Per Gram Today — Live 24K, 22K, 18K Rates | GoldLive",
+    title: "Gold Price Per Gram Today — Live 24K, 22K, 18K Rates | GoldRateToday",
     description:
       "Live gold price per gram in USD. 24K, 22K and 18K per-gram rates updated every minute, with a real-time chart and conversion table.",
     keywords: ["gold price per gram", "gold rate per gram", "24k gold price per gram", "gold price gram today"],
@@ -153,7 +153,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "gold-price-per-ounce",
-    title: "Gold Price Per Ounce — Live XAU/USD Ounce Rate | GoldLive",
+    title: "Gold Price Per Ounce — Live XAU/USD Ounce Rate | GoldRateToday",
     description:
       "Live gold price per ounce (troy ounce) in USD. Streaming XAU/USD rate, chart and historical context, updated every minute.",
     keywords: ["gold price per ounce", "gold price per oz", "price of gold per ounce", "1 oz gold price"],
@@ -176,7 +176,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "gold-price-per-tola",
-    title: "Gold Price Per Tola Today — Live Tola Rate | GoldLive",
+    title: "Gold Price Per Tola Today — Live Tola Rate | GoldRateToday",
     description:
       "Live gold price per tola (11.66 grams) in USD. 24K tola rate updated every minute with chart and conversions.",
     keywords: ["gold price per tola", "tola gold price", "1 tola gold price", "gold rate per tola today"],
@@ -199,7 +199,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "gold-price-per-kilo",
-    title: "Gold Price Per Kilo (Kilogram) — Live Rate | GoldLive",
+    title: "Gold Price Per Kilo (Kilogram) — Live Rate | GoldRateToday",
     description:
       "Live gold price per kilogram in USD. Wholesale kilo rate updated every minute with live chart.",
     keywords: ["gold price per kilo", "gold price per kg", "1 kg gold price", "gold price kilogram"],
@@ -221,7 +221,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "24k-gold-price",
-    title: "24K Gold Price Today — Live Pure Gold Rate | GoldLive",
+    title: "24K Gold Price Today — Live Pure Gold Rate | GoldRateToday",
     description:
       "Live 24K gold price per ounce, gram and tola. Pure (99.9%) gold rates updated every minute with chart.",
     keywords: ["24k gold price", "24 karat gold price", "pure gold price", "24k gold rate today"],
@@ -244,7 +244,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "22k-gold-price",
-    title: "22K Gold Price Today — Live 22 Karat Rate | GoldLive",
+    title: "22K Gold Price Today — Live 22 Karat Rate | GoldRateToday",
     description:
       "Live 22K gold price per gram, tola and ounce. 91.6% pure gold rates updated every minute with chart.",
     keywords: ["22k gold price", "22 karat gold price", "22k gold rate", "916 gold price"],
@@ -267,7 +267,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "18k-gold-price",
-    title: "18K Gold Price Today — Live 18 Karat Rate | GoldLive",
+    title: "18K Gold Price Today — Live 18 Karat Rate | GoldRateToday",
     description:
       "Live 18K gold price per gram and ounce. 75% pure gold rates updated every minute with chart.",
     keywords: ["18k gold price", "18 karat gold price", "18k gold rate", "750 gold price"],
@@ -290,7 +290,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "gold-rate-today",
-    title: "Gold Rate Today — Live Gold Rates Per Tola, Gram & Ounce | GoldLive",
+    title: "Gold Rate Today — Live Gold Rates Per Tola, Gram & Ounce | GoldRateToday",
     description:
       "Today's gold rates: live per-tola, per-gram and per-ounce prices with 24K/22K/18K breakup, updated every minute.",
     keywords: ["gold rate today", "today gold rate", "aaj sonay ka rate", "gold ka rate"],
@@ -313,7 +313,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "gold-price-chart",
-    title: "Gold Price Chart — Live XAU/USD Chart with Timeframes | GoldLive",
+    title: "Gold Price Chart — Live XAU/USD Chart with Timeframes | GoldRateToday",
     description:
       "Interactive gold price chart with 1-minute to 1-year timeframes, candlesticks and drawing tools. Live XAU/USD charting.",
     keywords: ["gold price chart", "xauusd chart", "gold chart live", "gold price graph"],
@@ -336,7 +336,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "gold-price-history",
-    title: "Gold Price History — Historical Gold Prices & All-Time Highs | GoldLive",
+    title: "Gold Price History — Historical Gold Prices & All-Time Highs | GoldRateToday",
     description:
       "Explore gold price history: all-time highs, 1-year and 5-year performance, and the events that moved gold, with a live chart.",
     keywords: ["gold price history", "historical gold prices", "gold all time high", "gold price 5 years ago"],
@@ -359,7 +359,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "gold-silver-ratio",
-    title: "Gold Silver Ratio — Live XAU/XAG Ratio Chart | GoldLive",
+    title: "Gold Silver Ratio — Live XAU/XAG Ratio Chart | GoldRateToday",
     description:
       "Live gold-silver ratio: how many ounces of silver buy one ounce of gold. Real-time ratio chart and what it signals.",
     keywords: ["gold silver ratio", "silver gold ratio", "xau xag ratio", "gold to silver ratio"],
@@ -385,7 +385,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "gold-price-calculator",
-    title: "Gold Price Calculator — Value Your Gold by Weight & Karat | GoldLive",
+    title: "Gold Price Calculator — Value Your Gold by Weight & Karat | GoldRateToday",
     description:
       "Free gold price calculator: enter weight and karat to get live melt value from the current spot price. Grams, tolas, ounces supported.",
     keywords: ["gold price calculator", "gold value calculator", "gold melt value calculator", "calculate gold price"],
@@ -408,7 +408,7 @@ export const GOLD_PAGES: RegistryPage[] = [
   },
   {
     slug: "shanghai-gold-price",
-    title: "Shanghai Gold Price — Live SGE Gold Benchmark | GoldLive",
+    title: "Shanghai Gold Price — Live SGE Gold Benchmark | GoldRateToday",
     description:
       "Shanghai Gold Exchange benchmark price and how it compares to London/New York spot. Live gold chart and Asian market context.",
     keywords: ["shanghai gold price", "sge gold price", "shanghai gold benchmark", "china gold price"],
