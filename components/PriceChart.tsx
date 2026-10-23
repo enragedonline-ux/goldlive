@@ -29,24 +29,18 @@ export default function PriceChart({ asset = "gold" }: { asset?: string }) {
     return () => mo.disconnect();
   }, []);
 
-  // Lazy-load: only init TradingView when chart is actually visible
+  // Lazy-load: only init TradingView when chart scrolls into view
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
     const io = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
-          // Wait for browser idle so it never blocks initial render
-          const init = () => setVisible(true);
-          if ("requestIdleCallback" in window) {
-            (window as any).requestIdleCallback(init, { timeout: 4000 });
-          } else {
-            setTimeout(init, 2000);
-          }
+          setVisible(true);
           io.disconnect();
         }
       },
-      { rootMargin: "0px", threshold: 0.1 }
+      { rootMargin: "300px" }
     );
     io.observe(el);
     return () => io.disconnect();
