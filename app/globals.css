@@ -463,3 +463,13 @@ body { top: 0 !important; }
 .chart-skeleton { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; background: var(--surface); border-radius: 12px; color: var(--faint); font-size: 14px; }
 .chart-skeleton .pulse-bar { width: 60%; height: 8px; border-radius: 4px; background: var(--border); animation: skpulse 1.4s ease-in-out infinite; }
 @keyframes skpulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+.aorbit-static { text-align: center; padding: 36px 20px 24px; max-width: 900px; margin: 0 auto; }
+.aorbit-static h2 { font-size: 22px; font-weight: 700; margin: 0 0 20px; color: var(--text); }
+.aorbit-cards { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.aorbit-card { display: flex; flex-direction: column; gap: 4px; align-items: center; padding: 16px 24px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); text-decoration: none; min-width: 140px; transition: border-color .15s, transform .15s; }
+.aorbit-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+.aorbit-card-name { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .8px; }
+.aorbit-card-price { font-size: 20px; font-weight: 700; color: var(--text); font-variant-numeric: tabular-nums; }
+.aorbit-card .pos { color: #1a8f3c; font-size: 13px; font-weight: 600; }
+.aorbit-card .neg { color: #c0392b; font-size: 13px; font-weight: 600; }
+@media (max-width: 560px) { .aorbit-card { min-width: 105px; padding: 12px 16px; } .aorbit-card-price { font-size: 17px; } }

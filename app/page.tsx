@@ -5,11 +5,7 @@ import Footer from "@/components/Footer";
 import Ticker from "@/components/Ticker";
 import PriceChart from "@/components/PriceChart";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
-import dynamic from "next/dynamic";
-const AssetOrbit = dynamic(() => import("@/components/AssetOrbit"), {
-  loading: () => <div style={{ height: 300, textAlign: "center", padding: 40, color: "var(--faint)" }}>Loading…</div>,
-});
-import type { OrbitAsset } from "@/components/AssetOrbit";
+import AssetOrbitStatic, { type OrbitAsset } from "@/components/AssetOrbitStatic";
 import { getPrices } from "@/lib/prices";
 import { fmtPrice, fmtPriceExact, fmtPct } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo";
@@ -185,7 +181,7 @@ export default async function Home() {
 
       <div className="ad"><div>ADVERTISEMENT</div></div>
 
-      <AssetOrbit assets={orbitAssets} />
+      <AssetOrbitStatic assets={orbitAssets} />
 
       <WorldGoldPrices />
 
