@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Ticker from "@/components/Ticker";
 import PriceChart from "@/components/PriceChart";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
+import AssetOrbit, { type OrbitAsset } from "@/components/AssetOrbit";
 import { getPrices } from "@/lib/prices";
 import { fmtPrice, fmtPriceExact, fmtPct } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo";
@@ -51,6 +52,15 @@ export default async function Home() {
   const perGram = goldPrice ? goldPrice / 31.1035 : 0;
   const perTola = perGram * 11.6638;
   const perKilo = perGram * 1000;
+
+  const byId = (id: string) => assets.find((a) => a.id === id);
+  const orbitAssets: OrbitAsset[] = [
+    { id: "gold", name: "Gold", price: byId("gold")?.price ?? null, change24h: byId("gold")?.change24h ?? null, href: "/gold-price-today", icon: "gold" },
+    { id: "silver", name: "Silver", price: byId("silver")?.price ?? null, change24h: byId("silver")?.change24h ?? null, href: "/silver-price-today", icon: "silver" },
+    { id: "bitcoin", name: "Bitcoin", price: byId("bitcoin")?.price ?? null, change24h: byId("bitcoin")?.change24h ?? null, href: "/bitcoin-price", icon: "bitcoin" },
+    { id: "ethereum", name: "Ethereum", price: byId("ethereum")?.price ?? null, change24h: byId("ethereum")?.change24h ?? null, href: "/ethereum-price", icon: "ethereum" },
+    { id: "spot", name: "Gold Spot", price: byId("gold")?.price ?? null, change24h: byId("gold")?.change24h ?? null, href: "/spot-gold-price", icon: "spot" },
+  ];
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -165,6 +175,8 @@ export default async function Home() {
       </section>
 
       <div className="ad"><div>ADVERTISEMENT</div></div>
+
+      <AssetOrbit assets={orbitAssets} />
 
       <WorldGoldPrices />
 
