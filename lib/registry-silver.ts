@@ -51,9 +51,9 @@ export const SILVER_PAGES: RegistryPage[] = [
       },
     ],
     related: [
-      { href: "/gold-price-today", label: "Gold price today" },
-      { href: "/bitcoin-price", label: "Bitcoin price" },
-      { href: "/ethereum-price", label: "Ethereum price" },
+      { href: "/spot-silver-price", label: "Spot silver price" },
+      { href: "/silver-price-per-ounce", label: "Silver price per ounce" },
+      { href: "/silver-price-chart", label: "Silver price chart" },
     ],
     crumbs: crumbsHome,
     showWorldGold: true,
