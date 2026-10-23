@@ -490,3 +490,6 @@ body { top: 0 !important; }
 @media (max-width: 560px) { .nf-card { padding: 32px 24px; } .nf-card h1 { font-size: 26px; } }
 .btn-text { display: inline-block; color: var(--gold); font-weight: 700; font-size: 16px; text-decoration: none; padding: 14px 8px; margin-left: 12px; }
 .btn-text:hover { text-decoration: underline; }
+.blog-fig { margin: 28px auto; max-width: 720px; text-align: center; }
+.blog-fig img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); }
+.blog-fig figcaption { margin-top: 10px; font-size: 13px; color: var(--muted); font-style: italic; }

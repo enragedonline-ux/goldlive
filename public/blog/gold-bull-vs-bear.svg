@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">What Could Push Gold to $5,000?</text>
+  <!-- Bull column -->
+  <rect x="40" y="80" width="340" height="360" fill="#e8f5e9" rx="12"/>
+  <text x="210" y="115" text-anchor="middle" font-size="20" font-weight="700" fill="#1a8f3c">🟢 BULL CASE</text>
+  <text x="60" y="155" font-size="15" fill="#1a1a1a">• Central banks buying 1,000+ tonnes/year</text>
+  <text x="60" y="190" font-size="15" fill="#1a1a1a">• Fed rate cuts weakening the dollar</text>
+  <text x="60" y="225" font-size="15" fill="#1a1a1a">• Geopolitical tensions driving safe-haven</text>
+  <text x="60" y="260" font-size="15" fill="#1a1a1a">  demand</text>
+  <text x="60" y="295" font-size="15" fill="#1a1a1a">• ETF inflows at record highs</text>
+  <text x="60" y="330" font-size="15" fill="#1a1a1a">• Inflation hedge demand rising</text>
+  <text x="60" y="365" font-size="15" fill="#1a1a1a">• De-dollarization by BRICS nations</text>
+  <!-- Bear column -->
+  <rect x="420" y="80" width="340" height="360" fill="#fdecea" rx="12"/>
+  <text x="590" y="115" text-anchor="middle" font-size="20" font-weight="700" fill="#c0392b">🔴 BEAR CASE</text>
+  <text x="440" y="155" font-size="15" fill="#1a1a1a">• Fed pauses or reverses rate cuts</text>
+  <text x="440" y="190" font-size="15" fill="#1a1a1a">• Strong dollar rally</text>
+  <text x="440" y="225" font-size="15" fill="#1a1a1a">• Geopolitical tensions ease</text>
+  <text x="440" y="260" font-size="15" fill="#1a1a1a">• Profit-taking after record run</text>
+  <text x="440" y="295" font-size="15" fill="#1a1a1a">• Rising real yields (TIPS)</text>
+  <text x="440" y="330" font-size="15" fill="#1a1a1a">• Crypto rotation draws risk capital</text>
+  <text x="400" y="465" text-anchor="middle" font-size="12" fill="#aaa">Source: GoldRateToday analysis — not financial advice</text>
+</svg>

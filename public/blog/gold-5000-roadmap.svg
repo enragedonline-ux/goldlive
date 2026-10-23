@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="450" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">Road to $5,000: Gold Price Milestones</text>
+  <text x="400" y="70" text-anchor="middle" font-size="14" fill="#888">From $4,000 to the next psychological barrier</text>
+  <!-- Timeline line -->
+  <line x1="80" y1="230" x2="720" y2="230" stroke="#B8860B" stroke-width="3"/>
+  <!-- Milestone 1 -->
+  <circle cx="140" cy="230" r="10" fill="#B8860B"/>
+  <text x="140" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">$4,000</text>
+  <text x="140" y="270" text-anchor="middle" font-size="13" fill="#666">Late 2025</text>
+  <text x="140" y="288" text-anchor="middle" font-size="13" fill="#666">First breach</text>
+  <!-- Milestone 2 -->
+  <circle cx="310" cy="230" r="10" fill="#B8860B"/>
+  <text x="310" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">$4,300</text>
+  <text x="310" y="270" text-anchor="middle" font-size="13" fill="#666">Early 2026</text>
+  <text x="310" y="288" text-anchor="middle" font-size="13" fill="#666">Central bank bid</text>
+  <!-- Milestone 3 -->
+  <circle cx="480" cy="230" r="10" fill="#B8860B"/>
+  <text x="480" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">$4,600</text>
+  <text x="480" y="270" text-anchor="middle" font-size="13" fill="#666">Mid 2026</text>
+  <text x="480" y="288" text-anchor="middle" font-size="13" fill="#666">Rate cut rally</text>
+  <!-- Milestone 4 -->
+  <circle cx="660" cy="230" r="14" fill="none" stroke="#B8860B" stroke-width="3"/>
+  <circle cx="660" cy="230" r="6" fill="#B8860B"/>
+  <text x="660" y="195" text-anchor="middle" font-size="24" font-weight="700" fill="#B8860B">$5,000?</text>
+  <text x="660" y="270" text-anchor="middle" font-size="13" fill="#666">Late 2026</text>
+  <text x="660" y="288" text-anchor="middle" font-size="13" fill="#666">Target zone</text>
+  <!-- Growth arrow -->
+  <text x="400" y="350" text-anchor="middle" font-size="15" fill="#1a8f3c" font-weight="600">▲ +25% from $4,000</text>
+  <text x="400" y="375" text-anchor="middle" font-size="13" fill="#888">Source: GoldRateToday analysis, Oct 2026</text>
+  <text x="400" y="410" text-anchor="middle" font-size="12" fill="#aaa">Illustrative projection — not financial advice</text>
+</svg>
