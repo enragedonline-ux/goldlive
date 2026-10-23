@@ -2,9 +2,9 @@ import { SILVER_COUNTRIES } from "@/lib/countries";
 
 export default function WorldSilverPrices() {
   return (
-    <section className="world-gold">
+    <section className="world-gold" style={{ marginTop: 16 }}>
       <div className="world-gold-inner">
-        <h3>WORLD SILVER PRICES</h3>
+        <h3>SILVER PRICE BY COUNTRY</h3>
         <div className="world-gold-grid">
           {SILVER_COUNTRIES.map((c) => (
             <a key={c.slug} href={`/silver-price-in-${c.slug}/`}>

@@ -6,6 +6,7 @@ import RelatedMarkets from "@/components/RelatedMarkets";
 import Breadcrumbs, { type Crumb } from "@/components/Breadcrumbs";
 import Faq, { FaqJsonLd, type FaqItem } from "@/components/Faq";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
+import WorldSilverPrices from "@/components/WorldSilverPrices";
 import { getPrices, type AssetPrice } from "@/lib/prices";
 import { fmtPriceExact, fmtPct } from "@/lib/format";
 
@@ -46,6 +47,8 @@ export interface PricePageConfig {
   crumbs: Crumb[];
   /** show world gold prices section (default true for gold pages) */
   showWorldGold?: boolean;
+  /** show silver-by-country flags section after related markets (silver pages) */
+  showSilverCountries?: boolean;
   /** extra H2 content sections rendered between intro and FAQ */
   sections?: ContentSection[];
   /** infographic figure rendered after the conversions panel */
@@ -119,6 +122,8 @@ export default async function PricePage({ config }: { config: PricePageConfig })
         {config.afterChart}
 
         <RelatedMarkets asset={config.asset} related={config.related} />
+
+        {config.showSilverCountries === true && <WorldSilverPrices />}
 
         {rows.length > 0 && (
           <div className="panel" style={{ marginTop: 22 }}>
