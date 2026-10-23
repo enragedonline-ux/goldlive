@@ -21,7 +21,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-price-today",
     title: "Silver Price Today | GoldRateToday",
     description:
-      "Live XAG/USD rate per troy ounce with real-time chart, per-gram and per-kilo conversions, gold-silver ratio and 24h change — updated every minute.",
+      "Live XAG/USD rate per troy ounce with real-time chart, per-gram and per-kilo conversions, gold-silver...",
     keywords: ["silver price today", "live silver price", "xag usd", "silver rate today", "silver price per gram"],
     h1: "Silver Price Today",
     asset: "silver",
@@ -63,7 +63,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "live-silver-price",
     title: "Live Silver Price | GoldRateToday",
     description:
-      "Stream the live silver price in real time — XAG/USD spot per troy ounce with the 24h change, an interactive chart and per-gram, kilo & tola conversions.",
+      "Stream the live silver price in real time — XAG/USD spot per troy ounce with the 24h change, an...",
     keywords: ["live silver price", "silver price live", "xag usd live", "silver spot live", "silver price now"],
     h1: "Live Silver Price",
     asset: "silver",
@@ -114,7 +114,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "spot-silver-price",
     title: "Spot Silver Price | Live XAG/USD per Ounce | GoldRateToday",
     description:
-      "The silver spot price, explained: live XAG/USD per troy ounce, how spot differs from futures and retail prices, plus per-gram, kilo and tola conversions.",
+      "The silver spot price, explained: live XAG/USD per troy ounce, how spot differs from futures and retail...",
     keywords: ["spot silver price", "silver spot", "xag usd spot", "silver spot price today", "what is silver spot"],
     h1: "Spot Silver Price",
     asset: "silver",
@@ -161,7 +161,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-price-per-ounce",
     title: "Silver Price per Ounce | Live XAG/USD Rate | GoldRateToday",
     description:
-      "Live silver price per troy ounce (XAG/USD) with an interactive chart, 24h change, and conversions to gram, kilo, tola and pound — updated every minute.",
+      "Live silver price per troy ounce (XAG/USD) with an interactive chart, 24h change, and conversions to gram,...",
     keywords: ["silver price per ounce", "silver per ounce", "ounce of silver price", "xag usd per ounce", "1 oz silver price"],
     h1: "Silver Price per Ounce",
     asset: "silver",
@@ -208,7 +208,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-price-per-gram",
     title: "Silver Price per Gram | Live XAG/USD Rate | GoldRateToday",
     description:
-      "Live silver price per gram in USD, converted in real time from the XAG/USD spot — plus per-ounce, per-kilo and per-tola equivalents, updated every minute.",
+      "Live silver price per gram in USD, converted in real time from the XAG/USD spot — plus per-ounce, per-kilo...",
     keywords: ["silver price per gram", "silver per gram", "gram of silver price", "silver gram rate", "1 gram silver price"],
     h1: "Silver Price per Gram",
     asset: "silver",
@@ -255,7 +255,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-price-per-kilo",
     title: "Silver Price per Kilo | Live XAG/USD Rate | GoldRateToday",
     description:
-      "Live silver price per kilogram — 1,000 g from the XAG/USD spot — with per-gram, per-ounce and per-tola equivalents, refreshed every minute for buyers.",
+      "Live silver price per kilogram — 1,000 g from the XAG/USD spot — with per-gram, per-ounce and per-tola...",
     keywords: ["silver price per kilo", "silver per kg", "1 kg silver price", "kilo of silver price", "silver kilogram price"],
     h1: "Silver Price per Kilo",
     asset: "silver",
@@ -302,7 +302,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-price-per-tola",
     title: "Silver Price per Tola | Live XAG Rate Today | GoldRateToday",
     description:
-      "Live silver price per tola (11.66 g) — the unit used across India and Pakistan — converted live from the XAG/USD spot with gram and ounce equivalents.",
+      "Live silver price per tola (11.66 g) — the unit used across India and Pakistan — converted live from the...",
     keywords: ["silver price per tola", "silver per tola", "chandi rate today", "1 tola silver price", "silver tola rate"],
     h1: "Silver Price per Tola",
     asset: "silver",
@@ -349,7 +349,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-rate-today",
     title: "Silver Rate Today | GoldRateToday",
     description:
-      "Today's silver rate per gram, tola, ounce and kilo — converted live from the XAG/USD spot. The figures Indian and Pakistani buyers check before buying.",
+      "Today's silver rate per gram, tola, ounce and kilo — converted live from the XAG/USD spot. The figures...",
     keywords: ["silver rate today", "today silver rate", "chandi ka rate", "silver rate per gram", "aaj chandi ka bhav"],
     h1: "Silver Rate Today",
     asset: "silver",
@@ -396,7 +396,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-price-chart",
     title: "Silver Price Chart | GoldRateToday",
     description:
-      "Interactive silver price chart with live XAG/USD candlesticks, drawing tools and full timeframes — from minutes to years — plus 24h change and key stats.",
+      "Interactive silver price chart with live XAG/USD candlesticks, drawing tools and full timeframes — from...",
     keywords: ["silver price chart", "xag usd chart", "silver chart live", "silver price graph", "silver candlestick chart"],
     h1: "Silver Price Chart",
     asset: "silver",
@@ -443,7 +443,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-price-history",
     title: "Silver Price History | GoldRateToday",
     description:
-      "Silver's full price history — from the 1980 Hunt-brothers spike to the 2011 and 2020 highs — with live spot context, charts and long-term trend analysis.",
+      "Silver's full price history — from the 1980 Hunt-brothers spike to the 2011 and 2020 highs — with live...",
     keywords: ["silver price history", "historical silver prices", "silver all time high", "silver price 1980", "silver price 2011"],
     h1: "Silver Price History",
     asset: "silver",
@@ -490,7 +490,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-price-calculator",
     title: "Silver Price Calculator | GoldRateToday",
     description:
-      "Calculate any silver weight's live value — ounces, grams, kilos, tolas or pounds — from the real-time XAG/USD spot. Free converter, updated every minute.",
+      "Calculate any silver weight's live value — ounces, grams, kilos, tolas or pounds — from the real-time...",
     keywords: ["silver price calculator", "silver value calculator", "silver converter", "calculate silver worth", "silver melt value calculator"],
     h1: "Silver Price Calculator",
     asset: "silver",
@@ -537,7 +537,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "silver-price-per-pound",
     title: "Silver Price per Pound | Live XAG/USD Rate | GoldRateToday",
     description:
-      "Live silver price per avoirdupois pound (453.6 g), converted from the XAG/USD spot, with ounce, gram and kilo equivalents — updated every minute for US buyers.",
+      "Live silver price per avoirdupois pound (453.6 g), converted from the XAG/USD spot, with ounce, gram and...",
     keywords: ["silver price per pound", "silver per lb", "pound of silver price", "silver lb price", "1 lb silver worth"],
     h1: "Silver Price per Pound",
     asset: "silver",
@@ -584,7 +584,7 @@ export const SILVER_PAGES: RegistryPage[] = [
     slug: "comex-silver-price",
     title: "COMEX Silver Price | Live Silver Futures SI | GoldRateToday",
     description:
-      "COMEX silver futures (SI) explained — how the front-month contract sets the global benchmark, contango vs backwardation, and live spot context every minute.",
+      "COMEX silver futures (SI) explained — how the front-month contract sets the global benchmark, contango vs...",
     keywords: ["comex silver price", "silver futures price", "si futures", "comex silver live", "silver futures chart"],
     h1: "COMEX Silver Price",
     asset: "silver",
