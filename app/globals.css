@@ -456,3 +456,7 @@ body { top: 0 !important; }
   .aorbit-icon.focus svg { width: 30px; height: 30px; }
   .aorbit-price { font-size: 22px; }
 }
+.copy { text-align: center; font-size: 12px; color: var(--faint); margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
+.chart-credit { font-size: 12px; color: var(--faint); text-align: right; margin: 6px 0 0; }
+.chart-credit a { color: var(--muted); text-decoration: none; }
+.chart-credit a:hover { color: var(--gold); text-decoration: underline; }

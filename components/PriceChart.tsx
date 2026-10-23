@@ -64,10 +64,17 @@ export default function PriceChart({ asset = "gold" }: { asset?: string }) {
   }, [theme, asset]);
 
   return (
-    <div
-      ref={containerRef}
-      className="tradingview-widget-container"
-      style={{ height: "640px", width: "100%" }}
-    />
+    <>
+      <div
+        ref={containerRef}
+        className="tradingview-widget-container"
+        style={{ height: "640px", width: "100%" }}
+      />
+      <p className="chart-credit">
+        Interactive chart by <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView</a>
+        {` · `}
+        <a href="https://www.binance.com/en/markets" target="_blank" rel="noopener">Binance Markets</a>
+      </p>
+    </>
   );
 }

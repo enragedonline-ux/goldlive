@@ -1,7 +1,7 @@
 import StaticPage from "@/components/StaticPage";
 
 export const metadata = {
-  title: "Contact GoldRateToday",
+  title: "Contact Us | GoldRateToday",
   description: "Questions, corrections or feedback about GoldRateToday's live price pages.",
   alternates: { canonical: "https://goldratetoday.online/contact/" },
 };

@@ -40,6 +40,7 @@ export default function Footer() {
         buy/sell prices. Past performance does not guarantee future results. Nothing on this page
         constitutes investment advice.
       </div>
+      <div className="copy">© 2026 GoldRateToday. All rights reserved.</div>
     </footer>
   );
 }

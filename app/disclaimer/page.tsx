@@ -1,7 +1,7 @@
 import StaticPage from "@/components/StaticPage";
 
 export const metadata = {
-  title: "Disclaimer | GoldRateToday",
+  title: "Disclaimer — Price Data Notice | GoldRateToday",
   description: "GoldRateToday prices are indicative benchmarks, not financial advice.",
   alternates: { canonical: "https://goldratetoday.online/disclaimer/" },
 };
