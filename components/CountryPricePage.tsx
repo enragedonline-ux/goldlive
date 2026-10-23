@@ -149,7 +149,7 @@ export default async function CountryPricePage({
         <Faq items={content.faqs} />
       </main>
 
-      {asset === "gold" && <WorldGoldPrices />}
+      <WorldGoldPrices />
       <Footer />
     </>
   );
