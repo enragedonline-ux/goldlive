@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">What to Watch Next for Gold</text>
+  <!-- Timeline -->
+  <rect x="60" y="80" width="680" height="64" fill="#ffffff" stroke="#d4af37" stroke-width="2" rx="12"/>
+  <text x="85" y="105" font-size="16" font-weight="700" fill="#1a1a1a">Oct 27-28</text>
+  <text x="85" y="130" font-size="14" fill="#555">Fed meeting, decision Wednesday + Warsh press conference</text>
+  <rect x="60" y="160" width="680" height="64" fill="#ffffff" stroke="#d4af37" stroke-width="2" rx="12"/>
+  <text x="85" y="185" font-size="16" font-weight="700" fill="#1a1a1a">Thursday</text>
+  <text x="85" y="210" font-size="14" fill="#555">US PCE inflation data — the Fed's preferred gauge</text>
+  <rect x="60" y="240" width="680" height="64" fill="#ffffff" stroke="#d4af37" stroke-width="2" rx="12"/>
+  <text x="85" y="265" font-size="16" font-weight="700" fill="#1a1a1a">Oct 30</text>
+  <text x="85" y="290" font-size="14" fill="#555">Canada tariff changes take effect</text>
+  <rect x="60" y="320" width="680" height="64" fill="#ffffff" stroke="#d4af37" stroke-width="2" rx="12"/>
+  <text x="85" y="345" font-size="16" font-weight="700" fill="#1a1a1a">Nov 3</text>
+  <text x="85" y="370" font-size="14" fill="#555">US midterm elections</text>
+  <rect x="60" y="400" width="680" height="40" fill="#1a1a1a" rx="12"/>
+  <text x="400" y="427" text-anchor="middle" font-size="15" font-weight="700" fill="#d4af37">After Nov 10: trilateral Ukraine talks continue</text>
+  <text x="400" y="470" text-anchor="middle" font-size="12" fill="#aaa">GoldRateToday analysis — illustrative, not financial advice</text>
+</svg>

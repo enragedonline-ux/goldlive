@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">The Safe-Haven Paradox</text>
+  <!-- Safe-haven column -->
+  <rect x="40" y="80" width="340" height="300" fill="#e8f5e9" rx="12"/>
+  <text x="210" y="115" text-anchor="middle" font-size="19" font-weight="700" fill="#1a8f3c">SAFE-HAVEN BID (UP)</text>
+  <text x="60" y="155" font-size="15" fill="#1a1a1a">• Kyiv strike Oct 22</text>
+  <text x="60" y="190" font-size="15" fill="#1a1a1a">• 157 engagements Oct 25</text>
+  <text x="60" y="225" font-size="15" fill="#1a1a1a">• US-Iran conflict</text>
+  <text x="60" y="260" font-size="15" fill="#1a1a1a">• Houthi attacks on Saudi</text>
+  <text x="60" y="295" font-size="15" fill="#1a1a1a">  targets</text>
+  <text x="60" y="330" font-size="15" fill="#1a1a1a">• War normally lifts gold</text>
+  <!-- Rate fears column -->
+  <rect x="420" y="80" width="340" height="300" fill="#fdecea" rx="12"/>
+  <text x="590" y="115" text-anchor="middle" font-size="19" font-weight="700" fill="#c0392b">RATE-HIKE FEARS (DOWN)</text>
+  <text x="440" y="155" font-size="15" fill="#1a1a1a">• Oil spike feeds inflation</text>
+  <text x="440" y="190" font-size="15" fill="#1a1a1a">• Fed hike odds 75-80%</text>
+  <text x="440" y="225" font-size="15" fill="#1a1a1a">  by December</text>
+  <text x="440" y="260" font-size="15" fill="#1a1a1a">• Higher yields hurt gold</text>
+  <text x="440" y="295" font-size="15" fill="#1a1a1a">• Stronger dollar hurts gold</text>
+  <!-- Verdict bar -->
+  <rect x="40" y="405" width="720" height="50" fill="#1a1a1a" rx="12"/>
+  <text x="400" y="437" text-anchor="middle" font-size="19" font-weight="700" fill="#d4af37">This week: rate fears won — gold fell ~4%</text>
+  <text x="400" y="470" text-anchor="middle" font-size="12" fill="#aaa">GoldRateToday analysis — illustrative, not financial advice</text>
+</svg>
