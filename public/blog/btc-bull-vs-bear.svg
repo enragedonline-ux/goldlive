@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">Bull vs Bear: What Moves Bitcoin in 2027</text>
+  <!-- Bull box -->
+  <rect x="40" y="80" width="350" height="300" fill="#e8f5e9" rx="12"/>
+  <text x="215" y="115" text-anchor="middle" font-size="18" font-weight="700" fill="#2e7d32">BULL CASE</text>
+  <text x="65" y="155" font-size="15" fill="#1a1a1a">• Fixed supply, halving schedule</text>
+  <text x="65" y="190" font-size="15" fill="#1a1a1a">• Spot ETF access for funds</text>
+  <text x="65" y="225" font-size="15" fill="#1a1a1a">• Corporate treasury buying</text>
+  <text x="65" y="260" font-size="15" fill="#1a1a1a">• Easier money, weaker dollar</text>
+  <text x="65" y="295" font-size="15" fill="#1a1a1a">• Violent upside once liquidity turns</text>
+  <!-- Bear box -->
+  <rect x="410" y="80" width="350" height="300" fill="#fce4ec" rx="12"/>
+  <text x="585" y="115" text-anchor="middle" font-size="18" font-weight="700" fill="#c62828">BEAR CASE</text>
+  <text x="435" y="155" font-size="15" fill="#1a1a1a">• Hawkish surprise, sticky inflation</text>
+  <text x="435" y="190" font-size="15" fill="#1a1a1a">• Regulation tightening access</text>
+  <text x="435" y="225" font-size="15" fill="#1a1a1a">• Underwater holders selling rallies</text>
+  <text x="435" y="260" font-size="15" fill="#1a1a1a">• Leverage amplifying both directions</text>
+  <text x="435" y="295" font-size="15" fill="#1a1a1a">• Capital rotating back to bonds, cash</text>
+  <text x="400" y="465" text-anchor="middle" font-size="12" fill="#aaa">GoldRateToday analysis — illustrative, not financial advice</text>
+</svg>

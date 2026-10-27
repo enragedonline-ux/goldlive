@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">Bitcoin's Halving Cycle</text>
+  <!-- Fixed supply box -->
+  <rect x="40" y="80" width="220" height="240" fill="#fff3e0" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#e65100">FIXED SUPPLY</text>
+  <text x="60" y="150" font-size="14" fill="#1a1a1a">New issuance is</text>
+  <text x="60" y="175" font-size="14" fill="#1a1a1a">fixed by code —</text>
+  <text x="60" y="200" font-size="14" fill="#1a1a1a">nobody can argue</text>
+  <text x="60" y="225" font-size="14" fill="#1a1a1a">about the schedule</text>
+  <!-- Halving box -->
+  <rect x="290" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">HALVES ~4 YEARS</text>
+  <text x="310" y="150" font-size="14" fill="#1a1a1a">New supply shrinks</text>
+  <text x="310" y="175" font-size="14" fill="#1a1a1a">at each halving,</text>
+  <text x="310" y="200" font-size="14" fill="#1a1a1a">roughly every</text>
+  <text x="310" y="225" font-size="14" fill="#1a1a1a">four years</text>
+  <!-- Post-halving box -->
+  <rect x="540" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">POST-HALVING</text>
+  <text x="560" y="150" font-size="14" fill="#1a1a1a">Post-halving years</text>
+  <text x="560" y="175" font-size="14" fill="#1a1a1a">have historically</text>
+  <text x="560" y="200" font-size="14" fill="#1a1a1a">been strong</text>
+  <text x="560" y="225" font-size="14" fill="#1a1a1a">for price</text>
+  <!-- Result bar -->
+  <rect x="40" y="350" width="720" height="60" fill="#1a1a1a" rx="12"/>
+  <text x="400" y="388" text-anchor="middle" font-size="20" font-weight="700" fill="#d4af37">Scarcity alone doesn't guarantee a rally</text>
+  <text x="400" y="465" text-anchor="middle" font-size="12" fill="#aaa">GoldRateToday analysis — illustrative, not financial advice</text>
+</svg>
