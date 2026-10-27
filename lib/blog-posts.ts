@@ -19,6 +19,243 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "gold-price-usa-fed-dollar-outlook",
+    title: "Gold Price in the USA: Fed, Dollar & Outlook | GoldRateToday",
+    h1: "Gold Price in the USA: How the Fed, the Dollar and the 2026 Outlook Move It",
+    excerpt:
+      "Gold is near $4,000 as the Fed meets Oct 27–28. We explain how the Fed, the dollar and US data move the US gold price. Read more.",
+    tag: "US Gold",
+    date: "Oct 27, 2026",
+    dateISO: "2026-10-27",
+    readingMins: 9,
+    sections: [
+      {
+        heading: "Gold in the USA right now",
+        paragraphs: [
+          "Spot gold is trading near $4,005 an ounce on Tuesday, October 27, after closing Friday at $3,995.81 — the first close below $4,000 since mid-July — and touching $3,975.23 during Friday's session. If you check the <a href=\"/gold-price-today/\">live gold price</a> on any given morning, the mood shift is plain: after months of records, sellers have the upper hand, and the US market is where that story is priced.",
+          "For American readers the number that matters most is the dollar price, because gold is priced in dollars everywhere. The <a href=\"/gold-price-in-usa/\">gold price in the USA</a> is therefore the world price translated into the currency Americans actually spend — around $129 per gram at current spot — before any dealer premium, making charge or local sales treatment. When spot moves, the US price moves with it, tick for tick.",
+          "This post is about the machinery behind that number: the Federal Reserve's decision cycle, the dollar, and the data calendar that moves both. None of it is a forecast you should trade on — it is a map of the forces, so the next headline makes sense when it lands.",
+        ],
+      },
+      {
+        heading: "The Fed week: decision Wednesday, PCE Thursday",
+        paragraphs: [
+          "The Federal Open Market Committee meets October 27–28, with its decision due Wednesday, October 28 at 2:00 PM Eastern, followed by Chair Kevin Warsh's press conference. There is no new dot plot at this meeting, so the statement's language — and what Warsh says about December — will carry the whole message. The market's base case is a hold, with the policy rate expected to stay at 3.75%.",
+          "What makes this week unusual is what lands the next morning. Thursday, October 29 brings the advance estimate of third-quarter GDP together with September PCE inflation, the Fed's preferred inflation gauge, at 8:30 AM Eastern. A soft PCE reading would loosen the case for another hike; a hot one would tighten it — and gold, which pays no yield, feels that repricing within minutes. Traders tracking the odds use <a href=\"https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html\">CME FedWatch</a>, which turns futures prices into hike probabilities.",
+          "Right now those probabilities point to a December hike priced above 70%, even as an October move looks unlikely. That combination — hold now, hike later — is exactly why gold is struggling: every week the market keeps a hike on the table is another week that holding non-yielding metal costs more than holding bonds. The <a href=\"https://www.federalreserve.gov/\">Federal Reserve</a> itself publishes the meeting calendar and statements, and reading the primary source beats any headline summary.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/usa-fed-dollar-gold.svg\" alt=\"Fed week for US gold: FOMC decision, PCE data and December hike odds\" loading=\"lazy\"/><figcaption>Three dates decide whether gold holds $4,000 or slips lower — illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "The dollar: gold's mirror",
+        paragraphs: [
+          "Gold's oldest rival is the dollar, and the mechanism is mechanical. Because gold is priced in dollars, a stronger dollar makes gold more expensive for buyers in other currencies, which trims demand at the margin; a weaker dollar does the reverse. This week the dollar sits near a two-week high, which is one more weight on the metal alongside the rate story.",
+          "The second rival is real yields — the return on inflation-protected Treasuries. When real yields rise, the opportunity cost of holding gold rises with them, because bonds pay you to wait and gold does not. The 10-year Treasury yield near 5.3% is the backdrop to every gold discussion this autumn: it is hard for a non-yielding asset to rally while safe government paper pays that much. Our guide to <a href=\"/blog/what-affects-gold-price/\">what affects the gold price</a> walks through both forces in depth.",
+          "The two forces often move together, but not always, and the exceptions matter. A falling dollar with rising real yields can leave gold roughly flat, while a rising dollar with falling real yields can do the same. Watching only one of them is how investors get surprised; watching both is how they stay oriented.",
+        ],
+      },
+      {
+        heading: "Why US prices differ from spot",
+        paragraphs: [
+          "If spot is near $4,005 an ounce, why does an American buyer pay more? The gap is the premium: minting, distribution, insurance and the dealer's margin, layered on top of the wholesale price. Coins and small bars carry larger percentage premiums than large bars, because the fixed costs are spread over less metal.",
+          "Jewelry adds another layer. Most US jewelry is 14K gold, meaning 58.5% purity, and the legal minimum karat sold as gold in the United States is 10K, at 41.7%. A 14K chain's price therefore reflects not just its gold content but its craftsmanship — which is why comparing a jewelry quote to the spot price, gram for gram, will always look confusing until you separate metal value from making value.",
+          "Futures add a third reference. COMEX gold futures in New York trade alongside spot and often lead it during fast news, because paper markets react in milliseconds while physical dealers take minutes to adjust quotes. When futures and spot disagree, the gap usually closes quickly — but in the minutes between, headlines can look contradictory.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/usa-spot-vs-retail.svg\" alt=\"Spot price versus US retail: premium, jewelry karats and the legal minimum\" loading=\"lazy\"/><figcaption>Compare any US quote against live spot before judging whether it is fair — illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "What to watch into the end of 2026",
+        paragraphs: [
+          "After this week, the calendar stays busy. November 6 brings the October jobs report, November 10 brings October CPI — the last inflation print before the December meeting — and December 8–9 brings the FOMC meeting with a new dot plot and press conference. Each release reprices the same question: hike, hold, or done.",
+          "The scenarios are straightforward to state. A Fed that leaves December open plus a soft PCE print would ease the pressure on gold and could carry it back toward $4,100; a December signal plus a hot PCE would keep the pressure on and open the lower levels technicians are watching, near $3,890. Neither path is a prediction — they are the two branches the market is already pricing, and the data will choose between them.",
+          "For readers following the US market, the practical habit is simple: check the <a href=\"/gold-price-chart/\">gold price chart</a> against the data calendar, not against headlines alone. And remember the longer view from our <a href=\"/blog/will-gold-hit-5000-2026/\">$5,000 gold outlook</a> — the metal's big moves come from the same drivers, just on longer timescales. This is not financial advice; it is a framework for reading the next two months without being whipsawed by every print.",
+          "One more habit helps: separate the decision from the reaction. Markets often move sharply in the minutes after a Fed statement and then retrace part of the move once the press conference adds context — so the first print is rarely the final verdict. Waiting for the press conference before judging a decision's meaning is a small discipline that prevents most overreactions.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/usa-what-to-watch.svg\" alt=\"What to watch next: jobs report, CPI and the December FOMC meeting\" loading=\"lazy\"/><figcaption>Each release reprices the same question: hike, hold, or done — illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the gold price in the USA today?",
+        a: "Spot gold is trading near $4,005 an ounce, or about $129 per gram, as of October 27, 2026. The US price page updates every minute during market hours, and retail quotes sit above spot once dealer premiums are added.",
+      },
+      {
+        q: "When is the Fed's next decision?",
+        a: "The FOMC meets October 27–28, 2026, with the decision due Wednesday, October 28 at 2:00 PM Eastern, followed by the Chair's press conference. There is no new dot plot at this meeting.",
+      },
+      {
+        q: "Why does a strong dollar hurt gold?",
+        a: "Gold is priced in dollars, so a stronger dollar makes it more expensive for foreign buyers, trimming demand. A weaker dollar does the reverse, which is why dollar moves and gold moves often mirror each other.",
+      },
+      {
+        q: "Why is the gold I buy priced above spot?",
+        a: "Spot is the wholesale benchmark. Coins and bars add minting, distribution and dealer margin; jewelry adds making charges on top. Comparing a retail quote to spot without stripping those out will always overstate the gap.",
+      },
+      {
+        q: "Will gold recover above $4,100 in 2026?",
+        a: "That depends on the data: a Fed that leaves December open plus soft inflation would help; a December hike signal plus hot inflation would hurt. Treat either path as a scenario, not a forecast, and this is not financial advice.",
+      },
+    ],
+  },
+  {
+    slug: "gold-price-argentina-inflation-peso",
+    title: "Gold Price in Argentina: Peso & Inflation | GoldRateToday",
+    h1: "Gold Price in Argentina: Inflation, the Peso and Why Gold Still Matters",
+    excerpt:
+      "Gold is about 198,000 pesos a gram in Argentina. We explain how the peso, inflation and the dollar set the ARS gold price. Read more.",
+    tag: "Argentina Gold",
+    date: "Oct 27, 2026",
+    dateISO: "2026-10-27",
+    readingMins: 9,
+    sections: [
+      {
+        heading: "Gold in pesos right now",
+        paragraphs: [
+          "Gold in Argentina is trading at about 198,000 pesos per gram for 24K metal, or roughly 6.18 million pesos per troy ounce, up about 0.9% on the day. If you check the <a href=\"/gold-price-in-argentina/\">gold price in Argentina</a>, those are the numbers that greet you — and they look enormous until you remember they are priced in a currency that has lost most of its value against the dollar over the past decade.",
+          "The exchange rate is the key. At roughly 1,540 pesos per dollar, the dollar price of gold — near $4,005 an ounce globally — converts into millions of pesos before anyone has added a local premium. The <a href=\"/gold-price-today/\">live gold price</a> in dollars is therefore only half the Argentine story; the other half is the peso.",
+          "Argentine price boards quote gold by karat as well as by weight: 24K, 22K, 21K and 18K per gram, each lower than the last in proportion to its purity. A buyer comparing two quotes needs both numbers — the karat and the gram — or the comparison is meaningless.",
+        ],
+      },
+      {
+        heading: "The peso is half the price",
+        paragraphs: [
+          "The arithmetic is simple and it explains almost everything about Argentine gold. The peso price equals the dollar spot price multiplied by the exchange rate, divided by 31.1035 grams per ounce. Move either input and the peso price moves: a rising dollar spot lifts it, and a weakening peso lifts it just as surely, even on days when the world price is flat.",
+          "The past year proves the point in both directions. Over five years, gold in pesos more than doubled — but that was mostly the peso weakening, not the metal rising. Over the past year, gold in pesos rose only about 7.9%, because the peso was comparatively steady while the dollar spot price fell. Gold in pesos hedges peso weakness; it does not hedge every bad year, and confusing the two is the most common mistake Argentine savers make.",
+          "The per-gram math is worth knowing for exactly that reason. Divide any ounce quote by 31.1035 and you have the gram figure; multiply a gram figure by the karat's purity fraction and you have the value of lower-karat metal. Our <a href=\"/gold-price-per-gram/\">per-gram gold price</a> page shows the dollar side of that calculation live.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/arg-peso-gold.svg\" alt=\"ARS gold equals spot price times the peso exchange rate\" loading=\"lazy\"/><figcaption>Two dials move the Argentine price: the world spot and the peso — illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "From 25.5% monthly inflation to 1.7%",
+        paragraphs: [
+          "Argentina's inflation story frames the gold story. Monthly inflation hit 25.5% in December 2023, after the new government sharply devalued an overvalued peso — a move the IMF itself attributed as the main driver of that month's surge. By August 2026 the monthly rate had fallen to 1.7%, and September printed 1.9%: disinflation, by any standard, has worked.",
+          "But the annual numbers remind you why gold still matters. The IMF's October outlook puts average annual inflation at 32.5% for 2026, and <a href=\"https://www.bbvaresearch.com/en/publicaciones/argentina-economic-outlook-october-2026/\">BBVA Research</a> expects year-on-year inflation near 29% by end-2026, easing toward 20% in 2027. A saver holding pesos through a year like that still loses roughly a third of their purchasing power — which is why the hedge argument survives even as monthly prints improve.",
+          "That is the honest version of the hedge case. Gold protects against peso devaluation and against the slow erosion of high annual inflation; it does not protect against a year in which the peso is steady and the world price falls, as the past twelve months showed. Our guide to <a href=\"/blog/what-affects-gold-price/\">what affects the gold price</a> explains the global drivers that decide which of those years you get.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/arg-inflation-hedge.svg\" alt=\"Argentina inflation then and now: monthly prints falling, annual rate still high\" loading=\"lazy\"/><figcaption>Lower monthly prints, but annual inflation still erodes peso savings — illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "How Argentines actually hold gold",
+        paragraphs: [
+          "In practice, Argentine gold means grams, not ounces. Jewelry and small bars dominate, quoted per gram by karat, because few savers transact in whole ounces at 6 million pesos apiece. The 21K quote on Argentine boards surprises visitors — it is a regional convention, sitting between 22K and 18K — and it is a reminder to always check purity before comparing prices across countries.",
+          "The central bank's side of the story matters too. The BCRA has been a net buyer of dollars in early October, lifting gross reserves to roughly $49.1 billion, and the official wholesale peso has sat unusually steady near 1,520. Analysts surveyed by the central bank expect the peso to resume faster depreciation into the 2027 pre-electoral period, with year-end expectations near 1,614 to 1,630 per dollar. If that path holds, the peso leg of the gold price rises again.",
+          "Purity is the detail that protects buyers. A 24K piece is 99.9% fine gold; lower karats trade at proportionally lower gram prices, and anything unmarked should be treated with suspicion. Our <a href=\"/blog/gold-karat-purity-guide/\">gold karat and purity guide</a> explains how to read those marks before you pay.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/arg-ars-math.svg\" alt=\"The ARS math: ounce, gram and five-year peso gold figures\" loading=\"lazy\"/><figcaption>Divide any ounce quote by 31.1035 for the per-gram peso figure — illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "What to watch",
+        paragraphs: [
+          "Three things decide the Argentine gold price from here: the world spot price, the peso, and whether disinflation holds. A falling spot with a steady peso pushes ARS gold down; a steady spot with a weakening peso pushes it up; both moving the same way produces the big moves in either direction.",
+          "The growth backdrop is softening — the IMF cut its 2026 growth forecast to 2.1% in October, and private analysts expect less — which keeps pressure on the reform program and, by extension, on the peso. None of that is a reason to buy or sell on its own; it is context for why the exchange-rate leg of the price deserves as much attention as the metal itself.",
+          "For readers tracking Argentina, the habit is simple: check the <a href=\"/gold-price-in-argentina/\">Argentina price page</a> for the live peso quote, and read it against both the dollar spot and the exchange rate. And keep the longer view from our <a href=\"/blog/gold-price-prediction-2027/\">gold price prediction</a> in mind — the drivers are the same, only the currency changes the arithmetic. This is not financial advice.",
+          "It is also worth separating the two questions Argentines ask about gold. The first is whether the metal protects savings, and the answer depends on the peso: when the currency weakens, peso gold rises almost by definition. The second is whether it beats local inflation in any given year, and that answer depends on both the peso and the world price together — which is why a year like the past one, with a steady peso and a falling spot, can disappoint even while the long-run hedge case stays intact. Holding both ideas at once is the difference between using gold as insurance and expecting it to behave like a savings account.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the gold price in Argentina today?",
+        a: "About 198,000 pesos per gram for 24K gold, or roughly 6.18 million pesos per troy ounce, as of October 27, 2026. Lower karats trade proportionally lower per gram.",
+      },
+      {
+        q: "Why is gold so expensive in pesos?",
+        a: "Because the peso price is the dollar spot price multiplied by the exchange rate. At about 1,540 pesos per dollar, even a flat world price converts into millions of pesos per ounce.",
+      },
+      {
+        q: "Does gold beat inflation in Argentina?",
+        a: "It hedges peso devaluation well — ARS gold more than doubled over five years — but not every year: over the past year it rose only about 7.9% while annual inflation ran near 30%, because the peso was steady and spot fell.",
+      },
+      {
+        q: "What karats are quoted in Argentina?",
+        a: "Price boards typically quote 24K, 22K, 21K and 18K per gram. The 21K quote is a regional convention; always confirm purity before comparing prices.",
+      },
+      {
+        q: "Will the peso weaken further?",
+        a: "Analysts surveyed by the central bank expect the peso to resume faster depreciation into 2027, with year-end expectations near 1,614 to 1,630 per dollar — but that is an expectation, not a certainty, and this is not financial advice.",
+      },
+    ],
+  },
+  {
+    slug: "gold-price-dubai-city-of-gold",
+    title: "Gold Price in Dubai: City of Gold Explained | GoldRateToday",
+    h1: "Gold Price in Dubai: Inside the City of Gold",
+    excerpt:
+      "Dubai gold sits close to spot — but VAT and making charges change the till price. We explain the souk, the tax and the hub. Read more.",
+    tag: "Dubai Gold",
+    date: "Oct 27, 2026",
+    dateISO: "2026-10-27",
+    readingMins: 9,
+    sections: [
+      {
+        heading: "Dubai's gold market at a glance",
+        paragraphs: [
+          "Dubai is one of the world's major gold trading centres, and its reputation rests on a simple fact: headline gold prices there sit unusually close to the world spot price. Hundreds of competing shops in the historic Gold Souk keep dealer margins thin, and the tax treatment of bullion removes a cost that other markets add — so the number on the board looks a lot like the number on the global market.",
+          "That closeness is the reason the city draws buyers from across the region and beyond. But it is also widely misunderstood: the price on the board is not the price at the till, and the gap between them depends entirely on what form the gold takes. Bars, coins and jewelry are taxed differently, and confusing them is how visitors overpay.",
+          "This post explains the machinery: how Dubai rates track the global benchmark, how VAT treats bullion differently from jewelry, what tourists can reclaim, and how Dubai compares with its neighbours. The live per-gram rates for the Emirates are on our <a href=\"/gold-price-in-uae/\">gold price in the UAE</a> page.",
+        ],
+      },
+      {
+        heading: "The souk and the spot price",
+        paragraphs: [
+          "Every Dubai gold rate starts from the same place: the London benchmark. The <a href=\"https://www.lbma.org.uk/prices-and-data/about-lbma-daily-auction-prices\">LBMA Gold Price</a> is set in two electronic auctions each London business day, at 10:30 AM and 3:00 PM London time, and administered independently by ICE Benchmark Administration. Dubai dealers price off that benchmark plus a premium — and competition keeps the premium small.",
+          "The souk's structure is what keeps it that way. With so many shops quoting the same metal within walking distance, any dealer charging far above the going premium loses the sale within minutes. That is why Dubai's headline rates track spot so tightly, and why the real differences between shops show up in making charges and service rather than in the metal price itself.",
+          "The benchmark matters beyond Dubai too. Miners, refiners, ETFs and central banks use the LBMA auctions as a reference for valuing holdings and settling contracts, which is why the twice-daily auction price — rather than any single dealer's quote — is the number the whole industry can agree on. Our guide to <a href=\"/blog/how-gold-price-determined/\">how the gold price is determined</a> explains the auction in full.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/dxb-souk-spot.svg\" alt=\"Dubai price equals LBMA spot plus a thin souk premium\" loading=\"lazy\"/><figcaption>The metal costs the same everywhere; Dubai trims the extras — illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "VAT: the two golds",
+        paragraphs: [
+          "The single most important tax fact in Dubai is that there are effectively two golds. Investment-grade gold — bars and coins at 99% purity or higher, traded in qualifying transactions — is zero-rated for VAT under Cabinet Decision 52 of 2017, meaning no VAT applies. Retail jewelry, by contrast, pays the standard 5% VAT.",
+          "The jewelry calculation catches people out because VAT applies to the full invoice, not just the metal. A necklace priced at 10,000 dirhams — 8,500 for gold and 1,500 for making charges — carries 500 dirhams of VAT at the till, because the making charge is part of the taxable amount. Two purchases with the same gold content can therefore carry very different tax bills.",
+          "The boundary between the two categories is purity and form, and it is enforced: a bar that fails the purity test, or a coin marketed as jewelry rather than bullion, can be reclassified into the standard-rated category. If a deal looks too good to be true, the classification is usually the reason.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/dxb-vat-gold.svg\" alt=\"VAT in Dubai: investment gold zero-rated, jewelry at 5 percent, tourist refund\" loading=\"lazy\"/><figcaption>Same metal, different tax — the form of the gold decides it — illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "Tourists, duties and the India comparison",
+        paragraphs: [
+          "Tourists get one more advantage: jewelry purchases of at least 250 dirhams from a participating retailer qualify for a VAT refund on departure, returning most of the VAT after administrative fees. Residents cannot reclaim it, which is one reason the same piece can feel cheaper to a visitor than to a local.",
+          "Import duty sharpens the gap further. Investment gold enters the UAE duty-free, and duty on jewelry is generally around 5%. Compare India, where gold carries roughly 15% import duty plus 3% GST — often making the same purity 12 to 15% dearer than Dubai retail — and the city's reputation starts to look like arithmetic rather than marketing. Our <a href=\"/gold-price-in-india/\">gold price in India</a> page shows the other side of that comparison live.",
+          "One warning belongs here: carrying gold home means facing your own country's customs allowance and duties, which can erase the Dubai saving if ignored. The comparison that matters is the landed cost at home, not the till price in the souk.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/dxb-uae-vs-india.svg\" alt=\"UAE versus India gold tax gap: duty and VAT compared\" loading=\"lazy\"/><figcaption>Compare like for like, same karat, same day — FX moves shift the gap — illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "Reading a Dubai gold rate",
+        paragraphs: [
+          "A Dubai quote has four layers, and separating them is the whole skill: the spot benchmark, the dealer premium, the making charge (jewelry only), and VAT (jewelry only, refundable for tourists). Bullion bars skip the last two layers almost entirely, which is why their till price sits closest to spot.",
+          "Purity is the other half of reading the board. Investment bars are 24K, or 999.9 fine; most jewelry is 22K, about 91.6% gold, alloyed for durability. A 22K gram will always cost less than a 24K gram, and comparing them without adjusting for purity is the most common beginner error. Our <a href=\"/blog/gold-karat-purity-guide/\">karat and purity guide</a> covers the conversions.",
+          "The habit for anyone following Dubai is simple: check the <a href=\"/gold-price-chart/\">gold price chart</a> for the world move, then the UAE page for the local rate, and judge any shop quote against those two numbers — not against another shop's headline. This is not financial advice; it is how to read a market that rewards the informed and charges the hurried.",
+          "Two final checks separate a good Dubai quote from a poor one. The first is the karat stamp: reputable shops state purity plainly, and any piece without a clear mark deserves skepticism no matter how attractive the price looks. The second is the invoice breakdown: a trustworthy seller shows the metal value, the making charge and the VAT as separate lines, so you can see exactly what you are paying for and, as a tourist, what you can reclaim. Shops that bundle everything into a single opaque figure make comparison impossible by design. A third habit costs nothing: check the live UAE rate and the world spot before you walk in, so you already know the fair range for the gram you are buying. With those three numbers in hand — spot, local rate and the shop's breakdown — the souk's famous competition works in your favour, because every dealer knows you can walk a few steps to the next counter.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is gold cheaper in Dubai than elsewhere?",
+        a: "Usually yes for bullion: no import duty on investment gold, zero-rated VAT at 99% purity or higher, and thin souk margins keep headline rates close to spot. Jewelry is a different story once making charges and 5% VAT are added.",
+      },
+      {
+        q: "Is investment gold VAT-free in Dubai?",
+        a: "Investment-grade bars and coins at 99% purity or higher are zero-rated for VAT in qualifying transactions. Retail jewelry pays 5% VAT on the full invoice, including making charges.",
+      },
+      {
+        q: "Can tourists reclaim VAT on gold in Dubai?",
+        a: "Yes, on jewelry purchases of at least 250 dirhams from participating retailers, most of the VAT is refundable on departure after administrative fees. Residents cannot reclaim it.",
+      },
+      {
+        q: "What is the difference between 24K and 22K in Dubai?",
+        a: "24K is 999.9 fine gold, the standard for investment bars, valued on weight alone. 22K is about 91.6% gold, alloyed for durability, and is the usual jewelry standard — so its gram price is proportionally lower.",
+      },
+      {
+        q: "Why do Dubai gold rates differ between shops?",
+        a: "The metal price barely differs — dealers price off the same LBMA benchmark. The differences are premiums, making charges and service. Compare the full till price, not the headline rate.",
+      },
+    ],
+  },
+  {
     slug: "bitcoin-price-prediction-2027",
     title: "Bitcoin Price Prediction 2027 | GoldRateToday",
     h1: "Bitcoin Price Prediction 2027: Will BTC Recover After the 2026 Pullback?",

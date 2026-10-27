@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">What to Watch Next</text>
+  <rect x="40" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">NOV 6</text>
+  <text x="60" y="150" font-size="14" fill="#1a1a1a">October jobs report.</text>
+  <text x="60" y="175" font-size="14" fill="#1a1a1a">A soft print weakens</text>
+  <text x="60" y="200" font-size="14" fill="#1a1a1a">the case for more</text>
+  <text x="60" y="225" font-size="14" fill="#1a1a1a">hikes; a hot one lifts it.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#fff3e0" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#e65100">NOV 10</text>
+  <text x="310" y="150" font-size="14" fill="#1a1a1a">October CPI. The last</text>
+  <text x="310" y="175" font-size="14" fill="#1a1a1a">inflation print before</text>
+  <text x="310" y="200" font-size="14" fill="#1a1a1a">the December FOMC</text>
+  <text x="310" y="225" font-size="14" fill="#1a1a1a">decision meeting.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">DEC 8-9</text>
+  <text x="560" y="150" font-size="14" fill="#1a1a1a">FOMC with new dot</text>
+  <text x="560" y="175" font-size="14" fill="#1a1a1a">plot and presser. The</text>
+  <text x="560" y="200" font-size="14" fill="#1a1a1a">meeting December</text>
+  <text x="560" y="225" font-size="14" fill="#1a1a1a">odds are priced for.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">Each release reprices the same question: hike, hold, or done?</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>

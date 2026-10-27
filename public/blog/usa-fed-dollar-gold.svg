@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">Fed Week for US Gold</text>
+  <rect x="40" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">FOMC DECISION</text>
+  <text x="60" y="150" font-size="14" fill="#1a1a1a">Wednesday, Oct 28,</text>
+  <text x="60" y="175" font-size="14" fill="#1a1a1a">2:00 PM ET. No dot</text>
+  <text x="60" y="200" font-size="14" fill="#1a1a1a">plot at this meeting.</text>
+  <text x="60" y="225" font-size="14" fill="#1a1a1a">Hold at 3.75% expected.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#fff3e0" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#e65100">PCE + GDP</text>
+  <text x="310" y="150" font-size="14" fill="#1a1a1a">Thursday, Oct 29,</text>
+  <text x="310" y="175" font-size="14" fill="#1a1a1a">8:30 AM ET. Q3 GDP</text>
+  <text x="310" y="200" font-size="14" fill="#1a1a1a">advance plus September</text>
+  <text x="310" y="225" font-size="14" fill="#1a1a1a">PCE inflation data.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">DEC HIKE ODDS</text>
+  <text x="560" y="150" font-size="14" fill="#1a1a1a">Markets price a</text>
+  <text x="560" y="175" font-size="14" fill="#1a1a1a">December hike above</text>
+  <text x="560" y="200" font-size="14" fill="#1a1a1a">70%. A hot PCE keeps</text>
+  <text x="560" y="225" font-size="14" fill="#1a1a1a">that pricing firm.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">Three dates decide whether gold holds $4,000 or slips toward $3,890.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>

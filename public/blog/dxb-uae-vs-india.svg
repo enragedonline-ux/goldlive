@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">UAE vs India: The Tax Gap</text>
+  <rect x="40" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">UAE BULLION</text>
+  <text x="60" y="150" font-size="14" fill="#1a1a1a">0% import duty and</text>
+  <text x="60" y="175" font-size="14" fill="#1a1a1a">0% VAT on investment</text>
+  <text x="60" y="200" font-size="14" fill="#1a1a1a">bars — the lowest</text>
+  <text x="60" y="225" font-size="14" fill="#1a1a1a">friction in the region.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#fff3e0" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#e65100">UAE JEWELRY</text>
+  <text x="310" y="150" font-size="14" fill="#1a1a1a">5% VAT, refundable</text>
+  <text x="310" y="175" font-size="14" fill="#1a1a1a">for tourists. Import</text>
+  <text x="310" y="200" font-size="14" fill="#1a1a1a">duty on jewelry is</text>
+  <text x="310" y="225" font-size="14" fill="#1a1a1a">generally around 5%.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#fce4ec" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#c62828">INDIA</text>
+  <text x="560" y="150" font-size="14" fill="#1a1a1a">Roughly 15% import</text>
+  <text x="560" y="175" font-size="14" fill="#1a1a1a">duty plus 3% GST —</text>
+  <text x="560" y="200" font-size="14" fill="#1a1a1a">often 12-15% dearer</text>
+  <text x="560" y="225" font-size="14" fill="#1a1a1a">than Dubai retail.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">Compare like for like, same karat, same day — FX moves shift the gap.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>

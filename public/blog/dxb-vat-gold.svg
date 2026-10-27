@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">VAT: Two Golds</text>
+  <rect x="40" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">INVESTMENT 99%+</text>
+  <text x="60" y="150" font-size="14" fill="#1a1a1a">Bars and coins at 99%</text>
+  <text x="60" y="175" font-size="14" fill="#1a1a1a">purity or higher are</text>
+  <text x="60" y="200" font-size="14" fill="#1a1a1a">zero-rated for VAT in</text>
+  <text x="60" y="225" font-size="14" fill="#1a1a1a">qualifying trades.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#fce4ec" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#c62828">JEWELRY 5%</text>
+  <text x="310" y="150" font-size="14" fill="#1a1a1a">Retail jewelry pays 5%</text>
+  <text x="310" y="175" font-size="14" fill="#1a1a1a">VAT on the full invoice</text>
+  <text x="310" y="200" font-size="14" fill="#1a1a1a">— gold value plus</text>
+  <text x="310" y="225" font-size="14" fill="#1a1a1a">making charges.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#fff3e0" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#e65100">TOURIST REFUND</text>
+  <text x="560" y="150" font-size="14" fill="#1a1a1a">Spends of AED 250 or</text>
+  <text x="560" y="175" font-size="14" fill="#1a1a1a">more qualify; tourists</text>
+  <text x="560" y="200" font-size="14" fill="#1a1a1a">reclaim most of the</text>
+  <text x="560" y="225" font-size="14" fill="#1a1a1a">VAT on departure.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">Same metal, different tax — the form of the gold decides it.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">Dubai Price = Spot + Premium</text>
+  <rect x="40" y="80" width="220" height="240" fill="#fff3e0" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#e65100">LBMA SPOT</text>
+  <text x="60" y="150" font-size="14" fill="#1a1a1a">The London benchmark,</text>
+  <text x="60" y="175" font-size="14" fill="#1a1a1a">set twice daily at</text>
+  <text x="60" y="200" font-size="14" fill="#1a1a1a">10:30 and 15:00 London</text>
+  <text x="60" y="225" font-size="14" fill="#1a1a1a">time, anchors Dubai.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">THIN MARGINS</text>
+  <text x="310" y="150" font-size="14" fill="#1a1a1a">Hundreds of competing</text>
+  <text x="310" y="175" font-size="14" fill="#1a1a1a">souk shops keep dealer</text>
+  <text x="310" y="200" font-size="14" fill="#1a1a1a">premiums low, so the</text>
+  <text x="310" y="225" font-size="14" fill="#1a1a1a">headline stays near spot.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">NEAR SPOT</text>
+  <text x="560" y="150" font-size="14" fill="#1a1a1a">Bullion bars carry the</text>
+  <text x="560" y="175" font-size="14" fill="#1a1a1a">smallest premium;</text>
+  <text x="560" y="200" font-size="14" fill="#1a1a1a">crafted jewelry adds</text>
+  <text x="560" y="225" font-size="14" fill="#1a1a1a">making charges on top.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">The metal costs the same everywhere; Dubai trims the extras.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>

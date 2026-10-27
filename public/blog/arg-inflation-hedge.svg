@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">Inflation: Then and Now</text>
+  <rect x="40" y="80" width="220" height="240" fill="#fce4ec" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#c62828">DEC 2023</text>
+  <text x="60" y="150" font-size="14" fill="#1a1a1a">25.5% in a single</text>
+  <text x="60" y="175" font-size="14" fill="#1a1a1a">month, after a sharp</text>
+  <text x="60" y="200" font-size="14" fill="#1a1a1a">devaluation of the</text>
+  <text x="60" y="225" font-size="14" fill="#1a1a1a">overvalued peso.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">AUG 2026</text>
+  <text x="310" y="150" font-size="14" fill="#1a1a1a">1.7% monthly, then</text>
+  <text x="310" y="175" font-size="14" fill="#1a1a1a">1.9% in September.</text>
+  <text x="310" y="200" font-size="14" fill="#1a1a1a">Disinflation worked —</text>
+  <text x="310" y="225" font-size="14" fill="#1a1a1a">but from a high base.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#fff3e0" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#e65100">2026 AVG</text>
+  <text x="560" y="150" font-size="14" fill="#1a1a1a">About 32.5% average</text>
+  <text x="560" y="175" font-size="14" fill="#1a1a1a">annual inflation (IMF</text>
+  <text x="560" y="200" font-size="14" fill="#1a1a1a">October outlook), still</text>
+  <text x="560" y="225" font-size="14" fill="#1a1a1a">far above US levels.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">Lower monthly prints, but annual inflation still erodes peso savings.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>

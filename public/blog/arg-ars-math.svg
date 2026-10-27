@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">The ARS Math</text>
+  <rect x="40" y="80" width="220" height="240" fill="#fff3e0" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#e65100">1 OUNCE</text>
+  <text x="60" y="150" font-size="14" fill="#1a1a1a">About 6.18 million</text>
+  <text x="60" y="175" font-size="14" fill="#1a1a1a">pesos for one troy</text>
+  <text x="60" y="200" font-size="14" fill="#1a1a1a">ounce of 24K gold</text>
+  <text x="60" y="225" font-size="14" fill="#1a1a1a">today.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">1 GRAM 24K</text>
+  <text x="310" y="150" font-size="14" fill="#1a1a1a">About 198,000 pesos.</text>
+  <text x="310" y="175" font-size="14" fill="#1a1a1a">Boards also quote 22K,</text>
+  <text x="310" y="200" font-size="14" fill="#1a1a1a">21K and 18K per gram,</text>
+  <text x="310" y="225" font-size="14" fill="#1a1a1a">each lower by purity.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">5 YEARS</text>
+  <text x="560" y="150" font-size="14" fill="#1a1a1a">ARS gold more than</text>
+  <text x="560" y="175" font-size="14" fill="#1a1a1a">doubled in five years —</text>
+  <text x="560" y="200" font-size="14" fill="#1a1a1a">mostly peso weakness,</text>
+  <text x="560" y="225" font-size="14" fill="#1a1a1a">not spot gains.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">Divide any ounce quote by 31.1035 for the per-gram peso figure.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>
