@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Ticker from "@/components/Ticker";
 import PriceChart from "@/components/PriceChart";
 import RelatedMarkets from "@/components/RelatedMarkets";
+import LatestBlogPosts from "@/components/LatestBlogPosts";
 import Breadcrumbs, { type Crumb } from "@/components/Breadcrumbs";
 import Faq, { FaqJsonLd, type FaqItem } from "@/components/Faq";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
@@ -185,6 +186,8 @@ export default async function PricePage({ config }: { config: PricePageConfig })
             </div>
           </>
         )}
+
+        <LatestBlogPosts />
       </main>
 
       <div className="ad">

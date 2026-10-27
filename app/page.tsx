@@ -2,6 +2,7 @@
 import { cacheLife } from "next/cache";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import LatestBlogPosts from "@/components/LatestBlogPosts";
 import Ticker from "@/components/Ticker";
 import PriceChart from "@/components/PriceChart";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
@@ -184,6 +185,8 @@ export default async function Home() {
       <AssetOrbitStatic assets={orbitAssets} />
 
       <WorldGoldPrices />
+
+      <LatestBlogPosts />
 
       <Footer />
     </>

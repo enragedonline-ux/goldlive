@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Ticker from "@/components/Ticker";
 import PriceChart from "@/components/PriceChart";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import LatestBlogPosts from "@/components/LatestBlogPosts";
 import Faq, { FaqJsonLd } from "@/components/Faq";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
 import WorldSilverPrices from "@/components/WorldSilverPrices";
@@ -147,6 +148,8 @@ export default async function CountryPricePage({
         </div>
 
         <Faq items={content.faqs} />
+
+        <LatestBlogPosts />
       </main>
 
       <WorldGoldPrices />
