@@ -9,6 +9,7 @@ export const metadata = {
 export default function Page() {
   return (
     <StaticPage
+      active="about"
       title="About GoldRateToday"
       description="GoldRateToday brings live gold, silver, bitcoin and ethereum prices together in one clean, fast page — no clutter, no paywall."
       crumbs={[{ href: "/", label: "Home" }, { href: "/about/", label: "About GoldRateToday" }]}

@@ -7,15 +7,17 @@ export default function StaticPage({
   description,
   crumbs,
   children,
+  active = "gold",
 }: {
   title: string;
   description: string;
   crumbs: { href: string; label: string }[];
   children: React.ReactNode;
+  active?: string;
 }) {
   return (
     <>
-      <Header active="gold" />
+      <Header active={active} />
       <main className="ppage">
         <Breadcrumbs items={crumbs} />
         <h1 className="ppage-h1">{title}</h1>

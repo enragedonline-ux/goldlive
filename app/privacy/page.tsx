@@ -9,6 +9,7 @@ export const metadata = {
 export default function Page() {
   return (
     <StaticPage
+      active="privacy"
       title="Privacy Policy"
       description="What we collect, what we do not collect, and how advertising works on this site."
       crumbs={[{ href: "/", label: "Home" }, { href: "/privacy/", label: "Privacy Policy" }]}
