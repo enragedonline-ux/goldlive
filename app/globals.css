@@ -362,6 +362,13 @@ footer { margin-top: 44px; background: var(--surface); border-top: 1px solid var
 .calc-grid label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
 .calc-grid input, .calc-grid select { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 15px; background: var(--bg); color: var(--text); }
 .calc-grid input:focus, .calc-grid select:focus { outline: none; border-color: var(--gold); }
+.privacy-form { display: flex; flex-direction: column; gap: 12px; margin-top: 8px; }
+.privacy-form label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.privacy-form input, .privacy-form textarea { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 15px; background: var(--bg); color: var(--text); font-family: inherit; }
+.privacy-form input:focus, .privacy-form textarea:focus { outline: none; border-color: var(--gold); }
+.privacy-form textarea { resize: vertical; }
+.privacy-form button { font-family: inherit; cursor: pointer; align-self: flex-start; }
+.privacy-form p { font-size: 13px; color: var(--faint); }
 .calc-result { background: var(--bg); border: 1px solid var(--gold); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px; }
 .calc-result span { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
 .calc-result strong { font-size: 34px; color: var(--gold); font-variant-numeric: tabular-nums; }
