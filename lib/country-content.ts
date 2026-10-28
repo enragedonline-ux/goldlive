@@ -17,6 +17,7 @@ export function goldCountryContent(c: Country, rate: number, usdPerOz: number): 
   const perTola = (usdPerOz / 31.1035) * 11.6638 * rate;
   const perGram = (usdPerOz / 31.1035) * rate;
   const isPK = c.slug === "pakistan";
+  const isAR = c.slug === "argentina";
   const unitWord = c.localUnit === "tola" || isPK ? "tola" : "gram";
   const h1 = isPK ? `Gold Rate in Pakistan` : `Gold Price in ${c.name}`;
   const keyword = isPK ? "gold rate in Pakistan" : `gold price in ${c.name}`;
@@ -24,20 +25,34 @@ export function goldCountryContent(c: Country, rate: number, usdPerOz: number): 
   return {
     title: isPK
       ? `Gold Rate in Pakistan Today — Live per Tola & Gram in PKR | GoldRateToday`
-      : `Gold Price in ${c.name} Today | Live per Gram & Ounce in ${c.currency} | GoldRateToday`,
+      : isAR
+        ? `Gold Rate Today in Argentina | Live per Gram in ARS | GoldRateToday`
+        : `Gold Price in ${c.name} Today | Live per Gram & Ounce in ${c.currency} | GoldRateToday`,
     description: isPK
       ? `Live gold rate in Pakistan: ${fmtLocal(perTola, "Rs")} per tola, ${fmtLocal(perGram, "Rs")} per gram. Updated every minute from international spot.`
-      : `Live ${keyword}: ${fmtLocal(perGram, c.currencySymbol)} per gram in ${c.currency}. Real-time chart, conversions and 24h change — updated every minute.`,
+      : isAR
+        ? `Gold rate today in Argentina: ${fmtLocal(perGram, c.currencySymbol)} per gram in ARS. Live chart, conversions and 24h change — updated every minute.`
+        : `Live ${keyword}: ${fmtLocal(perGram, c.currencySymbol)} per gram in ${c.currency}. Real-time chart, conversions and 24h change — updated every minute.`,
     h1,
     intro: [
       isPK
         ? `The gold rate in Pakistan today is ${fmtLocal(perTola, "Rs")} per tola and ${fmtLocal(perGram, "Rs")} per gram, tracking the international spot price of $${usdPerOz.toLocaleString("en-US", { maximumFractionDigits: 0 })} per ounce converted at the current USD/PKR rate. Pakistan's bullion market follows the All Pakistan Sarafa Gems and Jewellers Association (APSGJA) daily rates, which move with global spot plus the rupee's value against the dollar.`
-        : `The gold price in ${c.name} today is ${fmtLocal(perGram, c.currencySymbol)} per gram (${fmtLocal((usdPerOz * rate), c.currencySymbol)} per troy ounce), converted live from the international XAU/USD spot price of $${usdPerOz.toLocaleString("en-US", { maximumFractionDigits: 0 })}. Local dealer prices in ${c.currency} add a small premium over this benchmark for refining, minting and retail margin.`,
+        : isAR
+          ? `The gold rate today in Argentina is ${fmtLocal(perGram, c.currencySymbol)} per gram (${fmtLocal((usdPerOz * rate), c.currencySymbol)} per troy ounce), converted live from the international XAU/USD spot price of $${usdPerOz.toLocaleString("en-US", { maximumFractionDigits: 0 })}. Local dealer prices in ${c.currency} add a small premium over this benchmark for refining, minting and retail margin.`
+          : `The gold price in ${c.name} today is ${fmtLocal(perGram, c.currencySymbol)} per gram (${fmtLocal((usdPerOz * rate), c.currencySymbol)} per troy ounce), converted live from the international XAU/USD spot price of $${usdPerOz.toLocaleString("en-US", { maximumFractionDigits: 0 })}. Local dealer prices in ${c.currency} add a small premium over this benchmark for refining, minting and retail margin.`,
       isPK
         ? `In Pakistan, gold is quoted per tola (11.6638 grams) — the traditional unit across South Asia. When the rupee weakens against the dollar, local gold rates rise even if the international price is flat, because Pakistan imports virtually all its gold. Check the live chart below and the per-tola/per-gram table before buying from any sarafa market.`
         : `${c.name === "USA" ? "US" : c.name}'s retail gold market prices 24-karat bars and coins slightly above spot. The table below converts the live spot price into ${c.currency} across common weights — use it as a fair-value benchmark when comparing dealer quotes${c.capital ? ` in ${c.capital}` : ""} or online.`,
     ],
     faqs: [
+      ...(isAR
+        ? [
+            {
+              q: "What is the gold rate today in Argentina?",
+              a: `Today's gold rate in Argentina is ${fmtLocal(perGram, c.currencySymbol)} per gram (ARS), converted live from the international spot market. The price refreshes every minute.`,
+            },
+          ]
+        : []),
       {
         q: isPK ? "What is the gold rate in Pakistan today?" : `What is the gold price in ${c.name} today?`,
         a: isPK
