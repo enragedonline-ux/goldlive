@@ -8,6 +8,7 @@ const NAV = [
   { href: "/silver-price-today", label: "Silver", key: "silver" },
   { href: "/bitcoin-price", label: "Bitcoin", key: "bitcoin" },
   { href: "/ethereum-price", label: "Ethereum", key: "ethereum" },
+  { href: "/gold-price-calculator", label: "Calculator", key: "calculator" },
   { href: "/about/", label: "About Us", key: "about" },
   { href: "/privacy/", label: "Privacy", key: "privacy" },
 ];

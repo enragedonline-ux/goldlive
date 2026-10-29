@@ -396,12 +396,13 @@ export const GOLD_PAGES: RegistryPage[] = [
     conversions: goldConversions,
     intro: [
       "To calculate your gold's value: multiply its weight by its purity, then by the live price. A 10-gram 22K bracelet at a $4,000/oz spot is worth 10 × 0.916 × ($4,000 ÷ 31.1035) ≈ $1,178 in melt value.",
-      "Use the live conversion table above as your calculator — pick your weight unit and karat row. Remember dealers pay slightly below melt (their spread) and charge making fees when selling.",
+      "Enter your gold's weight, pick its unit and karat, and the calculator shows the live melt value at the current spot price, plus a dealer payout estimate you can adjust with the margin slider. No sign-up, no app, the math updates as you type.",
     ],
     faqs: [
       { q: "How do I calculate gold price manually?", a: "Weight × purity × live price per unit. Example: 5g of 18K at $130/g 24K = 5 × 0.75 × 130 = $487.50 melt value." },
       { q: "What is melt value?", a: "The raw metal value of a gold item if melted down — weight times purity times spot price, with no craftsmanship premium." },
       { q: "Why do buyers offer less than the calculator value?", a: "Refiners and dealers need a margin for refining costs, assay risk and their profit — typically 2–10% below melt for scrap." },
+      { q: "What is the dealer payout estimate?", a: "An estimate of what a dealer might pay after their margin. Move the slider from 0% for a full melt payout to 15% for a steep discount, and the calculator shows the payout next to the melt value." },
     ],
     related: goldRelated,
     crumbs: [...crumbsHome, { href: "/gold-price-calculator/", label: "Gold Price Calculator" }],
