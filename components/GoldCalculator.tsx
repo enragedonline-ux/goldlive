@@ -1,114 +1,99 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useMemo, useState } from "react";
+import { inr, type Purity } from "@/lib/rates";
 
-const KARATS = [
-  { label: "24K", sub: "99.9% pure", purity: 0.999 },
-  { label: "22K", sub: "91.6% pure", purity: 0.916 },
-  { label: "21K", sub: "87.5% pure", purity: 0.875 },
-  { label: "18K", sub: "75.0% pure", purity: 0.75 },
-  { label: "14K", sub: "58.5% pure", purity: 0.585 },
+const TOLA_GRAMS = 11.6638;
+
+const CARATS = [
+  { carat: "24K", fineness: "999" },
+  { carat: "22K", fineness: "916" },
+  { carat: "18K", fineness: "750" },
+  { carat: "14K", fineness: "585" },
 ];
 
 const UNITS = [
-  { label: "Grams", singular: "gram", toGram: 1 },
-  { label: "Tolas", singular: "tola", toGram: 11.6638 },
-  { label: "Troy ounces", singular: "troy ounce", toGram: 31.1035 },
-  { label: "Kilograms", singular: "kilogram", toGram: 1000 },
+  { key: "grams", label: "Grams", toGrams: 1 },
+  { key: "tolas", label: "Tolas", toGrams: TOLA_GRAMS },
+  { key: "kilograms", label: "Kilograms", toGrams: 1000 },
+] as const;
+
+type UnitKey = (typeof UNITS)[number]["key"];
+
+const PRESETS: Array<{ label: string; weight: number; unit: UnitKey }> = [
+  { label: "1 g", weight: 1, unit: "grams" },
+  { label: "8 g", weight: 8, unit: "grams" },
+  { label: "10 g", weight: 10, unit: "grams" },
+  { label: "1 tola", weight: 1, unit: "tolas" },
 ];
 
-const PRESETS = [
-  { label: "1 g", weight: "1", unit: 0 },
-  { label: "10 g", weight: "10", unit: 0 },
-  { label: "100 g", weight: "100", unit: 0 },
-  { label: "1 tola", weight: "1", unit: 1 },
-  { label: "1 oz", weight: "1", unit: 2 },
-];
+export default function GoldCalculator({
+  rates,
+  live,
+  updatedLabel,
+}: {
+  rates: Purity[];
+  live: boolean;
+  updatedLabel: string;
+}) {
+  const [carat, setCarat] = useState("22K");
+  const [unit, setUnit] = useState<UnitKey>("grams");
+  const [weight, setWeight] = useState(10);
+  const [makingPct, setMakingPct] = useState(10);
 
-export default function GoldCalculator() {
-  const [spot, setSpot] = useState<number | null>(null);
-  const [weight, setWeight] = useState("10");
-  const [unit, setUnit] = useState(0);
-  const [karat, setKarat] = useState(1);
-  const [margin, setMargin] = useState(5);
+  const rate = rates.find((r) => r.carat === carat) ?? rates[0];
+  const unitDef = UNITS.find((u) => u.key === unit) ?? UNITS[0];
 
-  useEffect(() => {
-    fetch("/api/prices")
-      .then((r) => r.json())
-      .then((d) => {
-        const g = (d.assets || []).find((a: any) => a.id === "gold");
-        if (g && g.price) setSpot(g.price);
-      })
-      .catch(() => {});
-  }, []);
+  const calc = useMemo(() => {
+    const grams = (Number.isFinite(weight) ? weight : 0) * unitDef.toGrams;
+    const metal = Math.round(grams * rate.perGram);
+    const making = Math.round((metal * makingPct) / 100);
+    const subtotal = metal + making;
+    const gst = Math.round((subtotal * 3) / 100);
+    const total = subtotal + gst;
+    return { grams, metal, making, gst, total };
+  }, [weight, unitDef, rate, makingPct]);
 
-  const fmt = (n: number) =>
-    `$${n.toLocaleString("en-US", { maximumFractionDigits: 2 })}`;
-
-  const w = parseFloat(weight) || 0;
-  const grams = w * UNITS[unit].toGram;
-  const purity = KARATS[karat].purity;
-  const pureGrams = grams * purity;
-  const perGram24k = spot ? spot / 31.1035 : null;
-  const perGramSelected = perGram24k !== null ? perGram24k * purity : null;
-  const perUnitSelected =
-    perGramSelected !== null ? perGramSelected * UNITS[unit].toGram : null;
-  const melt = spot ? (pureGrams / 31.1035) * spot : null;
-  const payout = melt !== null ? melt * (1 - margin / 100) : null;
+  const fineness =
+    CARATS.find((c) => c.carat === carat)?.fineness ?? "";
 
   return (
-    <section className="panel calc-panel" aria-label="Gold value calculator">
-      <h2>Calculate your gold&apos;s melt value</h2>
-      <p className="calc-sub">
-        Live spot price:{" "}
-        <strong>{spot ? `${fmt(spot)}/oz` : "loading…"}</strong>
-        {perGram24k !== null && (
-          <>
-            {" "}· 24K per gram: <strong>{fmt(perGram24k)}</strong>
-          </>
-        )}
+    <div className="calc">
+      <p className="calc-live">
+        {live
+          ? `Live rate, updated ${updatedLabel}.`
+          : "Sample rates shown, live feed unavailable."}{" "}
+        {rate.carat} {inr(rate.perGram)} per gram, {inr(rate.per10Gram)} per
+        10 gram.
       </p>
 
       <div className="calc-field">
-        <span className="calc-label">Weight</span>
-        <div className="calc-weight-row">
-          <input
-            type="number"
-            min="0"
-            step="any"
-            value={weight}
-            onChange={(e) => setWeight(e.target.value)}
-            inputMode="decimal"
-            aria-label="Weight"
-          />
-          <div className="calc-presets">
-            {PRESETS.map((p) => (
-              <button
-                key={p.label}
-                type="button"
-                className="calc-preset"
-                onClick={() => {
-                  setWeight(p.weight);
-                  setUnit(p.unit);
-                }}
-              >
-                {p.label}
-              </button>
-            ))}
-          </div>
+        <span className="calc-label">Purity</span>
+        <div className="calc-pills" role="group" aria-label="Gold purity">
+          {CARATS.map((c) => (
+            <button
+              key={c.carat}
+              type="button"
+              className={carat === c.carat ? "calc-pill on" : "calc-pill"}
+              aria-pressed={carat === c.carat}
+              onClick={() => setCarat(c.carat)}
+            >
+              {c.carat} <small>{c.fineness}</small>
+            </button>
+          ))}
         </div>
       </div>
 
       <div className="calc-field">
         <span className="calc-label">Unit</span>
         <div className="calc-pills" role="group" aria-label="Weight unit">
-          {UNITS.map((u, i) => (
+          {UNITS.map((u) => (
             <button
-              key={u.label}
+              key={u.key}
               type="button"
-              className={unit === i ? "calc-pill on" : "calc-pill"}
-              aria-pressed={unit === i}
-              onClick={() => setUnit(i)}
+              className={unit === u.key ? "calc-pill on" : "calc-pill"}
+              aria-pressed={unit === u.key}
+              onClick={() => setUnit(u.key)}
             >
               {u.label}
             </button>
@@ -117,67 +102,85 @@ export default function GoldCalculator() {
       </div>
 
       <div className="calc-field">
-        <span className="calc-label">Purity</span>
-        <div className="calc-pills" role="group" aria-label="Gold purity">
-          {KARATS.map((k, i) => (
+        <label className="calc-label" htmlFor="calc-weight">
+          Weight
+        </label>
+        <div className="calc-weight-row">
+          <input
+            id="calc-weight"
+            className="calc-input"
+            type="number"
+            min="0"
+            step="any"
+            value={weight}
+            onChange={(e) => setWeight(parseFloat(e.target.value) || 0)}
+          />
+          <span className="calc-unit">{unitDef.label}</span>
+        </div>
+        <div className="calc-presets">
+          {PRESETS.map((p) => (
             <button
-              key={k.label}
+              key={p.label}
               type="button"
-              className={karat === i ? "calc-pill on" : "calc-pill"}
-              aria-pressed={karat === i}
-              onClick={() => setKarat(i)}
+              className="calc-preset"
+              onClick={() => {
+                setWeight(p.weight);
+                setUnit(p.unit);
+              }}
             >
-              {k.label} <small>{k.sub}</small>
+              {p.label}
             </button>
           ))}
         </div>
       </div>
 
-      <div className="calc-results" aria-live="polite">
-        <div className="calc-result">
-          <span>Melt value</span>
-          <strong>{melt !== null ? fmt(melt) : "—"}</strong>
-          <small>
-            {grams.toFixed(2)} g × {purity * 100}% purity = {pureGrams.toFixed(2)} g
-            pure gold
-          </small>
-        </div>
-        <div className="calc-result calc-payout">
-          <span>Dealer payout estimate</span>
-          <strong>{payout !== null ? fmt(payout) : "—"}</strong>
-          <small>After {margin}% dealer margin</small>
-        </div>
-      </div>
-
       <div className="calc-field">
-        <span className="calc-label">Dealer margin: {margin}%</span>
+        <label className="calc-label" htmlFor="calc-making">
+          Making charge: {makingPct}%
+        </label>
         <input
+          id="calc-making"
+          className="calc-slider"
           type="range"
           min="0"
-          max="15"
+          max="25"
           step="1"
-          value={margin}
-          onChange={(e) => setMargin(Number(e.target.value))}
-          className="calc-slider"
-          aria-label="Dealer margin percent"
+          value={makingPct}
+          onChange={(e) => setMakingPct(parseInt(e.target.value, 10))}
         />
         <div className="calc-slider-marks">
           <span>0%</span>
-          <span>15%</span>
+          <span>25%</span>
         </div>
       </div>
 
-      {perUnitSelected !== null && (
-        <p className="calc-note">
-          One {UNITS[unit].singular} of {KARATS[karat].label} gold is worth{" "}
-          {fmt(perUnitSelected)} at the live price.
-        </p>
-      )}
-      <p className="calc-note">
-        Melt value is the raw metal worth. Dealers typically pay 2 to 10% below
-        melt to cover refining and margin, so move the slider to match the offer
-        you are checking.
+      <div className="calc-results" aria-live="polite">
+        <div>
+          <span>Metal cost</span>
+          <strong>{inr(calc.metal)}</strong>
+        </div>
+        <div>
+          <span>Making charge ({makingPct}%)</span>
+          <strong>{inr(calc.making)}</strong>
+        </div>
+        <div>
+          <span>GST (3%)</span>
+          <strong>{inr(calc.gst)}</strong>
+        </div>
+        <div className="calc-total">
+          <span>Total payable</span>
+          <strong>{inr(calc.total)}</strong>
+        </div>
+      </div>
+
+      <p className="calc-breakdown">
+        {calc.grams.toLocaleString("en-IN", { maximumFractionDigits: 2 })}{" "}
+        grams of {rate.carat} ({fineness} fine) at {inr(rate.perGram)} per
+        gram. GST is charged at 3% on metal plus making charge. Rates are
+        the international spot benchmark converted to INR, before import
+        duty and dealer premium, so your jeweller&apos;s final bill may be
+        higher.
       </p>
-    </section>
+    </div>
   );
 }
