@@ -1119,23 +1119,36 @@ export const BLOG_POSTS: BlogPost[] = [
     readingMins: 8,
     sections: [
       {
-        heading: "The slide in numbers",
+        heading: "The slide in numbers: $4,057 to $3,830 in six days",
         paragraphs: [
           "Spot gold is trading near $3,875 an ounce on Tuesday, November 17, after touching $3,830 during Monday's session — its lowest level since October 2025, more than a year ago. The metal has given back almost all of its early-November rebound: just six days earlier, on November 11, it recovered to about $4,057 after a sharp selloff. If you check the <a href=\"/gold-price-today/\">live gold price</a> this morning, the mood is plain: sellers are in control, and the metal is flirting with levels it has not seen in over a year.",
           "The scale of the round trip is what makes this move worth understanding. Gold set an all-time high of $5,405 in January 2026, so the current price is roughly 28% below that peak. The fall from $4,057 to $3,830 in less than a week is a drop of about $227 an ounce — a reminder that even in a year of records, gold can correct hard and fast. In Pakistan, 24-karat gold settled at Rs408,936 per tola on November 17, down Rs2,000 in a session, tracking the same international slide.",
           "None of this is a verdict on gold's long-term value — it is a repricing driven by three forces that all pointed the same way this week: the dollar, bond yields, and the Federal Reserve. This post walks through each of them, so the next headline makes sense when it lands.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/nov-low-slide.svg\" alt=\"Gold price slide November 2026: $4,057 on Nov 11, $3,830 low on Nov 16, near $3,875 on Nov 17\" loading=\"lazy\"/><figcaption>Gold's November round trip: from $4,057 to a one-year low of $3,830 in six days — illustrative, not financial advice</figcaption></figure>",
+        ],
+        bullets: [
+          "Spot gold near $3,875 an ounce on November 17, 2026 — after touching $3,830 on November 16",
+          "November 11 rebound: about $4,057 — a $227 round trip in less than a week",
+          "All-time high: $5,405 in January 2026 — the current price is roughly 28% below the peak",
+          "Pakistan 24-karat gold: Rs408,936 per tola on November 17, down Rs2,000 in a session",
         ],
       },
       {
-        heading: "Why the dollar and yields are pressing gold",
+        heading: "Why the dollar and Treasury yields are pressing gold",
         paragraphs: [
           "The first weight on gold is the US dollar, which has climbed to a 19-month high. Because gold is priced in dollars, a stronger dollar makes the metal more expensive for buyers in other currencies, which trims demand at the margin — and it also signals that investors are choosing dollar assets over everything else. When the dollar rises this fast, gold rarely rises with it. Our guide to <a href=\"/blog/what-affects-gold-price/\">what affects the gold price</a> explains the dollar link in depth.",
           "The second weight is Treasury yields. The 2-year yield is near 4.87% and the benchmark 10-year yield near 5.14%, both elevated after a sharp bond selloff last week. Gold pays no interest, so when safe government paper pays that much, the opportunity cost of holding metal rises with every tick in yields. A buyer choosing between a 10-year Treasury at 5% and a gold bar that pays nothing needs a strong reason to pick the bar — and right now, the market is not giving them one.",
           "The two forces reinforce each other. A strong dollar and high yields usually arrive together when the market expects tighter US monetary policy, and both punish non-yielding assets at the same time. That is the combination gold is facing this week, and it explains why the slide has been orderly rather than panicked: it is a repricing, not a rout.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/nov-low-drivers.svg\" alt=\"Three forces pressing gold down in November 2026: strong US dollar, high Treasury yields, December Fed hike bets\" loading=\"lazy\"/><figcaption>Three forces, one direction: dollar, yields and hike odds all pressing gold — illustrative, not financial advice</figcaption></figure>",
+        ],
+        bullets: [
+          "US dollar: 19-month high — a stronger dollar makes gold pricier for buyers in other currencies",
+          "Treasury yields: 2-year near 4.87%, 10-year near 5.14% — holding gold pays nothing by comparison",
+          "December hike odds: roughly 90–97% for a 25bp move, after hot October inflation data",
         ],
       },
       {
-        heading: "The December hike story",
+        heading: "The December Fed hike story: hot data, rising odds",
         paragraphs: [
           "The trigger for the repricing is the Federal Reserve. After hot October data — consumer prices rose 0.4% month-on-month and producer prices rose 0.3% month-on-month, or 6.5% year-on-year, the largest 12-month rise since November 2022 — traders now price a roughly 90–97% chance that the Fed raises rates by 25 basis points at its December 8–9 meeting, with the decision due Wednesday, December 9 at 2:00 PM Eastern. Some traders even price a small chance of a larger 50-point move. The <a href=\"https://www.federalreserve.gov/\">Federal Reserve</a> publishes the meeting calendar, and <a href=\"https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html\">CME FedWatch</a> turns futures prices into those probabilities.",
           "The October meeting set the stage. On October 27–28 the Fed held its policy rate at 3.75–4.00% in a 10–2 vote, with Governors Cook and Hammack dissenting in favour of a hike — a hawkish hold that kept December firmly on the table. The October jobs report then came in strong (+165,000 payrolls against about 65,000 expected, unemployment 4.1%), and the hot inflation prints did the rest. Each release pushed the December hike odds higher and gold lower.",
@@ -1143,7 +1156,7 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
       {
-        heading: "What to watch next",
+        heading: "What to watch next: FOMC minutes, CPI and the December decision",
         paragraphs: [
           "After the minutes on November 18, the calendar points straight at December. The next consumer-price report lands December 10, the day after the Fed's decision, so the market will judge the hike with fresh inflation data in hand almost immediately. The December 8–9 meeting itself brings a new dot plot — the Fed's own rate projections — and a press conference, so the statement, the dots and the Chair's words will all move gold within minutes. Our <a href=\"/blog/gold-price-after-december-fed-decision/\">December decision preview</a> maps the three scenarios for that meeting.",
           "Analysts are already cutting targets. Goldman Sachs lowered its end-2026 gold target to $4,150 an ounce from $4,650, arguing that a hawkish Fed could block the support gold usually gets from falling yields. That is a forecast, not a fact — and it is worth remembering that the same banks were raising targets a few months ago. Targets move with the data, and the data is moving against gold right now.",
@@ -1186,11 +1199,18 @@ export const BLOG_POSTS: BlogPost[] = [
     readingMins: 8,
     sections: [
       {
-        heading: "The decision, in one place",
+        heading: "The December Fed decision: date, odds and what is at stake",
         paragraphs: [
           "The Federal Open Market Committee meets December 8–9, 2026, and its decision is due Wednesday, December 9 at 2:00 PM Eastern, followed by a new dot plot and the Chair's press conference at 2:30 PM Eastern. Markets price a roughly 90–97% chance of a 25-basis-point hike, which would lift the policy rate to 4.00–4.25% from 3.75–4.00%, with a small chance of a larger 50-point move. Those odds come from <a href=\"https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html\">CME FedWatch</a>, which turns futures prices into probabilities, and the <a href=\"https://www.federalreserve.gov/\">Federal Reserve</a> publishes the meeting calendar and statements.",
           "Gold is coming into this meeting under pressure. Spot gold fell to $3,830 on November 16 — its lowest in more than a year — as a strong dollar, high Treasury yields and those very hike bets weighed on the metal. Our <a href=\"/blog/gold-drops-one-year-low-november-2026/\">account of the November slide</a> explains how the three forces lined up. The December decision will not create the story; it will resolve the question the market has been pricing for weeks.",
           "What makes this meeting different from October's is the dot plot. The October 27–28 meeting had no new projections, so the statement and the press conference carried the whole message. December brings fresh dots — the committee's own rate path — which is why the market will read the decision, the dots and the press conference as one package, not three separate events.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/dec-fed-calendar.svg\" alt=\"December Fed week calendar: FOMC Dec 8-9, decision Dec 9 2:00 PM ET, CPI Dec 10\" loading=\"lazy\"/><figcaption>December Fed week: decision, dot plot and CPI in three days — illustrative, not financial advice</figcaption></figure>",
+        ],
+        bullets: [
+          "Meeting: FOMC December 8–9, 2026; decision Wednesday, December 9 at 2:00 PM Eastern",
+          "New dot plot plus the Chair's press conference at 2:30 PM Eastern",
+          "Hike odds: roughly 90–97% for 25bp, to 4.00–4.25% from 3.75–4.00%; small chance of 50bp",
+          "Gold enters the meeting under pressure: spot fell to $3,830 on November 16, a one-year low",
         ],
       },
       {
@@ -1207,6 +1227,12 @@ export const BLOG_POSTS: BlogPost[] = [
           "Scenario one — hike as expected. The Fed raises 25 basis points, the dots show a gradual path, and the Chair's language stays neutral. This is the base case the market has already priced, so gold's reaction is likely to be muted: the metal has already fallen to reflect it, and a decision that matches expectations rarely produces a large move on its own. Watch the press conference more than the statement — a neutral Chair after an expected hike is the calmest outcome for gold.",
           "Scenario two — hawkish surprise. Either a 50-point hike, or a 25-point hike paired with dots and language pointing to more tightening in 2027. That would push the dollar and Treasury yields higher and pressure gold further, opening the lower levels technicians are watching below $3,830. This is the outcome the market fears most, which is why even a small chance of it is weighing on the metal now.",
           "Scenario three — dovish surprise. The Fed holds, or hikes 25 points but signals that December was the last move, with dots showing no further tightening. That would ease the pressure on gold quickly: the dollar would soften, yields would fall, and the metal could recover toward $4,000. This is the least likely outcome given the hot data, but it is the one that would move gold the most. None of these is a forecast — they are the three branches the market is already pricing, and the data will choose between them.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/dec-fed-scenarios.svg\" alt=\"Three scenarios for gold after the December Fed decision: hike as expected, hawkish surprise, dovish surprise\" loading=\"lazy\"/><figcaption>Three branches the market is pricing — none is a forecast, not financial advice</figcaption></figure>",
+        ],
+        bullets: [
+          "Hike as expected: largely priced in — muted reaction; watch the press conference, not the statement",
+          "Hawkish surprise: a 50bp hike, or dots pointing to more tightening — dollar and yields up, gold pressured below $3,830",
+          "Dovish surprise: a hold, or a signal December was the last move — dollar softens, gold could recover toward $4,000",
         ],
       },
       {

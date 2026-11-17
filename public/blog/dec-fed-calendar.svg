@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">December Fed Week at a Glance</text>
+  <rect x="40" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">FOMC MEETING</text>
+  <text x="150" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">Dec 8–9, 2026</text>
+  <text x="60" y="190" font-size="14" fill="#1a1a1a">Two-day meeting with</text>
+  <text x="60" y="215" font-size="14" fill="#1a1a1a">a new dot plot — the</text>
+  <text x="60" y="240" font-size="14" fill="#1a1a1a">Fed's own rate path.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#fff3e0" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#e65100">DECISION DAY</text>
+  <text x="400" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">Dec 9, 2:00 PM ET</text>
+  <text x="310" y="190" font-size="14" fill="#1a1a1a">25bp hike priced</text>
+  <text x="310" y="215" font-size="14" fill="#1a1a1a">~90–97%; press</text>
+  <text x="310" y="240" font-size="14" fill="#1a1a1a">conference 2:30 PM.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">NEXT CPI</text>
+  <text x="650" y="152" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a1a">Dec 10, 8:30 AM ET</text>
+  <text x="560" y="190" font-size="14" fill="#1a1a1a">Fresh inflation data</text>
+  <text x="560" y="215" font-size="14" fill="#1a1a1a">the day after the</text>
+  <text x="560" y="240" font-size="14" fill="#1a1a1a">decision lands.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">Three days decide gold's year-end direction.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>
