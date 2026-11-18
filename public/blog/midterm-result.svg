@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">Midterms 2026: The Result</text>
+  <rect x="40" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">CONGRESS</text>
+  <text x="150" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">Democrats win</text>
+  <text x="60" y="190" font-size="14" fill="#1a1a1a">Both the House and</text>
+  <text x="60" y="215" font-size="14" fill="#1a1a1a">the Senate on</text>
+  <text x="60" y="240" font-size="14" fill="#1a1a1a">November 3, 2026.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#ffebee" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#c62828">APPROVAL</text>
+  <text x="400" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">31% — record low</text>
+  <text x="310" y="190" font-size="14" fill="#1a1a1a">Trump's approval in</text>
+  <text x="310" y="215" font-size="14" fill="#1a1a1a">Reuters/Ipsos polling,</text>
+  <text x="310" y="240" font-size="14" fill="#1a1a1a">a record low.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">TURNOUT</text>
+  <text x="650" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">35% stayed home</text>
+  <text x="560" y="190" font-size="14" fill="#1a1a1a">Of Trump's 2024 voters</text>
+  <text x="560" y="215" font-size="14" fill="#1a1a1a">did not vote, vs 22%</text>
+  <text x="560" y="240" font-size="14" fill="#1a1a1a">of Harris voters.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">A divided government from November 3, 2026.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>

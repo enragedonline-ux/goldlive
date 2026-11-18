@@ -1266,6 +1266,165 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "gold-falls-despite-us-iran-war-escalation",
+    title: "US-Iran War Escalates, But Gold Keeps Falling: Why the Safe Haven Isn't Working | GoldRateToday",
+    h1: "US-Iran War Escalates, But Gold Keeps Falling: Why the Safe Haven Isn't Working",
+    excerpt:
+      "War usually lifts gold — but spot fell below $3,800 to a 14-month low even as US jets struck Qeshm Island and tankers were hit in Hormuz. The dollar at a 19-month high and a near-certain December hike are winning. Read more.",
+    tag: "Gold News",
+    date: "Nov 18, 2026",
+    dateISO: "2026-11-18",
+    readingMins: 8,
+    sections: [
+      {
+        heading: "War escalates, gold falls: $3,800 breaks after 14 months",
+        paragraphs: [
+          "On Tuesday, November 17, US fighter jets struck a Revolutionary Guard missile launch site on Qeshm Island, and Iran answered with drones aimed at US radar and air bases in Bahrain and Kuwait. In the Strait of Hormuz, tankers were attacked and mined, and the United States is sending a third aircraft carrier, the USS Theodore Roosevelt, to the Middle East. It is the sharpest escalation of the US-Iran war in weeks — and gold fell anyway.",
+          "Spot gold traded around $3,765–$3,796 an ounce on Wednesday, November 18, down roughly 1.5–2.3% on the session and below $3,800 for the first time since September 2025 — a 14-month low, with a session low near $3,757. The metal now sits about 30% below its January all-time high of $5,405. A war that would normally send buyers into gold is coinciding with one of the metal's worst slides of the year. Our <a href=\"/blog/gold-drops-one-year-low-november-2026/\">account of the November slide</a> shows the fall began before the latest strikes — the war is the newest chapter, not the first cause.",
+          "Iran has hardened its position since the US midterm elections, with officials saying the strategy of squeezing American voters economically has paid off and drafting plans to escalate further — including stepping up pressure on tankers in Hormuz — to push Washington back to the negotiating table. That makes the shipping lane, not just the battlefield, the place to watch. If the strait is disrupted, oil prices spike, and the whole calculation changes.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/war-gold-slide.svg\" alt=\"US-Iran war escalation: Qeshm Island strike, Hormuz tanker attacks, gold below $3,800\" loading=\"lazy\"/><figcaption>War up, gold down — the escalation and the 14-month low in one frame, illustrative, not financial advice</figcaption></figure>",
+        ],
+        bullets: [
+          "Qeshm Island: US fighter jets struck a Revolutionary Guard missile site on Tuesday, November 17",
+          "Hormuz: tankers attacked and mined; Iran is stepping up pressure on shipping through the strait",
+          "Third carrier: the USS Theodore Roosevelt is deploying to the Middle East",
+          "Gold: around $3,765–$3,796, below $3,800 for the first time since September 2025 — a 14-month low",
+        ],
+      },
+      {
+        heading: "The safe-haven paradox: why war isn't lifting gold",
+        paragraphs: [
+          "Gold is the classic safe haven, so a widening war should lift it. It is not, because two stronger forces are pushing the other way. The US dollar is at a 19-month high, which makes dollar-priced gold costlier for buyers elsewhere, and markets price a roughly 94–97% chance of a 25-basis-point Fed hike on December 9, with the 10-year Treasury yield near 5.10%. Gold pays no yield, so when rates and the dollar rise together, bonds pay you to wait and metal does not. That is the same mechanism that drove the slide from $4,057 on November 11 to $3,830 on November 16.",
+          "The paradox is not new. Gold fell through most of the autumn even as the war widened, because the Fed's path mattered more than the headlines. The safe-haven bid is real — it is visible in the metal's refusal to fall faster — but it is losing to the rate story. For the haven bid to win, something has to change the rate story: either the Fed's own words, or an oil shock large enough to change the inflation outlook.",
+          "That is why the Strait of Hormuz matters more than the battlefield. About a fifth of the world's oil passes through it, so a serious disruption would push crude higher, lift inflation expectations, and force the market to re-price both the Fed and gold. A contained war keeps the rate story in charge; a shipping crisis would put the haven story back on top. Watch the strait, not just the strikes.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/war-vs-rates.svg\" alt=\"Why war is not lifting gold: dollar at a 19-month high, December hike odds near 95%, 10-year yield near 5.10%\" loading=\"lazy\"/><figcaption>Three forces beating the haven bid — the dollar, the hike and the yield, illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "What could change the balance: minutes, Hormuz and December",
+        paragraphs: [
+          "The first test comes today. The minutes of the Fed's October 27–28 meeting are due Wednesday, November 18 at 2:00 PM Eastern. That meeting held rates at 3.75–4.00% in a 10–2 vote, with Governors Cook and Hammack dissenting in favour of a hike. The minutes will show how many others leaned the same way — and whether the committee was already moving toward December before the hot jobs and inflation data arrived. A hawkish read would reinforce the rate story; a cautious one would give gold room to breathe.",
+          "The second test is the Fed's own voices. St. Louis Fed President Musalem has said the economy would likely need several more rate increases before spring — as many as four by early next year, according to CNBC — and New York Fed President Williams has said policymakers still have work to do on inflation. Those remarks, not the war headlines, are what pushed the December hike odds toward 95% and gold below $3,800.",
+          "The third test is the December meeting itself, December 8–9, with a new dot plot. If the dots show a higher path for 2027, the rate story tightens further and gold stays under pressure. If they show December as the last move, the haven bid gets its chance. Until then, the metal is caught between a war that should lift it and a Fed that is holding it down. Our <a href=\"/blog/gold-price-after-december-fed-decision/\">December decision guide</a> maps the three scenarios in detail.",
+        ],
+        bullets: [
+          "FOMC minutes today, November 18 at 2:00 PM Eastern — the October 27–28 record, 10–2 vote",
+          "Musalem: several more hikes may be needed before spring; Williams: work remains on inflation",
+          "December 8–9 meeting with a new dot plot — the next verdict on the rate path",
+        ],
+      },
+      {
+        heading: "How to read gold while the war and the Fed collide",
+        paragraphs: [
+          "The practical habit is to watch the dollar and Treasury yields first, and the war headlines second. Gold's daily moves this month have followed the rate story far more closely than the battlefield: the metal fell when hike odds rose and steadied only when yields eased. That does not mean the war is irrelevant — a Hormuz disruption would change everything overnight — but it means the first question each morning is what the Fed is priced to do, not what happened overnight in the Gulf.",
+          "Levels help keep the noise in proportion. The session low near $3,757–$3,792 is the first marker; below it, technicians point to $3,703 as the next support. Above, $3,800 is now resistance — the level gold has to reclaim before the slide looks like a pause rather than a trend. None of these levels is a prediction; they are the map the market is using, and the Fed's minutes and the December dots will redraw it. Check the <a href=\"/gold-price-today/\">live gold price</a> against the data calendar, and remember the longer view from our <a href=\"/blog/gold-price-prediction-2027/\">2027 outlook</a>. This is not financial advice; it is a framework for reading a market pulled in two directions at once.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Why is gold falling during a war?",
+        a: "War normally lifts gold as a safe haven, but two stronger forces are pushing the other way: the US dollar is at a 19-month high and markets price a roughly 94–97% chance of a December Fed hike, with the 10-year Treasury yield near 5.10%. Gold pays no yield, so higher rates raise the cost of holding it, and that rate story is beating the haven bid.",
+      },
+      {
+        q: "What happened in the US-Iran war this week?",
+        a: "On Tuesday, November 17, US fighter jets struck a Revolutionary Guard missile launch site on Qeshm Island, and Iran fired drones at US bases in Bahrain and Kuwait. Tankers were attacked and mined in the Strait of Hormuz, and the United States is sending a third aircraft carrier, the USS Theodore Roosevelt, to the Middle East.",
+      },
+      {
+        q: "Why does the Strait of Hormuz matter for gold?",
+        a: "About a fifth of the world's oil passes through Hormuz, so a serious disruption would push crude higher, lift inflation expectations and force the market to re-price both the Fed and gold. A contained war keeps the rate story in charge; a shipping crisis would put the haven bid back on top.",
+      },
+      {
+        q: "When are the FOMC minutes and what do they matter?",
+        a: "The minutes of the Fed's October 27–28 meeting are due Wednesday, November 18 at 2:00 PM Eastern. That meeting held rates at 3.75–4.00% in a 10–2 vote, with Governors Cook and Hammack dissenting in favour of a hike. The minutes will show how many others leaned the same way.",
+      },
+      {
+        q: "What level is gold at now?",
+        a: "Spot gold traded around $3,765–$3,796 an ounce on November 18, below $3,800 for the first time since September 2025 — a 14-month low — and about 30% below its January all-time high of $5,405.",
+      },
+    ],
+  },
+  {
+    slug: "trump-midterm-defeat-gold-dollar-outlook",
+    title: "Trump's Midterm Defeat: What a Democratic Congress Means for Gold and the Dollar | GoldRateToday",
+    h1: "Trump's Midterm Defeat: What a Democratic Congress Means for Gold and the Dollar",
+    excerpt:
+      "Democrats won the House and the Senate on November 3, and Trump's approval fell to a record-low 31%. We explain what a divided government means for the dollar, Fed independence and gold — and why 35% of his 2024 voters staying home mattered more than the swing. Read more.",
+    tag: "Fed & Gold",
+    date: "Nov 18, 2026",
+    dateISO: "2026-11-18",
+    readingMins: 8,
+    sections: [
+      {
+        heading: "The result: Democrats take Congress, Trump's approval hits 31%",
+        paragraphs: [
+          "On November 3, 2026, Democrats won both the House of Representatives and the Senate in the US midterm elections, taking control of Congress from the Republicans. It was a sweeping defeat for President Donald Trump, whose approval rating fell to 31–32% in Reuters/Ipsos polling — a record low. Trump had committed more than $400 million to the midterm campaign and campaigned for 32 days, including reinstated rallies in Kansas and Iowa, but the result went the other way.",
+          "The most revealing number is not the margin but the turnout. An analysis by J.L. Partners found that 35% of Trump's 2024 voters did not vote in the midterms, compared with 22% of those who voted for Kamala Harris. Nearly half of his supporters without a college degree stayed home, along with 39% of rural voters and 44% of those over 65. The Democrats did not mainly convert Trump voters — they outlasted them.",
+          "For gold, the result matters because it changes who controls the purse and who can challenge the White House. A Democratic Congress can block spending and tax plans, run oversight hearings, and push back on pressure against the Federal Reserve. None of that moves gold by itself — but it changes the backdrop against which the dollar and the Fed are priced. Our <a href=\"/blog/gold-price-trump-tariffs-war-news/\">earlier look at Trump, tariffs and gold</a> explains how the administration's trade and war policies have already shaped the metal this year.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/midterm-result.svg\" alt=\"Midterms 2026 result: Democrats win the House and Senate, Trump approval 31%, 35% of 2024 Trump voters stayed home\" loading=\"lazy\"/><figcaption>The result in three numbers — a divided government from November 3, 2026, illustrative, not financial advice</figcaption></figure>",
+        ],
+        bullets: [
+          "Democrats won both the House and the Senate on November 3, 2026; Republicans lost control of Congress",
+          "Trump's approval fell to 31–32% in Reuters/Ipsos polling — a record low",
+          "35% of Trump's 2024 voters did not vote, vs 22% of Harris voters; nearly half of non-college supporters stayed home",
+          "Trump committed more than $400 million to the campaign and ran a 32-day blitz",
+        ],
+      },
+      {
+        heading: "Why the turnout gap mattered more than the swing",
+        paragraphs: [
+          "An analysis of 13 states by election researcher Lenny Bronner estimated that roughly 75% of Democratic gains came from turnout differences, while only about 20% came from voters switching parties. In other words, most of the result was decided by who showed up, not who changed their mind. Before the election, only 33% of Republican voters said they were very enthusiastic about voting, compared with 49% of Democrats — the enthusiasm gap was visible before a single ballot was counted.",
+          "The issue driving that gap was the cost of living. In September, Reuters/Ipsos found that Republican approval of Trump's handling of the cost of living had fallen from 70% in January to 44%. An October survey found that 78% of Americans blamed Trump's policies at least partly for prices rising faster than their earnings. The war with Iran was part of the same story: only 31% of Americans supported it, and the administration's handling of it became a reason to stay home rather than a reason to turn out.",
+          "That matters for gold because the cost-of-living story is also the inflation story. Voters punished the administration for prices; the Fed is fighting the same prices with higher rates. The midterm result is, in part, the political echo of the inflation data that has pushed December hike odds toward 95% and gold below $3,800. The two stories — the election and the metal — are driven by the same numbers.",
+        ],
+      },
+      {
+        heading: "What a Democratic Congress means for the dollar — and gold",
+        paragraphs: [
+          "A divided government usually means gridlock: spending and tax plans stall, and big fiscal moves become harder to pass. For the dollar, that cuts both ways. Less fiscal expansion can mean less upward pressure on rates, which would soften the dollar and help gold. But gridlock can also mean policy uncertainty, which sometimes strengthens the dollar as a haven. The market will judge it by what Congress actually blocks, not by the label.",
+          "The sharper question is Fed independence. A Democratic Congress has more power over oversight and can challenge pressure on the central bank — and the administration's handling of the Fed has been a live issue all year, from the October hold to the debate over who chairs the Fed. If Congress is seen as a check on political pressure, the Fed's credibility is protected and the dollar's anchor holds. If the fight over the Fed escalates, the dollar wobbles and gold's haven bid strengthens.",
+          "None of this changes the near term. Gold's next move is still set by the Fed's December 8–9 meeting and the dollar's 19-month high, not by the midterm result. What the result changes is the 2027 backdrop: fiscal policy, Fed appointments and trade policy will all run through a Congress the other party holds. That is a slow force, not a fast one — but it is the force that will shape the dollar's next year.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/congress-gold-dollar.svg\" alt=\"Divided government, gold and the dollar: gridlock on spending, Fed independence in focus, gold still set by rates and the dollar\" loading=\"lazy\"/><figcaption>What changes and what doesn't — Congress shifts the backdrop, the Fed still sets the price, illustrative, not financial advice</figcaption></figure>",
+        ],
+        bullets: [
+          "Gridlock: spending and tax plans stall in a Congress the other party holds",
+          "Oversight: a Democratic Congress can challenge pressure on the Federal Reserve",
+          "Gold's drivers: still the Fed and the dollar — the midterms shift the backdrop, not the next move",
+        ],
+      },
+      {
+        heading: "The other forces that still decide gold: the Fed and the war",
+        paragraphs: [
+          "It is worth stating plainly what the midterms do not change. They do not change the December Fed decision: markets still price a roughly 94–97% chance of a 25-basis-point hike on December 9, and the meeting is December 8–9 with a new dot plot. They do not change the US-Iran war, where US jets struck Qeshm Island on November 17 and tankers are under attack in Hormuz. Gold's slide below $3,800 was driven by the dollar and the hike bets, and those forces are still in charge. Our <a href=\"/blog/gold-falls-despite-us-iran-war-escalation/\">account of the war and gold</a> explains why the haven bid is losing to rates.",
+          "What the midterms do change is the politics around those forces. A Congress that can investigate, block and oversee will shape how the administration handles the war, the Fed and the economy in 2027 — and the war itself was part of the midterm story, with Iran hardening its position after the results and planning to escalate. The election, the war and the metal are not three separate stories; they are one story told in three places.",
+          "For readers, the practical habit is the same as with any political result: separate the headline from the mechanism. The headline is a Democratic Congress; the mechanism is gridlock, oversight and Fed independence, playing out over months. The metal's next verdict comes December 9, not November 3. Check the <a href=\"/gold-price-today/\">live gold price</a> against the data calendar, and remember the longer view from our <a href=\"/blog/gold-price-prediction-2027/\">2027 outlook</a>. This is not financial advice; it is a framework for reading a political result without mistaking it for a market forecast.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Who won the 2026 midterm elections?",
+        a: "Democrats won both the House of Representatives and the Senate on November 3, 2026, taking control of Congress from the Republicans. It was a sweeping defeat for President Donald Trump.",
+      },
+      {
+        q: "What is Trump's approval rating?",
+        a: "Trump's approval fell to 31–32% in Reuters/Ipsos polling after the midterms — a record low. He had committed more than $400 million to the midterm campaign.",
+      },
+      {
+        q: "Why did Republicans lose the midterms?",
+        a: "Mainly turnout, not switching: 35% of Trump's 2024 voters did not vote, compared with 22% of Harris voters, and roughly 75% of Democratic gains came from turnout differences. The cost of living was the top issue, with 78% of Americans blaming Trump's policies at least partly for prices rising faster than earnings.",
+      },
+      {
+        q: "What does a Democratic Congress mean for gold?",
+        a: "A divided government means gridlock on spending and taxes and more oversight, including of pressure on the Federal Reserve. Gold's near-term path is still set by the Fed and the dollar, but the midterm result changes the 2027 backdrop for fiscal policy, Fed appointments and trade.",
+      },
+      {
+        q: "Does the midterm result change the December Fed decision?",
+        a: "No. Markets still price a roughly 94–97% chance of a 25-basis-point hike on December 9, and the FOMC meets December 8–9 with a new dot plot. The midterms change the politics around the Fed, not the December decision itself.",
+      },
+    ],
+  },
 ];
 
 export const getBlogPost = (slug: string) => BLOG_POSTS.find((p) => p.slug === slug);
