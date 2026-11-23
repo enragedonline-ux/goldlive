@@ -10,6 +10,7 @@ import { getPrices } from "@/lib/prices";
 import { usdTo } from "@/lib/fx";
 import { fmtPct } from "@/lib/format";
 import { cityContent, PAKISTAN_CITIES, type PakistanCity } from "@/lib/pakistan-cities";
+import { PAKISTAN_LOCAL_RATE, PURITY_22K, PURITY_18K } from "@/lib/pakistan-local-rate";
 
 const SITE_URL = "https://goldratetoday.online";
 
@@ -20,9 +21,9 @@ function fmtLocal(v: number, symbol: string) {
 
 /**
  * City gold-rate page (e.g. /gold-price-in-karachi).
- * Rates are the national live rate (international spot + USD/PKR) — the same
- * in every Pakistani city. The page adds 24K/22K/18K purity tables and the
- * city's own sarafa-market info on top of that live rate.
+ * Headline numbers are the OFFICIAL LOCAL sarafa rate (APSGJA, daily fixing) —
+ * the rate Pakistani bazaars actually trade at. The live international spot
+ * conversion is shown alongside as a reference, never as the local rate.
  */
 export default async function CityPricePage({
   city,
@@ -39,12 +40,18 @@ export default async function CityPricePage({
 
   const content = cityContent(city, rate, usdPerOz);
 
-  const perGram24 = usdPerOz ? (usdPerOz / 31.1035) * rate : 0;
-  const perTola24 = usdPerOz ? (usdPerOz / 31.1035) * 11.6638 * rate : 0;
+  // Headline = official local sarafa rate (APSGJA, daily fixing).
+  const local = PAKISTAN_LOCAL_RATE;
+  const perTola24 = local.perTola24K;
+  const perGram24 = perTola24 / 11.6638;
+  // Live international spot conversion, shown as a reference only.
+  const spotPerTola = usdPerOz ? (usdPerOz / 31.1035) * 11.6638 * rate : 0;
+  const localUp = local.changePerTola >= 0;
+  const localChangeLabel = `${localUp ? "+" : "−"}${fmtLocal(Math.abs(local.changePerTola), "Rs")} today`;
   const purities = [
     { label: "24K (99.9% pure)", factor: 1 },
-    { label: "22K (91.6% pure)", factor: 0.916 },
-    { label: "18K (75.0% pure)", factor: 0.75 },
+    { label: "22K (91.6% pure)", factor: PURITY_22K },
+    { label: "18K (75.0% pure)", factor: PURITY_18K },
   ];
 
   const crumbs = [
@@ -84,16 +91,16 @@ export default async function CityPricePage({
         <h1 className="ppage-h1">{content.h1}</h1>
         <div className="price-row">
           <span className="big-price">{fmtLocal(perTola24, "₨")}</span>
-          <span className={`chg ${down ? "down" : "up"}`}>
-            {down ? "▾" : "▴"} {fmtPct(chg)} today
+          <span className={`chg ${localUp ? "up" : "down"}`}>
+            {localUp ? "▴" : "▾"} {localChangeLabel}
           </span>
           <span className="per">per tola · 24K · PKR</span>
         </div>
         <p className="pupd">
-          Gold price updated every minute · Spot: gold-api.com / CoinGecko · FX: ECB reference rates
-          {live?.updatedAt
-            ? ` · Last updated ${new Date(live.updatedAt).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: "UTC" })} UTC`
-            : ""}
+          Local sarafa rate ({local.source}, {local.dateLabel}) · Live international spot:{" "}
+          {fmtLocal(spotPerTola, "₨")} per tola
+          {chg !== null ? ` (${down ? "▾" : "▴"} ${fmtPct(chg)} today)` : ""} · updates every minute ·
+          Spot: gold-api.com / CoinGecko · FX: ECB reference rates
         </p>
 
         <div className="chart-card">

@@ -1,6 +1,5 @@
-import { getPrices } from "@/lib/prices";
-import { usdTo } from "@/lib/fx";
 import { PAKISTAN_CITIES } from "@/lib/pakistan-cities";
+import { PAKISTAN_LOCAL_RATE } from "@/lib/pakistan-local-rate";
 
 function fmtLocal(v: number, symbol: string) {
   if (!v) return "—";
@@ -9,13 +8,12 @@ function fmtLocal(v: number, symbol: string) {
 
 /**
  * "Gold Rate in Major Cities of Pakistan" — rendered on the Pakistan country
- * page only. Every city shows the same national live rate (spot + USD/PKR);
- * the section exists so city searches land on a dedicated live page.
+ * page only. Every city shows the same OFFICIAL LOCAL sarafa rate (APSGJA,
+ * daily fixing) — the rate Pakistani bazaars actually trade at.
  */
 export default async function PakistanCitiesSection() {
-  const [{ assets }, rate] = await Promise.all([getPrices(), usdTo("PKR")]);
-  const usdPerOz = assets.find((a) => a.id === "gold")?.price ?? 0;
-  const perTola24 = usdPerOz ? (usdPerOz / 31.1035) * 11.6638 * rate : 0;
+  const local = PAKISTAN_LOCAL_RATE;
+  const perTola24 = local.perTola24K;
 
   return (
     <div className="panel" style={{ marginTop: 22 }}>
@@ -41,8 +39,8 @@ export default async function PakistanCitiesSection() {
         </tbody>
       </table>
       <p style={{ padding: "0 20px 16px", margin: 0, fontSize: 13, color: "var(--muted)" }}>
-        Rates are the same across Pakistan — every city follows the national live rate (international
-        spot + USD/PKR). Tap a city for its 24K, 22K and 18K rates and local market details.
+        Local sarafa rate ({local.source}, {local.dateLabel}) — the same across Pakistan. Tap a city
+        for its 24K, 22K and 18K rates and local market details.
       </p>
     </div>
   );

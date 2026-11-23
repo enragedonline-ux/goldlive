@@ -84,6 +84,8 @@ export function getCity(slug: string): PakistanCity | undefined {
   return PAKISTAN_CITIES.find((c) => c.slug === slug);
 }
 
+import { PAKISTAN_LOCAL_RATE, PURITY_22K, PURITY_18K } from "./pakistan-local-rate";
+
 export interface CityPageContent {
   title: string;
   description: string;
@@ -95,37 +97,51 @@ export interface CityPageContent {
 const fmtLocal = (v: number, symbol: string) =>
   `${symbol}${v.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
 
-/** Live content for a city page. Rates are the national live rate (spot + USD/PKR) — the same across every Pakistani city. */
+/**
+ * Live content for a city page.
+ * Headline numbers are the OFFICIAL LOCAL sarafa rate (APSGJA, daily fixing) —
+ * the rate Pakistani bazaars actually trade at. The live international spot
+ * conversion is shown as a secondary reference (spotPerTola), never as the
+ * local rate. 22K/18K are derived from the 24K local rate by standard fineness.
+ */
 export function cityContent(city: PakistanCity, rate: number, usdPerOz: number): CityPageContent {
-  const perTola24 = (usdPerOz / 31.1035) * 11.6638 * rate;
-  const perGram24 = (usdPerOz / 31.1035) * rate;
-  const perTola22 = perTola24 * 0.916;
-  const perTola18 = perTola24 * 0.75;
+  const local = PAKISTAN_LOCAL_RATE;
+  const perTola24 = local.perTola24K;
+  const perGram24 = perTola24 / 11.6638;
+  const perTola22 = perTola24 * PURITY_22K;
+  const perTola18 = perTola24 * PURITY_18K;
+  const spotPerTola = (usdPerOz / 31.1035) * 11.6638 * rate;
+  const changeWord = local.changePerTola >= 0 ? "up" : "down";
+  const changeAbs = Math.abs(local.changePerTola);
 
   return {
-    title: `Gold Rate in ${city.name} Today — Live 24K, 22K & 18K per Tola | GoldRateToday`,
-    description: `Live gold rate in ${city.name}: ${fmtLocal(perTola24, "Rs")} per tola (24K), ${fmtLocal(perTola22, "Rs")} (22K), ${fmtLocal(perTola18, "Rs")} (18K). Updated every minute from international spot.`,
+    title: `Gold Rate in ${city.name} Today — Local Sarafa Rate 24K, 22K & 18K per Tola | GoldRateToday`,
+    description: `Local gold rate in ${city.name}: ${fmtLocal(perTola24, "Rs")} per tola (24K), ${fmtLocal(perTola22, "Rs")} (22K), ${fmtLocal(perTola18, "Rs")} (18K) — APSGJA rate, ${local.dateLabel}. Live international spot also shown.`,
     h1: `Gold Rate in ${city.name}`,
     intro: [
-      `The gold rate in ${city.name} today is ${fmtLocal(perTola24, "Rs")} per tola and ${fmtLocal(perGram24, "Rs")} per gram for 24K, tracking the international spot price of $${usdPerOz.toLocaleString("en-US", { maximumFractionDigits: 0 })} per ounce converted at the current USD/PKR rate. Gold rates are the same across Pakistan — ${city.name}'s local market follows the All Pakistan Sarafa Gems and Jewellers Association (APSGJA) daily rates, which move with global spot plus the rupee's value against the dollar.`,
-      `${city.marketNote} Jewellers there quote 24K, 22K and 18K rates per tola (11.6638 grams); 22K is the usual choice for jewellery, while 24K bars and coins are bought for investment. Making charges are added on top of the rates below, so compare two or three shops before buying.`,
+      `The gold rate in ${city.name} today is ${fmtLocal(perTola24, "Rs")} per tola and ${fmtLocal(perGram24, "Rs")} per gram for 24K, as fixed by the All Pakistan Sarafa Gems and Jewellers Association (APSGJA) on ${local.dateLabel} — ${changeWord} ${fmtLocal(changeAbs, "Rs")} from yesterday's ${fmtLocal(local.prevPerTola24K, "Rs")} per tola. This is the local sarafa rate Pakistani bazaars trade at.`,
+      `${city.marketNote} Jewellers there quote 24K, 22K and 18K rates per tola (11.6638 grams); 22K is the usual choice for jewellery, while 24K bars and coins are bought for investment. Making charges are added on top of the rates below, so compare two or three shops before buying. For reference, the live international spot value is ${fmtLocal(spotPerTola, "Rs")} per tola — the local rate sits above spot because it carries import cost, dealer margin and the open-market dollar rate.`,
     ],
     faqs: [
       {
         q: `What is the gold rate in ${city.name} today?`,
-        a: `Today's gold rate in ${city.name} is ${fmtLocal(perTola24, "Rs")} per tola and ${fmtLocal(perGram24, "Rs")} per gram for 24K, converted live from the international spot price. Rates update every minute during market hours.`,
+        a: `Today's local gold rate in ${city.name} is ${fmtLocal(perTola24, "Rs")} per tola and ${fmtLocal(perGram24, "Rs")} per gram for 24K, as fixed by APSGJA on ${local.dateLabel}. The local rate is updated once a day when the association publishes it.`,
       },
       {
         q: `How much is 1 tola gold in ${city.name}?`,
-        a: `One tola (11.6638 grams) of 24K gold costs ${fmtLocal(perTola24, "Rs")} in ${city.name} at the current live rate. For 22K jewellery gold, one tola costs about ${fmtLocal(perTola22, "Rs")} before making charges.`,
+        a: `One tola (11.6638 grams) of 24K gold costs ${fmtLocal(perTola24, "Rs")} in ${city.name} at the current local rate. For 22K jewellery gold, one tola costs about ${fmtLocal(perTola22, "Rs")} before making charges.`,
       },
       {
         q: `What is the 22K gold rate in ${city.name}?`,
-        a: `The 22K gold rate in ${city.name} is ${fmtLocal(perTola22, "Rs")} per tola (${fmtLocal(perGram24 * 0.916, "Rs")} per gram). 22K is the standard purity for jewellery in Pakistan.`,
+        a: `The 22K gold rate in ${city.name} is ${fmtLocal(perTola22, "Rs")} per tola (${fmtLocal(perGram24 * PURITY_22K, "Rs")} per gram). 22K is the standard purity for jewellery in Pakistan.`,
+      },
+      {
+        q: `Why is the local rate higher than the international gold price?`,
+        a: `The local sarafa rate sits above the international spot value because it carries import cost, dealer margin and the open-market dollar rate rather than the interbank one. On ${local.dateLabel} the local 24K rate is ${fmtLocal(perTola24, "Rs")} per tola while the live spot value is about ${fmtLocal(spotPerTola, "Rs")} per tola.`,
       },
       {
         q: `Where can I buy gold in ${city.name}?`,
-        a: `The main gold market in ${city.name} is ${city.market}. Compare quotes from at least two jewellers there against the live rate above — unusually large premiums over spot are a red flag.`,
+        a: `The main gold market in ${city.name} is ${city.market}. Compare quotes from at least two jewellers there against the local rate above — unusually large premiums over the sarafa rate are a red flag.`,
       },
     ],
   };
