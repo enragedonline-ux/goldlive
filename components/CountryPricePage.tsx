@@ -7,6 +7,7 @@ import LatestBlogPosts from "@/components/LatestBlogPosts";
 import Faq, { FaqJsonLd } from "@/components/Faq";
 import WorldGoldPrices from "@/components/WorldGoldPrices";
 import WorldSilverPrices from "@/components/WorldSilverPrices";
+import PakistanCitiesSection from "@/components/PakistanCitiesSection";
 import { getPrices } from "@/lib/prices";
 import { usdTo } from "@/lib/fx";
 import { fmtPct } from "@/lib/format";
@@ -146,6 +147,8 @@ export default async function CountryPricePage({
             </p>
           )}
         </div>
+
+        {country.slug === "pakistan" && asset === "gold" && <PakistanCitiesSection />}
 
         <Faq items={content.faqs} />
 

@@ -4,6 +4,7 @@ import { GOLD_PAGES } from "@/lib/registry-gold";
 import { SILVER_PAGES } from "@/lib/registry-silver";
 import { CRYPTO_PAGES } from "@/lib/registry-crypto";
 import { GOLD_COUNTRIES, SILVER_COUNTRIES } from "@/lib/countries";
+import { PAKISTAN_CITIES } from "@/lib/pakistan-cities";
 import { BLOG_POSTS } from "@/lib/blog-posts";
 
 const STATIC_PAGES = ["about", "contact", "privacy", "disclaimer"];
@@ -25,6 +26,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     urls.push({ url: `${SITE_URL}/gold-price-in-${c.slug}/`, lastModified: now, changeFrequency: "hourly", priority: 0.8 });
   for (const c of SILVER_COUNTRIES)
     urls.push({ url: `${SITE_URL}/silver-price-in-${c.slug}/`, lastModified: now, changeFrequency: "hourly", priority: 0.8 });
+  for (const c of PAKISTAN_CITIES)
+    urls.push({ url: `${SITE_URL}/gold-price-in-${c.slug}`, lastModified: now, changeFrequency: "hourly", priority: 0.8 });
 
   urls.push({ url: `${SITE_URL}/blog/`, lastModified: now, changeFrequency: "daily", priority: 0.7 });
   for (const p of BLOG_POSTS)
