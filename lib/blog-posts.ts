@@ -1425,6 +1425,182 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "gold-bounces-back-above-3600-november-2026",
+    title: "Gold Bounces Back Above $3,600 After Its Worst Week Since March | GoldRateToday",
+    h1: "Gold Bounces Back Above $3,600 After Its Worst Week Since March",
+    excerpt:
+      "Spot gold climbed about 2% to $3,604 on Monday, back above $3,600 after last week's steep sell-off — its biggest weekly drop since March. The December Fed meeting still decides what happens next. Read more.",
+    tag: "Gold News",
+    date: "Nov 23, 2026",
+    dateISO: "2026-11-23",
+    readingMins: 8,
+    sections: [
+      {
+        heading: "Monday bounce: +2% to $3,604 after the worst week since March",
+        paragraphs: [
+          "Spot gold climbed about 2% to $3,603.77 an ounce on Monday, November 23, trading around $3,604–$3,620 and back above $3,600 after breaking below it last week. The bounce is a recovery from last week's steep sell-off, which marked gold's biggest weekly decline since March — ending at a 14-month low.",
+          "The turn is modest in size but clear in direction. Last week gold was sold hard enough to break below $3,600 for the first time since September 2025, and silver fell with it. On Monday, buyers stepped back in: spot rose roughly 2% on the day, and silver steadied near $42.14 an ounce. Our <a href=\"/blog/gold-drops-one-year-low-november-2026/\">account of the November slide</a> tracks the fall from $4,057 on November 11 to the $3,830 low on November 16 — Monday's bounce is the first real pause in that slide.",
+          "A one-day bounce does not undo a week of selling, and nothing in the drivers has changed yet. The dollar is still at a 19-month high, the December hike is still priced as near-certain, and yields are still high. What Monday does is put a floor under the move: the metal found buyers at the 14-month low instead of falling straight through it.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/rebound-3600.svg\" alt=\"Gold's Monday rebound: spot up about 2% to $3,604, back above $3,600 after the worst week since March\" loading=\"lazy\"/><figcaption>The bounce in three numbers — Monday's recovery after the worst week since March, illustrative, not financial advice</figcaption></figure>",
+        ],
+        bullets: [
+          "Spot gold: about $3,604–$3,620 an ounce on Monday, up roughly 2% on the day",
+          "Last week: the steepest weekly sell-off since March, ending below $3,600 — a 14-month low",
+          "Silver: steadied near $42.14 an ounce after dropping about 5% on November 18",
+          "The bounce: the first real pause since the slide from $4,057 on November 11",
+        ],
+      },
+      {
+        heading: "How bad was last week: the 14-month low in numbers",
+        paragraphs: [
+          "The scale of last week's fall is worth stating plainly. On Wednesday, November 18, spot gold fell about 3.2% in a single day to its lowest level since September 2025, and silver dropped about 5% the same day. The metal broke below $3,600 — a level it had held since September 2025 — and stayed there into the weekend. Gold now sits about a third below its January all-time high of $5,405.",
+          "The slide did not start last week. Gold was already falling through the autumn as the Fed's path hardened: it dropped from $4,057 on November 11 to $3,830 on November 16, the lowest since October 2025 at the time, before last week's break below $3,600. Each leg down was driven by the same forces — a stronger dollar, higher hike odds and rising yields — rather than by any single headline.",
+          "That history matters because it tells us what Monday's bounce is not. It is not a reversal of the rate story; it is a pause inside it. The metal has bounced before during this slide — it recovered to $4,057 on November 11 after an earlier sell-off, then fell again. A bounce becomes a turn only when the drivers change, and the drivers are the Fed and the dollar.",
+        ],
+      },
+      {
+        heading: "Why the bounce is fragile: the dollar is still at a 19-month high",
+        paragraphs: [
+          "The most immediate obstacle to a recovery is the dollar. The US Dollar Index (DXY) has risen to a 19-month high near 104, and Hang Seng's analysis of November 20 calls the dollar's strong momentum the most immediate obstacle to a short-term recovery in gold. The sensitivity between gold and the dollar — the beta — has risen to near-historical extremes, so even modest dollar gains are generating disproportionately strong selling pressure on gold.",
+          "Hang Seng's technical read is blunt: gold needs to recover above $4,000 to signal an improvement in its outlook, and the break below $3,600 has increased the risk of a further decline toward $3,500. Monday's bounce to $3,604 is barely above the level that broke — it is a first step, not a reclaim. Until the dollar meets resistance, its momentum is likely to keep capping gold.",
+          "There is a softer note in the same analysis: cooling inflation should halt rate hikes after December, limiting the depth and duration of any further decline. That is the medium-term case for gold — the hiking cycle is near its end, even if December still brings one more move. The question for the next two weeks is whether the metal holds $3,600 while the market waits for the Fed.",
+        ],
+      },
+      {
+        heading: "The December clock: what the Fed has already told us",
+        paragraphs: [
+          "The December FOMC meeting is December 8–9, with the decision on Wednesday, December 9 at 2:00 PM Eastern, followed by a new dot plot and a press conference at 2:30 PM. Markets price a roughly 94–100% chance of a 25-basis-point hike, with a 6–11% chance of a larger 50-basis-point move — and Fed Governor Christopher Waller has publicly floated the 50-basis-point option. The meeting is the nearest verification point for everything that has driven gold down.",
+          "The Fed has already shown its hand in the minutes of its October 27–28 meeting, released on November 18. Almost all participants believed further rate hikes were needed under the baseline scenario, and a few said a move larger than 25 basis points could be considered in December if inflation data turned unfavourable. That October meeting held rates at 3.75–4.00% in a 10–2 vote, with Governors Cook and Hammack dissenting in favour of a hike. The data since then has backed the hawks: October jobs beat expectations at +165,000 with unemployment at 4.1%, October CPI rose 0.4% month on month, and October PPI rose 0.3% on the month and 6.5% year on year — the largest 12-month rise since November 2022. Our <a href=\"/blog/gold-price-after-december-fed-decision/\">December decision guide</a> maps the scenarios in detail, and the <a href=\"https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html\">CME FedWatch tool</a> tracks the live odds.",
+          "For gold, the meeting is a fork. If the Fed hikes only 25 basis points and the language is not more hawkish, the dollar may give back some gains and the first layer of pressure on gold eases. If the dots show a higher path for 2027, or a 50-basis-point move lands, the rate story tightens further and the $3,500 risk comes back into play. Monday's bounce is the market pricing the first outcome; the second is still on the table.",
+        ],
+        bullets: [
+          "December 8–9 FOMC meeting; decision Wednesday, December 9 at 2:00 PM Eastern, dot plot and press conference at 2:30 PM",
+          "Hike odds: roughly 94–100% for 25 basis points, 6–11% for 50 — Waller floated the 50bp option",
+          "October minutes (released November 18): almost all participants believed further hikes were needed",
+          "Data backing the hawks: October jobs +165,000, unemployment 4.1%; CPI +0.4% m/m; PPI +6.5% y/y",
+        ],
+      },
+      {
+        heading: "What it means for buyers: Pakistan's local rate and the live price",
+        paragraphs: [
+          "For buyers in Pakistan, the local rate moved the other way on Monday. The All Pakistan Sarafa Gems and Jewellers Association (APSGJA) fixed 24K gold at Rs384,136 per tola on November 23, up Rs7,800 from Saturday's Rs376,336 — even as the international spot price was recovering from its low. The local rate sits above the spot conversion because it carries import cost, dealer margin and the open-market dollar rate, and it is fixed once a day rather than ticking live. Our <a href=\"/gold-price-in-karachi/\">Karachi page</a> and the other <a href=\"/gold-price-in-pakistan/\">Pakistan city pages</a> now show the official local rate as the headline, with the live spot value as a reference.",
+          "The practical habit is the same as ever: check the rate before you buy, and compare two or three jewellers against it. A bounce in the international price does not mean the local rate falls — the two move on different clocks, and the local rate follows the association's daily fixing plus the rupee. The <a href=\"/gold-price-calculator/\">gold price calculator</a> turns the live rate into a per-tola and per-gram figure for the purity you are buying, and the <a href=\"/gold-price-today/\">live gold price</a> shows where spot stands minute by minute. This is not financial advice; it is a framework for reading a bounce without mistaking it for a bottom.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/rebound-what-next.svg\" alt=\"What decides gold next: the December 8–9 FOMC meeting, hike odds near 100%, and the $4,000 level\" loading=\"lazy\"/><figcaption>What decides the next move — the Fed meeting, the hike odds and the $4,000 level, illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is gold today?",
+        a: "Spot gold traded around $3,604–$3,620 an ounce on Monday, November 23, up about 2% on the day and back above $3,600 after breaking below it last week to a 14-month low.",
+      },
+      {
+        q: "Why did gold fall last week?",
+        a: "A hawkish repricing of Fed policy, a dollar at a 19-month high near 104, rising Treasury yields, and a tech-stock sell-off that forced investors to liquidate gold to cover margin calls. It was gold's biggest weekly decline since March.",
+      },
+      {
+        q: "What is the gold rate in Pakistan today?",
+        a: "The APSGJA fixed 24K gold at Rs384,136 per tola on November 23, up Rs7,800 from Saturday's Rs376,336. The local rate is fixed once a day and sits above the spot conversion because it carries import cost, dealer margin and the open-market dollar rate.",
+      },
+      {
+        q: "When is the December Fed meeting?",
+        a: "The FOMC meets December 8–9, 2026, with the decision on Wednesday, December 9 at 2:00 PM Eastern, followed by a new dot plot and a press conference at 2:30 PM. Markets price a roughly 94–100% chance of a 25-basis-point hike.",
+      },
+      {
+        q: "Could gold fall back below $3,600?",
+        a: "Yes. Hang Seng's analysis says the break below $3,600 has increased the risk of a further decline toward $3,500, and gold needs to recover above $4,000 to improve its technical outlook. Monday's bounce is barely above the level that broke.",
+      },
+    ],
+  },
+  {
+    slug: "why-gold-fell-10-percent-dollar-rose-2-percent",
+    title: "Why Gold Fell 10% in a Week While the Dollar Rose Only 2% | GoldRateToday",
+    h1: "Why Gold Fell 10% in a Week While the Dollar Rose Only 2%",
+    excerpt:
+      "Gold fell about 10% in seven trading days while the dollar rose only about 2%. The gap is the story: a hawkish Fed, forced selling from a tech sell-off, and a dollar-gold beta near historical extremes. Read more.",
+    tag: "Gold Analysis",
+    date: "Nov 23, 2026",
+    dateISO: "2026-11-23",
+    readingMins: 8,
+    sections: [
+      {
+        heading: "The numbers: gold −10%, the dollar +2%",
+        paragraphs: [
+          "Gold fell about 10% over the past seven trading days while the US dollar rose only about 2% over the same period. The dollar index (DXY) climbed to a 19-month high near 104, and spot gold broke below $3,600 to a 14-month low — its lowest since September 2025 — before bouncing about 2% to $3,604 on Monday, November 23. The metal now sits about a third below its January all-time high of $5,405.",
+          "The gap between the two moves is the puzzle. If gold fell only because the dollar rose, the moves should be roughly proportional — a 2% dollar gain should not, by itself, cost gold 10%. Something amplified the dollar's push, and that something is the combination of a hawkish Fed repricing and forced selling. Gold's seven-day decline is about five times the dollar's gain, and the multiplier is the story of this sell-off.",
+          "Silver tells the same story, louder: it dropped about 5% on Wednesday, November 18 alone, and copper fell 5.7% the same day to its lowest since April. When gold, silver and copper all fall in the same week, the cause is not a gold-specific problem — it is a market-wide rush for cash. Our <a href=\"/blog/gold-bounces-back-above-3600-november-2026/\">account of Monday's bounce</a> picks up where this sell-off ends.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/gold-vs-dollar-beta.svg\" alt=\"Gold vs the dollar in one week: gold down about 10%, the dollar up about 2% to a 19-month high near 104\" loading=\"lazy\"/><figcaption>Gold fell about five times the dollar's gain — the gap is the story, illustrative, not financial advice</figcaption></figure>",
+        ],
+        bullets: [
+          "Gold: down about 10% over seven trading days, breaking below $3,600 to a 14-month low",
+          "Dollar: up only about 2% over the same period, DXY at a 19-month high near 104",
+          "November 18: spot gold fell about 3.2% in a single day; silver dropped about 5%",
+          "The ratio: gold's decline is about five times the dollar's gain",
+        ],
+      },
+      {
+        heading: "Why gold moves five times the dollar: the beta problem",
+        paragraphs: [
+          "The first amplifier is the sensitivity between gold and the dollar — the beta. Hang Seng's analysis of November 20 notes that the beta between gold and the DXY has risen to near-historical extremes, which means that even modest gains in the dollar are generating disproportionately strong selling pressure on gold. In normal times, a 2% dollar rise might cost gold a few percent; at the current beta, it costs much more.",
+          "The mechanism is mechanical. Gold is priced in dollars, so a stronger dollar makes it costlier for buyers holding other currencies — and when the dollar's momentum is strong, that price effect compounds with positioning: traders who bought gold on leverage sell as the price falls, which pushes it further. Until the DXY encounters meaningful resistance, Hang Seng expects its momentum to remain the most immediate obstacle to a short-term recovery in gold.",
+          "This is why watching the dollar matters more than watching gold itself right now. Gold's daily moves this month have followed the dollar and the rate story far more closely than any gold-specific news. The metal's next move will be set by whether the dollar keeps climbing toward new highs or stalls — and the December Fed meeting is the event that decides which.",
+        ],
+      },
+      {
+        heading: "The liquidation channel: tech stocks, margin calls and forced selling",
+        paragraphs: [
+          "The second amplifier is forced selling. A sell-off in US technology stocks prompted some investors to liquidate gold positions to raise cash and meet margin requirements. Gold was sold as a source of liquidity — not because investors had changed their mind about gold, but because they needed cash and gold was the asset they could sell quickly. When leveraged positions are liquidated at the same time, the selling feeds on itself.",
+          "The same pattern showed up across metals. Silver dropped about 5% on November 18, and London Metal Exchange three-month copper fell 5.7% to its lowest since April, as crowded long positions were unwound. Tight Chinese spot supply suggests copper's decline does not look like a demand collapse — it looks like the same forced selling that hit gold. A higher rate anchor and a stronger dollar are the common backdrop; crowded positions being liquidated simultaneously is the amplifier.",
+          "Forced selling is, by nature, temporary: it ends when the margin calls stop. But it leaves damage behind — broken technical levels, shaken confidence, and a market that needs a reason to buy again. Monday's bounce above $3,600 is the first sign that the forced selling has paused; whether it has ended depends on the tech market and the Fed, not on gold.",
+          "<figure class=\"blog-fig\"><img src=\"/blog/liquidation-margin.svg\" alt=\"The liquidation channel: tech sell-off, margin calls and forced gold selling, silver down 5% and copper down 5.7% on November 18\" loading=\"lazy\"/><figcaption>Forced selling, not fundamentals — the liquidation channel behind the 10% fall, illustrative, not financial advice</figcaption></figure>",
+        ],
+      },
+      {
+        heading: "The rate story underneath: hikes, yields and the December meeting",
+        paragraphs: [
+          "Underneath both amplifiers sits the rate story. The recent decline in gold toward $3,600 has been driven primarily by a hawkish repricing of Federal Reserve policy, compounded by a stronger dollar and rising bond yields — with the 10-year Treasury yield near 5.10%. Markets are pricing a roughly 94–100% chance of a rate hike in December, and Fed Governor Christopher Waller has publicly floated a 50-basis-point increase. Gold pays no yield, so when rates and the dollar rise together, bonds pay you to wait and metal does not.",
+          "The Fed's own record backs the hawkish read. The minutes of the October 27–28 meeting, released on November 18, show that almost all participants believed further rate hikes were needed, and a few said a move larger than 25 basis points could be considered in December if inflation turned unfavourable. The data since then has pointed the same way: October jobs beat expectations at +165,000 with unemployment at 4.1%, October CPI rose 0.4% month on month, and October PPI rose 6.5% year on year — the largest 12-month rise since November 2022. The <a href=\"https://www.federalreserve.gov/\">Federal Reserve</a> publishes the minutes, and the <a href=\"https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html\">CME FedWatch tool</a> tracks the live odds.",
+          "This is the backdrop that makes the dollar's 2% gain so damaging: it is not a 2% gain in isolation, but a 2% gain driven by a Fed that the market believes will keep hiking until inflation heads back to 2%. A hike on December 9 is the starting point rather than the finish, as one analyst put it — and gold, which generates no income, is the first thing to reprice when the market decides tighter policy is coming.",
+        ],
+        bullets: [
+          "Hawkish repricing: markets price a roughly 94–100% chance of a December hike, 6–11% for 50bp",
+          "October minutes: almost all participants believed further hikes were needed; a few raised the 50bp option",
+          "Data: October jobs +165,000, unemployment 4.1%; CPI +0.4% m/m; PPI +6.5% y/y",
+          "The 10-year Treasury yield is near 5.10% — bonds pay you to wait, gold does not",
+        ],
+      },
+      {
+        heading: "What breaks the pattern: $4,000, December and the dollar",
+        paragraphs: [
+          "The pattern breaks when one of its three drivers changes. The first is the dollar: until the DXY encounters meaningful resistance, its momentum is likely to remain the most immediate obstacle to a short-term recovery. A dollar that stalls — or falls back after the December meeting — would remove the mechanical pressure on gold first. The second is the Fed: cooling inflation should halt rate hikes after December, according to Hang Seng, which would limit the depth and duration of any further decline. If the December dots show a higher path for 2027, the pressure continues; if December is the last move, the haven bid gets its chance.",
+          "The third is the level itself. Gold needs to recover above $4,000 to signal an improvement in its technical outlook, and the break below $3,600 has increased the risk of a further decline toward $3,500. Monday's bounce to $3,604 is barely above the level that broke — it is a first step, not a reclaim. Our <a href=\"/blog/gold-price-after-december-fed-decision/\">December decision guide</a> maps the three scenarios, and the <a href=\"/gold-price-today/\">live gold price</a> shows where spot stands against them. This is not financial advice; it is a framework for reading a sell-off whose size was set by the dollar's beta and the margin call, not by gold itself.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much did gold fall in a week?",
+        a: "Gold fell about 10% over seven trading days, while the US dollar rose only about 2% over the same period. On November 18 alone, spot gold fell about 3.2% in a single day and silver dropped about 5%.",
+      },
+      {
+        q: "Why does gold fall when the dollar rises?",
+        a: "Gold is priced in dollars, so a stronger dollar makes it costlier for buyers holding other currencies. Right now the sensitivity — the beta — between gold and the dollar is near historical extremes, so even modest dollar gains generate disproportionately strong selling pressure on gold.",
+      },
+      {
+        q: "What is forced selling in the gold market?",
+        a: "When a sell-off in other assets — in this case US tech stocks — forces investors to raise cash and meet margin calls, they sell gold because it is liquid and easy to sell quickly. The selling is driven by the need for cash, not by a changed view on gold.",
+      },
+      {
+        q: "Will the Fed hike rates in December?",
+        a: "Markets price a roughly 94–100% chance of a 25-basis-point hike at the December 8–9 FOMC meeting, with a 6–11% chance of a larger 50-basis-point move. Fed Governor Waller has publicly floated the 50bp option, and the October minutes show almost all participants believed further hikes were needed.",
+      },
+      {
+        q: "What level would change gold's outlook?",
+        a: "Hang Seng's analysis says gold needs to recover above $4,000 to improve its technical outlook, while a break below $3,600 increases the risk of a further decline toward $3,500. Monday's bounce to $3,604 is barely above the level that broke.",
+      },
+    ],
+  },
 ];
 
 export const getBlogPost = (slug: string) => BLOG_POSTS.find((p) => p.slug === slug);

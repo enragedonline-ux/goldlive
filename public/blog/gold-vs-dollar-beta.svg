@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">Gold vs the Dollar in One Week</text>
+  <rect x="40" y="80" width="220" height="240" fill="#ffebee" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#c62828">GOLD</text>
+  <text x="150" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">−10% in 7 days</text>
+  <text x="60" y="190" font-size="14" fill="#1a1a1a">Down about 10% over</text>
+  <text x="60" y="215" font-size="14" fill="#1a1a1a">seven trading days to a</text>
+  <text x="60" y="240" font-size="14" fill="#1a1a1a">14-month low.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">DOLLAR</text>
+  <text x="400" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">+2% · DXY ~104</text>
+  <text x="310" y="190" font-size="14" fill="#1a1a1a">Up only about 2% — DXY</text>
+  <text x="310" y="215" font-size="14" fill="#1a1a1a">at a 19-month high</text>
+  <text x="310" y="240" font-size="14" fill="#1a1a1a">near 104.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#fff8e1" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#f57f17">BETA</text>
+  <text x="650" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">Near extremes</text>
+  <text x="560" y="190" font-size="14" fill="#1a1a1a">Gold-dollar beta near</text>
+  <text x="560" y="215" font-size="14" fill="#1a1a1a">historical extremes</text>
+  <text x="560" y="240" font-size="14" fill="#1a1a1a">amplifies the move.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">Gold fell about five times the dollar's gain.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>

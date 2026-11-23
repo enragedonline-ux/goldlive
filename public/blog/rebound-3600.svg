@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">Gold's Monday Rebound in Numbers</text>
+  <rect x="40" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">MONDAY BOUNCE</text>
+  <text x="150" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">+2% · $3,604</text>
+  <text x="60" y="190" font-size="14" fill="#1a1a1a">Spot gold climbed</text>
+  <text x="60" y="215" font-size="14" fill="#1a1a1a">about 2% to $3,604 —</text>
+  <text x="60" y="240" font-size="14" fill="#1a1a1a">back above $3,600.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#ffebee" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#c62828">WORST WEEK</text>
+  <text x="400" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">Since March</text>
+  <text x="310" y="190" font-size="14" fill="#1a1a1a">Biggest weekly decline</text>
+  <text x="310" y="215" font-size="14" fill="#1a1a1a">since March, ending at</text>
+  <text x="310" y="240" font-size="14" fill="#1a1a1a">a 14-month low.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">14-MONTH LOW</text>
+  <text x="650" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">Below $3,600</text>
+  <text x="560" y="190" font-size="14" fill="#1a1a1a">Broke below $3,600</text>
+  <text x="560" y="215" font-size="14" fill="#1a1a1a">last week — lowest</text>
+  <text x="560" y="240" font-size="14" fill="#1a1a1a">since September 2025.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">Spot gold, Monday 23 November 2026 — back above $3,600.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>

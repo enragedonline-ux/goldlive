@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#FAF8F2" rx="16"/>
+  <text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">What Decides Gold Next</text>
+  <rect x="40" y="80" width="220" height="240" fill="#e3f2fd" rx="12"/>
+  <text x="150" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1565c0">DEC 8–9 FOMC</text>
+  <text x="150" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">Decision Dec 9</text>
+  <text x="60" y="190" font-size="14" fill="#1a1a1a">FOMC decision Wed Dec 9,</text>
+  <text x="60" y="215" font-size="14" fill="#1a1a1a">2:00 PM ET, dot plot</text>
+  <text x="60" y="240" font-size="14" fill="#1a1a1a">at 2:30 PM.</text>
+  <rect x="290" y="80" width="220" height="240" fill="#ffebee" rx="12"/>
+  <text x="400" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#c62828">HIKE ODDS</text>
+  <text x="400" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">94–100% · 25bp</text>
+  <text x="310" y="190" font-size="14" fill="#1a1a1a">Markets price a near-</text>
+  <text x="310" y="215" font-size="14" fill="#1a1a1a">certain 25bp hike; 6–11%</text>
+  <text x="310" y="240" font-size="14" fill="#1a1a1a">chance of 50bp.</text>
+  <rect x="540" y="80" width="220" height="240" fill="#e8f5e9" rx="12"/>
+  <text x="650" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">$4,000 LEVEL</text>
+  <text x="650" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">Recovery test</text>
+  <text x="560" y="190" font-size="14" fill="#1a1a1a">Gold needs above $4,000</text>
+  <text x="560" y="215" font-size="14" fill="#1a1a1a">to improve its technical</text>
+  <text x="560" y="240" font-size="14" fill="#1a1a1a">outlook.</text>
+  <text x="400" y="380" text-anchor="middle" font-size="15" fill="#666">The December meeting and the $4,000 level.</text>
+  <text x="400" y="410" text-anchor="middle" font-size="15" fill="#666">Illustrative, not financial advice.</text>
+</svg>
